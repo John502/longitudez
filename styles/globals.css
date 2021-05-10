@@ -1,16 +1,32 @@
-html,
-body {
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+
+    --primary-background-color: #2f4f4f;
+    --primary-color:  whitesmoke;
+    --darkreader-neutral-background: #131516;
+}
+
+*{
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--darkreader-neutral-background);
+    line-height: 1.6;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+ul{
+    list-style-type: none;
 }
 
-* {
-  box-sizing: border-box;
+a{
+    text-decoration: none;
+    color: var(--primary-color);;
 }
+
