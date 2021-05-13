@@ -6,8 +6,7 @@ export default function Home() {
   return (
 
     <>
-    <Nav></Nav>
-      <h1>Longitudez</h1>
+      <Nav></Nav>
     </>
   )
 }
