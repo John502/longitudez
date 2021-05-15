@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+
+    --primary-background-color: #2f4f4f;
+    --primary-color:  whitesmoke;
+    --darkreader-neutral-background: #131516;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+
 html,
 body {
   padding: 0;

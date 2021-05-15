@@ -1,0 +1,39 @@
+.nav{
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+    position: fixed;
+    width: 100%;
+    height: 6vh;
+    overflow: hidden;
+}
+
+.nav .tog{
+    position: absolute;
+    top: 0; 
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    height: 6vh;
+    width: 6vh;
+    opacity: 0;
+}
+.nav .hamburger{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 6vh;
+    height: 6vh;
+    background:var(--primary-background-color);
+    display: grid;
+    place-items: center;
+    padding: 0.3vh;
+}
+
+.nav .hamburger span{
+  position: relative;
+  display: block;
+  width: 75%;
+  height: 15%;
+  background: var(--primary-color);
+}
