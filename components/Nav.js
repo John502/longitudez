@@ -3,12 +3,17 @@ import navSty from '../styles/Nav.module.css'
 
 const Nav = () => {
   return (
-    <nav className={navSty.nav}>
-    <input type="checkbox" className={navSty.tog}></input>
-    <div className={navSty.hamburger}>
-        <span></span>
-        <span></span>
-        <span></span>
+    <nav role="navigation" className={navSty.nav}>
+    <div className={navSty.navitems}>
+    <div className={navSty.logo}>longitudez</div>
+    <div>
+        <input type="checkbox" className={navSty.tog}></input>
+        <div className={navSty.hamburger}>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+     </div>
     </div>
     </nav>
   )
