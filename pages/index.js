@@ -7,7 +7,6 @@ export default function Home() {
    <>
    <Layout></Layout>
       <title>longitudez</title>
-      
     </>
   )
 }

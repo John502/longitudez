@@ -1,3 +1,7 @@
+.ssidemenu ul{
+    list-style-type: none;
+}
+
 .nav{
     background-color: var(--primary-background-color);
     color: var(--primary-color);
@@ -46,8 +50,24 @@
   position: relative;
   display: block;
   width: 75%;
-  height: 15%;
+  height: 10%;
   background: var(--primary-color);
   border-radius: 10%;
 }
 
+.sidemenu{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    font-family: 'Hammersmith One', sans-serif;
+    color: var(--primary-color);
+    top: 6.2vh;
+    background-color: var(--primary-background-color);
+    font-size: calc(1vw + 1vh + 2vmin);
+    margin-left: 80%;
+}
+
+.sidemenu ul{
+    padding-left: 1vw;
+    list-style-type: none;
+}
