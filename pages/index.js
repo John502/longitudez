@@ -5,8 +5,8 @@ import Layout from '../components/Layout'
 export default function Home() {
   return (
    <>
-   <Layout></Layout>
       <title>longitudez</title>
+      <h1>asdfasdf</h1>
     </>
   )
 }

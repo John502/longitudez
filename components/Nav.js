@@ -7,8 +7,8 @@ const Nav = () => {
         <nav role="navigation" className={navSty.nav}>
         <div className={navSty.navitems}>
         <div className={navSty.logo}>longitudez</div>
-        <div>
-            <input type="checkbox" className={navSty.tog}></input>
+        <div className={navSty.inputContainer}>
+            <input type="checkbox" id={navSty.tog}></input>
             <div className={navSty.hamburger}>
                 <span></span>
                 <span></span>
@@ -17,12 +17,12 @@ const Nav = () => {
         </div>
         </div>
         </nav>
-    <div className={navSty.sidemenu}>
-    <ul className={navSty.sidemenuList}>
-      <li>Home</li>
-      <li>Contact</li>
-    </ul>
-    </div>
+        <div className={navSty.sidemenu}>
+            <ul className={navSty.sidemenuList}>
+            <li>Home</li>
+            <li>Contact</li>
+         </ul>
+        </div>
     </>
   )
 }
