@@ -68,7 +68,7 @@
  .inputContainer input:checked ~ span
 {
   opacity: 1;
-  transform: rotate(-45deg) translate(1.7vw, -.7vw);
+  transform: rotate(-45deg) translate(2vw, -.8vw);
 }
 
 /*
@@ -85,7 +85,7 @@
  .inputContainer input:checked ~ span:nth-last-child(2)
 {
   opacity: 1;
-  transform: rotate(45deg) translate(0, -2vw);
+  transform: rotate(45deg) translate(.7vw, -2.2vw);
 }
 
 
