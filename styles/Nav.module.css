@@ -11,11 +11,6 @@
     overflow: hidden;
 }
 
-.navitems{
-    position: relative;
-    height: 100%;
-    width: 100%;
-}
 
 .nav .logo{
     padding-top: 0.2vh;
@@ -32,9 +27,11 @@
     cursor: pointer;
     height: 6vh;
     width: 6vh;
+    opacity: 0
 }
 
-.nav .hamburger{
+
+.nav .inputContainer{
     position: absolute;
     top: 0;
     right: 0;
@@ -46,15 +43,55 @@
     place-items: center;
 }
 
-.nav .hamburger span{
+.nav .inputContainer span{
   position: relative;
   display: block;
   width: 75%;
   height: 10%;
   background: var(--primary-color);
   border-radius: 10%;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
 }
 
+.inputContainer span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+ .inputContainer input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(-45deg) translate(1.7vw, -.7vw);
+}
+
+/*
+ * But let's hide the middle one.
+ */
+ .inputContainer input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+ .inputContainer input:checked ~ span:nth-last-child(2)
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(0, -2vw);
+}
+
+
+
+
+/*
 
 .sidemenu{
     position: absolute;
@@ -80,12 +117,4 @@
     margin-bottom: 5vh;
     font-size: 5vw;
 }
-
-.nav input:not(:checked){
-    opacity: 0;
-}
-
-.nav input:checked + div.sidemenu{
-    display: none;
- }
- 
+*/
