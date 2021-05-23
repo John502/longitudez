@@ -56,37 +56,39 @@
               opacity 0.55s ease;
 }
 
-.inputContainer span:nth-last-child(2)
-{
-  transform-origin: 0% 100%;
-}
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
- .inputContainer input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(-45deg) translate(2vw, -.8vw);
-}
 
-/*
- * But let's hide the middle one.
- */
- .inputContainer input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-}
+  .inputContainer span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
- .inputContainer input:checked ~ span:nth-last-child(2)
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(.7vw, -1.2vh);
-}
+  /* 
+  * Transform all the slices of hamburger
+  * into a crossmark.
+  */
+  .inputContainer input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(-45deg) translate(1.8vw, -1.8vh);
+  }
+
+  /*
+  * But let's hide the middle one.
+  */
+  .inputContainer input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+  }
+
+  /*
+  * Ohyeah and the last one should go the other direction
+  */
+  .inputContainer input:checked ~ span:nth-last-child(2)
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-1vw, -2vh);
+  }
 
 
 
@@ -117,4 +119,5 @@
     margin-bottom: 5vh;
     font-size: 5vw;
 }
+
 */

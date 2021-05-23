@@ -6,9 +6,9 @@ import styles from '../styles/Layout.module.css'
 const Layout = ({children}) => {
     return (
         <>
-        <Head>
-        </Head>
+        <Head></Head>
         <Nav></Nav>
+
         </>
     )
 }
