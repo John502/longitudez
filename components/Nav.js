@@ -32,8 +32,7 @@ export default class Nav extends Component {
           </div>
           </nav>
         </div>
-        <div style={{ display: (showing ? 'block' : 'none'), 
-                      width: (showing ? '35vw' : '0vw') }}>
+        <div style={{ opacity: (showing ? '1' : '0'), transition: 'opacity 300ms ease-in-out'}}>
           {menu}
         </div>
       </>

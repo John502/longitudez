@@ -70,7 +70,7 @@
   .inputContainer input:checked ~ span
   {
     opacity: 1;
-    transform: rotate(-45deg) translate(1.8vw, -1.8vh);
+    transform: rotate(-45deg) translate(1.9vw, -1.8vh);
   }
 
   /*

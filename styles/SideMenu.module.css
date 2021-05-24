@@ -10,7 +10,6 @@
     display: grid;
     justify-content: left;
     z-index: 3;
-    transition: all 8s;
 }
 
 .sidemenu ul{
