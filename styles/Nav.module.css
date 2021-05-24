@@ -57,43 +57,31 @@
 }
 
 
-
+/*
   .inputContainer span:nth-last-child(2)
   {
     transform-origin: 0% 100%;
   }
 
-  /* 
-  * Transform all the slices of hamburger
-  * into a crossmark.
-  */
+
   .inputContainer input:checked ~ span
   {
+    top: 0;
     opacity: 1;
-    transform: rotate(-45deg) translate(1.9vw, -1.8vh);
+    transform: rotate(-45deg) translate(1.85vw, -1.85vh);
   }
 
-  /*
-  * But let's hide the middle one.
-  */
   .inputContainer input:checked ~ span:nth-last-child(3)
   {
     opacity: 0;
   }
 
-  /*
-  * Ohyeah and the last one should go the other direction
-  */
   .inputContainer input:checked ~ span:nth-last-child(2)
   {
     opacity: 1;
-    transform: rotate(45deg) translate(-1vw, -2vh);
+    transform: rotate(45deg) translate(-1.1vw, -2.2vh);
   }
 
-
-
-
-/*
 
 .sidemenu{
     position: absolute;
