@@ -1,28 +1,43 @@
+
+
 import Link from 'next/link'
 import SideMenu from './SideMenu'
 import navSty from '../styles/Nav.module.css'
 
-const Nav = () => {
-  function toggleMenu(e) {
-    console.log("Hello");
+import React, { Component } from 'react'
+
+export default class Nav extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { showing: false };
   }
 
-  return (
-    <>
-      <div className={navSty.container}>
-        <nav role="navigation" className={navSty.nav}>
-        <div className={navSty.logo}>longitudez</div>
-        <div className={navSty.inputContainer}>
-            <input type="checkbox" id={navSty.tog} onChange={toggleMenu}></input>
-                <span></span>
-                <span></span>
-                <span></span>
+    render() 
+      {
+        
+      const menu = SideMenu()
+      
+      const { showing } = this.state;
+
+      return (
+      <>
+        <div className={navSty.container}>
+          <nav role="navigation" className={navSty.nav}>
+          <div className={navSty.logo}>longitudez</div>
+          <div className={navSty.inputContainer}>
+              <input type="checkbox" id={navSty.tog} onChange={() => this.setState({ showing: !showing })}></input>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+          </div>
+          </nav>
         </div>
-        </nav>
-      </div>
-      <SideMenu></SideMenu>
-    </>
-  )
+        <div style={{ display: (showing ? 'block' : 'none'), 
+                      width: (showing ? '35vw' : '0vw') }}>
+          {menu}
+        </div>
+      </>
+    )
+  }
 }
 
-export default Nav

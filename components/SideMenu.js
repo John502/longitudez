@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import navSty from '../styles/SideMenu.module.css'
-
-const SideMenu = () => {
-
+ 
+const SideMenu = (props) => {
+    
   return (
       <div className={navSty.sidemenu}>
         <ul>
@@ -15,3 +15,4 @@ const SideMenu = () => {
 }
 
 export default SideMenu
+
