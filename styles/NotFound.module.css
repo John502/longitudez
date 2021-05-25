@@ -1,0 +1,32 @@
+.container{
+    padding-top: 30vh;
+    color: var(--primary-color);
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+#card{
+    width: 70%;
+    background-color: var(--primary-background-color);
+    display: grid;
+    place-items: center;
+    border-radius: 5vh;
+    padding: 5vh;
+}
+
+#card:afer{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+    height: 60vh;
+}
+
+#card h2{
+    margin: 5vh;
+}
+#homelink{
+    margin:5vh;
+    text-decoration: underline;
+    font-size: 4vh;
+}

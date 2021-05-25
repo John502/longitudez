@@ -1,11 +1,15 @@
+import Meta from '../components/Meta'
 import aboutSty from '../styles/About.module.css'
 
+const about = () => {
+  return (
+    <>
+    <Meta title={Meta.defaultProps.title + ' | About'} />
+    <div className={aboutSty.container}>      
+      <h1>About</h1>
+    </div>
+    </>
+  )
+}
 
-export default function About() {
-    return (
-       <div className={aboutSty.container}>
-         <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto dolor pariatur, alias dignissimos quaerat accusamus saepe delectus distinctio porro soluta quis! Exercitationem ab voluptates eligendi commodi cumque consequuntur et ipsa.</h1>
-       </div>
-    )
-  }
-  
+export default about
