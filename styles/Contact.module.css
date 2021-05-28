@@ -1,0 +1,13 @@
+.container{
+    top: 6.2vh;
+    height:100%;
+    width: 100%;
+    display:grid;
+    place-items: center;
+}
+
+.container .formContainer{
+    position: relative;
+
+}
+

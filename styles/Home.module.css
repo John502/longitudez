@@ -1,4 +1,28 @@
-.container{
+.showcase{
   padding-top: 6.3vh;
-  color: var(--primary-color)
+  color: var(--primary-color);
+  background-image: url(../public/TopoMap.png);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content{
+  margin-bottom: 50vh;
+}
+.logo{
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 10vh;
+}
+
+.motto{
+  font-family: 'Hammersmith One', sans-serif;
+  width: auto;
+  font-size: 5vh;
 }

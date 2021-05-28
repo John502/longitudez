@@ -6,9 +6,9 @@ const SideMenu = (props) => {
   return (
       <div className={navSty.sidemenu}>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+          <Link href='/'><li>Home</li></Link>
+          <Link href='/maps'><li>Maps</li></Link>
+          <Link href='/about'><li>About</li></Link>
         </ul>
       </div>
   )

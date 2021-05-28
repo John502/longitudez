@@ -1,7 +1,7 @@
 import Meta from '../components/Meta'
 import aboutSty from '../styles/About.module.css'
 
-const about = () => {
+const About = () => {
   return (
     <>
     <Meta title={Meta.defaultProps.title + ' | About'} />
@@ -12,4 +12,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About
