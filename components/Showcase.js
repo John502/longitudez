@@ -1,18 +1,21 @@
 
 import Image from 'next/image'
-import homeSty from '../styles/Home.module.css'
+import showcaseSty from '../styles/Showcase.module.css'
 import Meta from './Meta'
 
   const Showcase = () => {
     return (
         <>
         <Meta title={Meta.defaultProps.title + ' | Home'} />
-        <div className={homeSty.showcase}>
-          <div className={homeSty.content}>
-            <h1 className={homeSty.logo}>longitudez</h1>
-            <div className={homeSty.motto}>where you</div>
-            <div className={homeSty.motto}>wanna be</div>
+        <div className={showcaseSty.showcase}>
+          <div className={showcaseSty.content}>
+            <div id={showcaseSty.head}>
+              <h1>longitudez</h1>
             </div>
+            <div id={showcaseSty.butt}>
+              <h1>sometext</h1>
+            </div>
+          </div>
 
       </div>
 
