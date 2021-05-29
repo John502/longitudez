@@ -1,0 +1,38 @@
+
+import React from 'react'
+import Meta from './Meta'
+import showcaseSty from '../styles/Showcase.module.css'
+import EmailSignUp from '../components/showcaseitems/EmailSignUp'
+import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa'
+
+
+
+  const Showcase = () => {
+    return (
+        <>
+        <Meta title={Meta.defaultProps.title + ' | Home'} />
+        <div className={showcaseSty.showcase}>
+          <div className={showcaseSty.content}>
+            <div className={showcaseSty.head}>
+              <div id={showcaseSty.logo}>longtiudez</div>
+              <div id={showcaseSty.motto}>where u wanna be</div>
+              <div className={showcaseSty.socialLinks}>
+                <a href='https://www.facebook.com/latituduezlongitudez'><FaFacebookSquare id={showcaseSty.socialIcon} size={30} /></a>
+                <a href='https://instagram.com/_longitudez_'><FaInstagramSquare id={showcaseSty.socialIcon} size={30}/></a>
+                <a href='https://twitter.com/longitudez3'><FaTwitterSquare id={showcaseSty.socialIcon} size={30}/></a>
+              </div>
+              <div className={showcaseSty.formContainer}>
+                <EmailSignUp></EmailSignUp>
+              </div>
+            </div>
+            <div className={showcaseSty.butt}>
+              <h1>sometext</h1>
+            </div>
+          </div>
+
+      </div>
+
+      </>
+    )
+}
+export default Showcase

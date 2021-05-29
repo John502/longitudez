@@ -41,9 +41,13 @@
   background-color: var(--dark-neutral-background);
 }
 
+.formContainer{
+  margin-top: 4vh;
+}
 
 .butt{
-  height: 50vh;
+  margin-top: 12vh;
+  height: 35vh;
   background-color: blue;
 }
 
