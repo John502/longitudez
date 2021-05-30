@@ -1,0 +1,6 @@
+.card{
+    background-color: pink;
+    height: 12vh;
+    margin: 2vw;
+    /* background-color: var(--primary-background-color); */
+}

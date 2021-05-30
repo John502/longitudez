@@ -3,6 +3,7 @@ import React from 'react'
 import Meta from './Meta'
 import showcaseSty from '../styles/Showcase.module.css'
 import EmailSignUp from '../components/showcaseitems/EmailSignUp'
+import ShowcaseCard from '../components/showcaseitems/ShowcaseCard'
 import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa'
 
 
@@ -14,7 +15,7 @@ import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icon
         <div className={showcaseSty.showcase}>
           <div className={showcaseSty.content}>
             <div className={showcaseSty.head}>
-              <div id={showcaseSty.logo}>longtiudez</div>
+              <div id={showcaseSty.logo}>longitudez</div>
               <div id={showcaseSty.motto}>where u wanna be</div>
               <div className={showcaseSty.socialLinks}>
                 <a href='https://www.facebook.com/latituduezlongitudez'><FaFacebookSquare id={showcaseSty.socialIcon} size={30} /></a>
@@ -24,9 +25,11 @@ import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icon
               <div className={showcaseSty.formContainer}>
                 <EmailSignUp></EmailSignUp>
               </div>
-            </div>
-            <div className={showcaseSty.butt}>
-              <h1>sometext</h1>
+              <div className={showcaseSty.butt}>
+                <div className={showcaseSty.card}>Maps</div>
+                <div className={showcaseSty.card}>About Me</div>
+                <div className={showcaseSty.card}>More...</div>
+              </div>
             </div>
           </div>
 

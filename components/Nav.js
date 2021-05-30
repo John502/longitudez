@@ -32,7 +32,7 @@ export default class Nav extends Component {
           </div>
           </nav>
         </div>
-        <div style={{ visibility: (showing ? 'visible' : 'hidden'), transition: 'opacity 300ms ease-in-out'}}>
+        <div style={{ visibility: (showing ? 'visible' : 'hidden')}}>
           <SideMenu shown={(showing ? 'true' : 'false')}/>
         </div>
       </>

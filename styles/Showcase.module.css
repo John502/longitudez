@@ -46,9 +46,22 @@
 }
 
 .butt{
-  margin-top: 12vh;
-  height: 35vh;
-  background-color: blue;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-top: 15vh;
+  height: 15vh;
+  width: 96vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6vw;
+}
+
+.card{
+  background-color: var(--primary-background-color);
+  color: var(--primary-color);
+  border-radius: 3vw;
+  display: grid;
+  place-items: center;
 }
 
 .logo{
