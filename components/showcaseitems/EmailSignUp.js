@@ -1,4 +1,4 @@
-import { SESv2Client, SendEmailCommand, CreateContactCommand } from "@aws-sdk/client-sesv2"
+import { SESv2Client, SendEmailCommand, CreateContactCommand, DeleteContactCommand } from "@aws-sdk/client-sesv2"
 import { STSClient, AssumeRoleCommand } from "@aws-sdk/client-sts";
 import { useRef } from 'react'
 import SignupButton from './SignupButton'
@@ -19,10 +19,12 @@ const EmailSignUp = () => {
         event.preventDefault() // don't redirect the page
 
         //  docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-sesv2/index.html#promises
+        const destEmail = emailValue.current.value
+
         const createContactParams = 
         {
             ContactListName: 'longitudez', /* required */
-            EmailAddress: emailValue.current.value, /* required */
+            EmailAddress: destEmail, /* required */
             TopicPreferences: [
                 {
                 SubscriptionStatus: 'OPT_IN', /* required */
@@ -44,7 +46,7 @@ const EmailSignUp = () => {
             }
             },
             FromEmailAddress: process.env.SIGNUP_FROM_EMAIL, 
-            Destination: {ToAddresses:[ emailValue.current.value
+            Destination: {ToAddresses:[ destEmail
                                     ]},
             ListManagementOptions: {
             ContactListName: 'longitudez', /* required */
@@ -68,6 +70,20 @@ const EmailSignUp = () => {
 
         };
 
+        async function deleteContact(){
+            try {
+                const deleteContactParams = {EmailAddress: destEmail, ContactListName: 'longitudez'};
+                const deleteContactCommand = new DeleteContactCommand(deleteContactParams)
+                const deleteContactres = await client.send(deleteContactCommand)
+            }
+            catch (error){
+                console.log(error);
+            }
+            finally{
+    
+            }
+        }
+
         async function addContact(){
             try {
                 const createContactres = await client.send(createContactCmd);
@@ -78,7 +94,8 @@ const EmailSignUp = () => {
                 }
             catch (error){
                 if (error.name == 'AlreadyExistsException'){
-                alert(`You're already singed up, email ${process.env.SIGNUP_FROM_EMAIL} for inquiries.`)
+                    deleteContact();
+                    addContact();
                 }
                 else{
                     console.log(error.name)
