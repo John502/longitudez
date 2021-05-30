@@ -1,9 +1,11 @@
-import { SESv2Client, SendEmailCommand, SendEmailCommandInput, CreateContactCommand } from "@aws-sdk/client-sesv2"
+import { SESv2Client, SendEmailCommand, CreateContactCommand } from "@aws-sdk/client-sesv2"
+import { STSClient, AssumeRoleCommand } from "@aws-sdk/client-sts";
 import { useRef } from 'react'
 import SignupButton from './SignupButton'
 import emailSignUp from '../../styles/EmailSignUp.module.css'
 
 const EmailSignUp = () => {
+
    const emailValue = useRef('')
 
    const client = new SESv2Client({region: 'us-east-2',
@@ -16,7 +18,7 @@ const EmailSignUp = () => {
 
         event.preventDefault() // don't redirect the page
 
-                //  docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-sesv2/index.html#promises
+        //  docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-sesv2/index.html#promises
         const createContactParams = 
         {
             ContactListName: 'longitudez', /* required */
@@ -54,6 +56,7 @@ const EmailSignUp = () => {
             try{
                 const sendEmailCommand = new SendEmailCommand(sendInput)
                 const createContactres = await client.send(sendEmailCommand);
+                console.log("something")
             }
             catch (error){
                 const { requestId, cfId, extendedRequestId } = error.$metadata;
@@ -89,7 +92,6 @@ const EmailSignUp = () => {
         };
 
         addContact();
-        sendSingUpEmail();
 
         emailValue.current.value = ""
 

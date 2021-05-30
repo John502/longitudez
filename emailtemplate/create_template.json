@@ -1,0 +1,5 @@
+{
+  "Subject": "Longitudez | Thanks for signing up!",
+  "Text": "Hey, Thanks for signing up for the longitudez email list.  This email group is for a distruption of the longitudez blog.You'll receive updates on hiking maps, data science and other mapping related topics",
+  "Html": "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'><style>section{ color: #f5f5f5; background-color:#2f4f4f;    text-align: center; height: 100vh} #email{color: #f5f5f5;}</style></head><body><section id='#content'><h1>Hey, thanks for signing up for the longitudez email list!</h1><br><h2>This email group is for a distruption of the longitudez blog.</h2><br><h3>You'll receive updates on hiking maps, data science and other mapping related topics.</h3><br><h3>Reply to email for inquiries</h3><br><a href='{{amazonSESUnsubscribeUrl}}'>Unsubscribe</a></section></body></html>"
+}
