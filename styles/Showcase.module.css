@@ -23,7 +23,6 @@
 #logo{
   margin-top: 2.5vh;
   font-family: 'Hammersmith One', sans-serif;
-  font-size: 20vw;
 }
 
 #motto{
@@ -46,8 +45,8 @@
 }
 
 .butt{
-  padding-left: 2vw;
-  padding-right: 2vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
   margin-top: 10vh;
   height: 15vh;
   width: 96vw;
@@ -57,13 +56,15 @@
 }
 
 
-.logo{
-  font-family: 'Hammersmith One', sans-serif;
-  font-size: 10vh;
+@media screen and (max-width: 1024px){
+  #logo{
+    font-size: 15vw;
+  }
 }
 
-.motto{
-  font-family: 'Hammersmith One', sans-serif;
-  width: auto;
-  font-size: 5vh;
+@media screen and (min-width: 1025px){
+  #logo{
+    font-size: 10%;
+  }
+
 }
