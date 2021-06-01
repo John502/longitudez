@@ -98,7 +98,8 @@ const EmailSignUp = () => {
                     addContact();
                 }
                 else{
-                    console.log(error.name)
+                    console.log(error);
+                    console.log(error.name);
                     const { requestId, cfId, extendedRequestId } = error.$metadata;
                     console.log({ requestId, cfId, extendedRequestId });
                 }
