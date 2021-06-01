@@ -1,5 +1,4 @@
 
-import React from 'react'
 import Meta from './Meta'
 import showcaseSty from '../styles/Showcase.module.css'
 import EmailSignUp from '../components/showcaseitems/EmailSignUp'
@@ -26,9 +25,9 @@ import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icon
                 <EmailSignUp></EmailSignUp>
               </div>
               <div className={showcaseSty.butt}>
-                <div className={showcaseSty.card}>Maps</div>
-                <div className={showcaseSty.card}>About Me</div>
-                <div className={showcaseSty.card}>More...</div>
+                <ShowcaseCard text="Maps" link='maps'></ShowcaseCard>
+                <ShowcaseCard text="About me" link='about'></ShowcaseCard>
+                <ShowcaseCard text="More..." link='more'></ShowcaseCard>
               </div>
             </div>
           </div>
