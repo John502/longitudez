@@ -23,6 +23,7 @@
 #logo{
   margin-top: 2.5vh;
   font-family: 'Hammersmith One', sans-serif;
+  font-size: 15vw;
 }
 
 #motto{
@@ -56,15 +57,8 @@
 }
 
 
-@media screen and (max-width: 1024px){
+@media only screen and (min-width: 1025px){
   #logo{
-    font-size: 15vw;
+    font-size: 10vw;
   }
-}
-
-@media screen and (min-width: 1025px){
-  #logo{
-    font-size: 10%;
-  }
-
 }
