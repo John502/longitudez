@@ -1,5 +1,4 @@
 import { SESv2Client, SendEmailCommand, CreateContactCommand, DeleteContactCommand } from "@aws-sdk/client-sesv2"
-import { STSClient, AssumeRoleCommand } from "@aws-sdk/client-sts";
 import { useRef } from 'react'
 import SignupButton from './SignupButton'
 import emailSignUp from '../../styles/EmailSignUp.module.css'
@@ -57,15 +56,11 @@ const EmailSignUp = () => {
         async function sendSingUpEmail() {
             try{
                 const sendEmailCommand = new SendEmailCommand(sendInput)
-                const createContactres = await client.send(sendEmailCommand);
-                console.log("something")
+                const sendEmailres = await client.send(sendEmailCommand);
             }
             catch (error){
                 const { requestId, cfId, extendedRequestId } = error.$metadata;
                 console.log({ requestId, cfId, extendedRequestId });
-            }
-            finally{
-
             }
 
         };
@@ -78,9 +73,6 @@ const EmailSignUp = () => {
             }
             catch (error){
                 console.log(error);
-            }
-            finally{
-    
             }
         }
 

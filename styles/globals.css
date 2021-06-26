@@ -1,6 +1,9 @@
+/*
+Preload fonts in meta tag for wiht font-display auto for performance. 
+
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
+*/
 :root {
 
     --primary-background-color: #2f4f4f;
