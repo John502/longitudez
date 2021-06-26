@@ -10,6 +10,8 @@ const Meta = ({ title, keywords, description }) => {
         <meta name='description' content={description} />
         <meta charSet='utf-8' />
         <link rel='icon' href='/favicon.ico' />
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=auto" rel="stylesheet" as="font"></link>
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=auto" rel="stylesheet" as="font"></link>
         <title>{title}</title>
       </Head>
     )
