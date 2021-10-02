@@ -1,19 +1,23 @@
-import Meta from '../components/Meta'
-import  Showcase from '../components/Showcase'
-import { SESv2Client, SendEmailCommand, CreateContactCommand, DeleteContactCommand, EventDestinationDefinition } from "@aws-sdk/client-sesv2"
-import mapsSty from '../styles/Maps.module.css'
+// import LeafletMap from "../components/LeafletMap";
+import dynamic from "next/dynamic";
+import Meta from "../components/Meta";
 
 
-const Maps = () => {
+const TestMaps = () => {
+
+    const LeafletMap = dynamic(
+        () => {
+          return import("../components/lf/LeafletMap");
+        },
+        { ssr: false }
+      );
+
     return (
     <>
     <Meta title={Meta.defaultProps.title + ' | Maps'} />
-        <div className={mapsSty.container}>
-            <h1>Maps</h1>
-            <button className={mapsSty.btn}></button>
-        </div>
+            <LeafletMap></LeafletMap>
     </>
     )
 }
 
-export default Maps;
+export default TestMaps;
