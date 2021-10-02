@@ -24,7 +24,7 @@ import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icon
               <div className={showcaseSty.formContainer}>
                 <EmailSignUp></EmailSignUp>
               </div>
-              <div className={showcaseSty.butt}>
+              <div className={showcaseSty.cardContainer}>
                 <ShowcaseCard text="Maps" link='maps'></ShowcaseCard>
                 <ShowcaseCard text="About me" link='about'></ShowcaseCard>
                 <ShowcaseCard text="More..." link='more'></ShowcaseCard>
