@@ -1,14 +1,18 @@
 .container{
     padding-top: 6.3vh;
     width: 100vw;
-    height: 100vh;
+    height: 93.7vh;
     color: var(--primary-color);
-    background-image: url(../public/TopoMap.png);
-    background-size: cover;
-    background-position: center;
+    justify-content: center;
+    z-index: 0;
+    /* background-image: url(../public/TopoMap.png); */
+    /* background-size: cover;
+    background-position: center; */
 }
 
-.btn{
-    width: 10vw;
-    height: 10vh;
-}
+.locate-btn{
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+    border-style: hidden;
+  }
+  

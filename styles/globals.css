@@ -34,3 +34,17 @@ a {
 * {
   box-sizing: border-box;
 }
+/* Styles for Leafet Map access*/
+.locate-btn{
+  background-color: var(--primary-background-color);
+  color: var(--primary-color);
+  border-style: hidden;
+  font-size: 5vh;
+  width: 100%;
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
