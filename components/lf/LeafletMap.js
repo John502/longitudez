@@ -10,15 +10,13 @@ const LeafletMap = () => {
         <div className={sty.container}> 
         <MapContainer
         center={defaultPosition}
-        zoom={18} className={sty.container}>
+        zoom={10} className={sty.container}>
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         /> 
       <LeafletLocateButton 
-        title={"+"}
-        markerPosition={[38.235777, -85.729113]}
-        description="This is a custom description!"/>
+        title={"+"}/>
       </MapContainer>
       </div>
     )
