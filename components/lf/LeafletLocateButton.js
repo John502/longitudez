@@ -24,7 +24,7 @@ class LeafletLocateButton extends React.Component {
 
         // Options for the marker
         const markerOptions = {
-            title: "MyLocation",
+            title: "Loc",
             icon: aim_icon
         }
 
@@ -33,7 +33,7 @@ class LeafletLocateButton extends React.Component {
           
           
           map.locate().on("locationfound", (e) =>{
-            map.flyTo(e.latlng, map.getZoom());
+            map.flyTo(e.latlng, 17);
             if (this.marker !== null) {
                 // remove the marker
                 this.marker.setLatLng(e.latlng);

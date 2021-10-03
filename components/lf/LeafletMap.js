@@ -8,16 +8,16 @@ const LeafletMap = () => {
 
     return (
         <div className={sty.container}> 
-        <MapContainer
-        center={defaultPosition}
-        zoom={10} className={sty.container}>
-        <TileLayer
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        /> 
-      <LeafletLocateButton 
-        title={"+"}/>
-      </MapContainer>
+          <MapContainer
+          center={defaultPosition}
+          zoom={10} className={sty.container}>
+          <TileLayer
+            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          /> 
+        <LeafletLocateButton 
+          title={"+"}/>
+        </MapContainer>
       </div>
     )
 }
