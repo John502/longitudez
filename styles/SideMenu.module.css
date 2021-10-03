@@ -1,3 +1,7 @@
+.shownDiv{
+    visibility: visible
+}
+
 .sidemenu{
     position: absolute;
     height: 93.7vh;
