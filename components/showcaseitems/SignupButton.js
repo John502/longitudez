@@ -1,8 +1,6 @@
 import signUpSty from '../../styles/SignupButton.module.css'
 import { useRef } from 'react'
 
-
-
 const SignupButton = () => {
     
     const btn = useRef('')

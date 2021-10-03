@@ -1,9 +1,8 @@
 
 
 import Link from 'next/link'
-import SideMenu from './SideMenu'
 import navSty from '../styles/Nav.module.css'
-
+import sideSty from '../styles/SideMenu.module.css'
 import React, { Component } from 'react'
 
 export default class Nav extends Component {
@@ -15,9 +14,13 @@ export default class Nav extends Component {
     render() 
       {
         
-      const menu = SideMenu()
-      
-      const { showing } = this.state;
+      var { showing } = this.state;
+
+      const onMenuItemClick = () => {
+        setTimeout(() => {
+          this.setState({ showing: !showing })
+          }, 300)
+      }
 
       return (
       <>
@@ -33,8 +36,17 @@ export default class Nav extends Component {
           </nav>
         </div>
         <div style={{ visibility: (showing ? 'visible' : 'hidden')}}>
-          <SideMenu shown={(showing ? 'true' : 'false')}/>
+        <div className={sideSty.sidemenu}>
+        <div className={sideSty.menuContainer}>
+          <ul>
+            <Link href='/'><li onClick={onMenuItemClick}>Home</li></Link>
+            <Link href='/maps'><li onClick={onMenuItemClick}>Maps</li></Link>
+            <Link href='/about'><li onClick={onMenuItemClick}>About</li></Link>
+          </ul>
         </div>
+      </div>
+      </div>
+
       </>
     )
   }
