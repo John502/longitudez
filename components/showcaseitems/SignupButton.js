@@ -13,7 +13,7 @@ const SignupButton = () => {
     };
 
     return (
-        <button ref={btn} className={signUpSty.button} type="submit" onClick={onButtonClick}>Sing Up 4 Maps!</button>
+        <button ref={btn} className={signUpSty.button} type="submit" onClick={onButtonClick}>Sign Up 4 Maps!</button>
     )
 }
 export default SignupButton
