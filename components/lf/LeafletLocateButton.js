@@ -8,7 +8,7 @@ class LeafletLocateButton extends React.Component {
   createButtonControl() {
 
     const DisplayLocationButtonDom = L.Control.extend({
-      on: (map) => {
+      onAdd: (map) => {
         const btnDiv = L.DomUtil.create("button", "locate-btn");
         this.btnDiv = btnDiv;
         const marker = null
@@ -24,7 +24,7 @@ class LeafletLocateButton extends React.Component {
 
         // Options for the marker
         const markerOptions = {
-            title: "MyLocation",
+            title: "Loc",
             icon: aim_icon
         }
 
