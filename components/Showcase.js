@@ -5,10 +5,18 @@ import EmailSignUp from '../components/showcaseitems/EmailSignUp'
 import ShowcaseCard from '../components/showcaseitems/ShowcaseCard'
 import showcaseSty from '../styles/Showcase.module.css'
 import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa'
+import { map } from 'leaflet'
 
 
 
   const Showcase = () => {
+
+    const cardItems = 
+    [
+    {title: 'Maps', path: '/maps'},
+    {title: 'Blog', path: '/blogs'},
+    {title: 'Contact', path: '/contact'}
+  ]
     return (
         <>
         <Meta title={Meta.defaultProps.title + ' | Home'} />
@@ -26,13 +34,11 @@ import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icon
                 <EmailSignUp></EmailSignUp>
               </div>
               <div className={showcaseSty.cardContainer}>
-                <ShowcaseCard link="/maps" text="Maps"></ShowcaseCard>
-                <ShowcaseCard text="About me" link='/about'></ShowcaseCard>
-                <ShowcaseCard text="More..." link='/'></ShowcaseCard>
+                  {cardItems.map((cardItem) => 
+                  <ShowcaseCard text={cardItem.title} link={cardItem.path}></ShowcaseCard>)}
               </div>
             </div>
           </div>
-
       </div>
 
       </>
