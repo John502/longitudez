@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import Meta from "../components/Meta";
 
 
-const TestMaps = () => {
+const Maps = () => {
 
     const LeafletMap = dynamic(
         () => {
@@ -20,4 +20,4 @@ const TestMaps = () => {
     )
 }
 
-export default TestMaps;
+export default Maps;
