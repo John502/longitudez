@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 import Meta from "../components/Meta";
 
-
 const Maps = () => {
 
   const LeafletMap = dynamic(

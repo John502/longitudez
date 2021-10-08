@@ -2,13 +2,12 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { sortByDate } from '../utils'
-import dynamic from "next/dynamic";
 import Meta from '../components/Meta'
 import Card from '../components/blog/card'
 import sty from '../styles/Blogs.module.css'
 
-export default function Blogs({posts}) {
 
+export default function Blogs({posts}) {
 
   return (
     <>
