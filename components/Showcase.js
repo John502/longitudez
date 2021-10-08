@@ -5,17 +5,15 @@ import EmailSignUp from '../components/showcaseitems/EmailSignUp'
 import ShowcaseCard from '../components/showcaseitems/ShowcaseCard'
 import showcaseSty from '../styles/Showcase.module.css'
 import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa'
-import { map } from 'leaflet'
 
 
-
-  const Showcase = () => {
+const Showcase = () => {
 
     const cardItems = 
     [
-    {title: 'Maps', path: '/maps'},
-    {title: 'Blog', path: '/blogs'},
-    {title: 'Contact', path: '/contact'}
+    {key: 1, title: 'Maps', path: '/maps'},
+    {key: 2, title: 'Blog', path: '/blogs'},
+    {key: 3, title: 'Contact', path: '/contact'}
   ]
     return (
         <>
