@@ -2,19 +2,21 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { sortByDate } from '../utils'
+import dynamic from "next/dynamic";
 import Meta from '../components/Meta'
-import Post from '../components/blog/post'
+import Card from '../components/blog/card'
 import sty from '../styles/Blogs.module.css'
 
 export default function Blogs({posts}) {
+
 
   return (
     <>
     <Meta title={Meta.defaultProps.title + ' | Blogs'} /> 
     <div className={sty.container}>   
-    <div className={sty.posts}>
+    <div className={sty.cards}>
       {posts.map((post, index) => (
-          <Post key={index} post={post}></Post>
+          <Card key={index} post={post}></Card>
         ))}
     </div>
     </div>

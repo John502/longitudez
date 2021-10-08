@@ -1,57 +1,32 @@
 .card {
     color: var(--primary-color);
-    padding-left: 1vw;
-    padding-bottom: 1vh;
-    height: 10rem;
+    margin: 2vh;
+    height: 14rem;
+    max-width: 100%;
+    aspect-ratio: 1;
   }
-  
+
+ .imageContainer{
+   height: 65%;
+   margin: auto;
+ } 
+
 .cardImage {
-  width: 100%;
-  max-width: 40vw;
-  height: auto;
-}
+  max-width: auto;
+  height: 100%;
+  aspect-ratio: 1;
+} 
 
 .postDate{
-    width: 100%;
-    max-width: 40vw;
-    background-color: var(--dark-neutral-background);
-    font-style: italic;
-    font-size: calc(0.8vw + 0.8vh + 0.4vmin);
-    padding: 0.2vh;
+  height: 10%;
+  width: auto;
+  font-style: italic;
+  font-size: auto;
+  background-color: var(--dark-neutral-background);
 }
 
 .excerpt{
-    width: 100%;
-    max-width: 25vw;
     font-family: 'Hammersmith One', sans-serif;
     background-color: var(--dark-neutral-background);
     font-size: calc(0.8vw + 0.8vh + 0.4vmin);
-    padding-top: 1vh
-}
-
-.btn {
-    display: inline-block;
-    background: var(--primary-background-color);
-    color: var(--primary-color);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: calc(0.8vw + 0.8vh + 0.4vmin);
-    font-family: 'Hammersmith One', sans-serif;
-    font-family: inherit;
-  }
-
-  .btn:focus {
-    outline: none;
-  }
-  
-  .btn:hover {
-    transform: scale(0.98);
-  }
-  
-  .btn-back {
-    background: #f4f4f4;
-    color: #000;
-    margin-bottom: 20px;
-  }
+} 

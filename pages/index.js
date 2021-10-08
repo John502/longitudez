@@ -1,5 +1,5 @@
-import Showcase from '../components/Showcase'
 import dynamic from "next/dynamic";
+import Showcase from '../components/Showcase'
 
 export default function Home() {
 
