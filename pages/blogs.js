@@ -13,6 +13,7 @@ export default function Blogs({posts}) {
     <>
     <Meta title={Meta.defaultProps.title + ' | Blogs'} /> 
     <div className={sty.container}>   
+    <div className={sty.header}>Blongitudez</div>/
     <div className={sty.cards}>
       {posts.map((post, index) => (
           <Card key={index} post={post}></Card>
