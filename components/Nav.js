@@ -24,10 +24,10 @@ export default class Nav extends Component {
 
       const navItems = 
         [
-        {title: 'Home', path: '/'},
-        {title: 'Maps', path: '/maps'},
-        {title: 'Blog', path: '/blogs'},
-        {title: 'Contact', path: '/contact'}
+        {key: 1, title: 'Home', path: '/'},
+        {key: 2, title: 'Maps', path: '/maps'},
+        {key: 3, title: 'Blog', path: '/blogs'},
+        {key: 4, title: 'Contact', path: '/contact'}
       ]
 
       return (
@@ -48,7 +48,7 @@ export default class Nav extends Component {
         <div className={sideSty.menuContainer}>
           <ul>      
             {navItems.map((navItem) =>
-        <Link href={navItem.path}>
+        <Link key={navItem.key} href={navItem.path}>
           <li onClick={onMenuItemClick}>{navItem.title}</li>
           </Link>)}
           </ul>

@@ -1,0 +1,47 @@
+.card {
+    color: var(--primary-color);
+    margin: 2vh;
+    height: 14rem;
+    max-width: 100%;
+    aspect-ratio: 1;
+    background-color: var(--dark-neutral-background);
+  }
+
+ .imageContainer{
+   margin-top: 0.5rem;
+   height: 65%;
+   margin-bottom: 0.5rem;
+ } 
+
+.cardImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: auto;
+  height: 100%;
+  aspect-ratio: 1;
+} 
+
+.postDate{
+  height: 8%;
+  width: auto;
+  font-style: italic;
+  font-size: smaller;
+  text-align: center;
+  
+}
+
+.excerptBtn{
+    margin-top: 2rem;
+    border-style: solid;
+    border-color: var(--primary-color);
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 6vh;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: auto;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--dark-neutral-background);
+} 
