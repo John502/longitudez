@@ -1,0 +1,17 @@
+.container{
+    padding-top: 6.3vh;
+    background-image: url(../public/TopoMap.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: auto;
+}
+
+
+.cards {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.5rem;
+  }

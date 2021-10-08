@@ -24,10 +24,10 @@ export default class Nav extends Component {
 
       const navItems = 
         [
-        {title: 'Home', path: '/'},
-        {title: 'Maps', path: '/maps'},
-        {title: 'Blog', path: '/blogs'},
-        {title: 'Contact', path: '/contact'}
+        {id: 1, title: 'Home', path: '/'},
+        {id: 2, title: 'Maps', path: '/maps'},
+        {id: 3, title: 'Blog', path: '/blogs'},
+        {id: 4, title: 'Contact', path: '/contact'}
       ]
 
       return (

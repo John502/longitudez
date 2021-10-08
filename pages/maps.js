@@ -1,16 +1,14 @@
-// import LeafletMap from "../components/LeafletMap";
 import dynamic from "next/dynamic";
 import Meta from "../components/Meta";
 
+const Maps = () => {
 
-const TestMaps = () => {
-
-    const LeafletMap = dynamic(
-        () => {
-          return import("../components/lf/LeafletMap");
-        },
-        { ssr: false }
-      );
+  const LeafletMap = dynamic(
+    () => {
+      return import("../components/lf/LeafletMap");
+    },
+    { ssr: false }
+  );
 
     return (
     <>
@@ -20,4 +18,4 @@ const TestMaps = () => {
     )
 }
 
-export default TestMaps;
+export default Maps;
