@@ -1,6 +1,5 @@
 .card {
     color: var(--primary-color);
-    margin: 2vh;
     height: 14rem;
     max-width: 100%;
     aspect-ratio: 1;
