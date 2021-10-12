@@ -11,9 +11,9 @@ const Showcase = () => {
 
     const cardItems = 
     [
-    {key: 1, title: 'Maps', path: '/maps'},
-    {key: 2, title: 'Blog', path: '/blogs'},
-    {key: 3, title: 'Contact', path: '/contact'}
+    {index: 1, title: 'Maps', path: '/maps'},
+    {index: 2, title: 'Blog', path: '/blogs'},
+    {index: 3, title: 'Contact', path: '/contact'}
   ]
     return (
         <>
@@ -33,7 +33,7 @@ const Showcase = () => {
               </div>
               <div className={showcaseSty.cardContainer}>
                   {cardItems.map((cardItem) => 
-                  <ShowcaseCard text={cardItem.title} link={cardItem.path}></ShowcaseCard>)}
+                  <ShowcaseCard key={cardItem.index} text={cardItem.title} link={cardItem.path}></ShowcaseCard>)}
               </div>
             </div>
           </div>
