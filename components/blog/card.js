@@ -23,7 +23,7 @@ export default function Card({post})
             <div className={sty.postDate}>
                 <div>{post.frontmatter.date}</div>
             </div>
-            <Link href={`blog/${post.slug}`}> 
+            <Link href={`blogs/${post.slug}`}> 
             <button className={sty.excerptBtn}>{post.frontmatter.title}</button></Link> 
         </article>
     )
