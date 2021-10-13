@@ -7,7 +7,6 @@ const LeafletMap = () => {
     const defaultPosition = [38.232227, -85.729113]
 
     return (
-        <div className={sty.container}> 
           <MapContainer
           center={defaultPosition}
           zoom={10} 
@@ -20,7 +19,6 @@ const LeafletMap = () => {
         <LeafletLocateButton 
           title={"+"}/>
         </MapContainer>
-      </div>
     )
 }
 
