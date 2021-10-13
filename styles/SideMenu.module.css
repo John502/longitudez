@@ -3,7 +3,7 @@
 }
 
 .sidemenu{
-    position: absolute;
+    position: fixed;
     height: 93.7vh;
     width: 35vw;
     font-family: 'Hammersmith One', sans-serif;

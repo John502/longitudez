@@ -16,7 +16,7 @@ export default function BlogPost({frontmatter: {title, date, cover_image} , slug
   return  <>
            <Meta title={Meta.defaultProps.title + ' | ' + title } />
           <div className={sty.container}>
-          <article className="content">
+          <article className={sty.content}>
           <ReactMarkdown
             children={content}
             remarkPlugins={[remarkGfm]}
@@ -27,6 +27,7 @@ export default function BlogPost({frontmatter: {title, date, cover_image} , slug
                   <SyntaxHighlighter
                     children={String(children).replace(/\n$/, '')}
                     style={materialDark}
+                    customStyle={{overflow: 'hidden'}}
                     language={match[1]}
                     PreTag="div"
                     {...props}
