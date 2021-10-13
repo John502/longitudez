@@ -11,7 +11,9 @@ const LeafletMap = () => {
           center={defaultPosition}
           zoom={10} 
           tap={false}
-          className={sty.container}>
+          style={{ height: '93.7vh', width: '100vw' }}
+          className={sty.container}
+          >
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
