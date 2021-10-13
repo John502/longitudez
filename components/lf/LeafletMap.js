@@ -11,7 +11,7 @@ const LeafletMap = () => {
           center={defaultPosition}
           zoom={10} 
           tap={false}
-          style={{ height: '93.7vh', width: '100vw' }}
+          style={{ top: '6.3vh', height: '93.7vh', width: '100vw' }}
           className={sty.container}
           >
           <TileLayer
