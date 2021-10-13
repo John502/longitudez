@@ -27,7 +27,6 @@ export default function BlogPost({frontmatter: {title, date, cover_image} , slug
                   <SyntaxHighlighter
                     children={String(children).replace(/\n$/, '')}
                     style={materialDark}
-                    customStyle={{overflow: 'hidden'}}
                     language={match[1]}
                     PreTag="div"
                     {...props}
