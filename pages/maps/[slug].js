@@ -1,16 +1,22 @@
 import { server } from '../../config'
+import dynamic from "next/dynamic";
 import React from 'react'
 import Meta from '../../components/Meta'
 import sty from '../../styles/Blogpost.module.css'
 
 export default function MapPost({mapData})
 {
+  const LeafletMap = dynamic(
+    () => {
+      return import("../../components/lf/LeafletMap");
+    },
+    { ssr: false }
+  );
+
 
   return  <>
            <Meta title={Meta.defaultProps.title + ' | ' + 'some map' } />
-          <div className={sty.container}>
-            <h1 sytle="color: white">{mapData.title}</h1>
-          </div>
+           <LeafletMap mapData={mapData}></LeafletMap>
           </>
 
 }

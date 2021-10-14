@@ -2,18 +2,15 @@ import { MapContainer, TileLayer} from "react-leaflet";
 import LeafletLocateButton from "./LeafletLocateButton";
 import sty from "../../styles/LeafletMap.module.css"
 
-const LeafletMap = () => {
-
-    const defaultPosition = [38.232227, -85.729113]
+const LeafletMap = ({mapData}) => {
+  
 
     return (
           <MapContainer
-          center={defaultPosition}
-          zoom={10} 
+          center={mapData.defaultPosition}
+          zoom={mapData.defaultZoom} 
           tap={false}
-          style={{ top: '6.3vh', height: '93.7vh', width: '100vw' }}
-          className={sty.container}
-          >
+          className={sty.container}>
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
