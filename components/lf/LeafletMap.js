@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer} from "react-leaflet";
 import LeafletLocateButton from "./LeafletLocateButton";
-import sty from "../../styles/Maps.module.css"
+import sty from "../../styles/LeafletMap.module.css"
 
 const LeafletMap = () => {
 
