@@ -1,19 +1,17 @@
 .container{
     padding-top: 8.3vh;
-    height: 100vh;
-    background-image: url(../public/TopoMap.png);
-    background-size: cover;
-    background-repeat: repeat-y;
-    
+    height: auto;
+    background-color: var(--dark-neutral-background);
 }
 
 .content{
-    top: 8.3vh;
+    top: 6.3vh;
+    height: 100%;
     width: 80vw;
     margin-left: 2rem;
     color: var(--primary-color);
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--dark-neutral-background);
+    
 }
 
 .content p{
