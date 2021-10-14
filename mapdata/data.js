@@ -1,4 +1,4 @@
- export const maps =   [
+ export const mapsData =   [
     {
         "id": 1,
         "slug": "Louisville_Nature_Center",

@@ -1,5 +1,5 @@
-import { server } from '../config'
 import { sortByDateMaps } from '../utils'
+import { mapsData } from "../mapdata/data"
 import Meta from "../components/Meta";
 import MapCard from "../components/map/card"
 import sty from "../styles/Blogs.module.css"
@@ -24,12 +24,11 @@ export default function Maps({maps}){
   
 export const getStaticProps = async () => {
   
-  const res = await fetch(`${server}/api/map`)
-  const maps = await res.json()
+  const theMaps = mapsData
 
   return {
     props: {
-      maps: maps.sort(sortByDateMaps),
+      maps: theMaps.sort(sortByDateMaps),
     },
   }
 }

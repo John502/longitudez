@@ -1,10 +1,10 @@
-import { server } from '../../config'
 import dynamic from "next/dynamic";
+import { mapsData } from '../../mapdata/data'
 import React from 'react'
 import Meta from '../../components/Meta'
-import sty from '../../styles/Blogpost.module.css'
 
 export default function MapPost({mapData})
+
 {
   const LeafletMap = dynamic(
     () => {
@@ -23,11 +23,9 @@ export default function MapPost({mapData})
 
 export async function getStaticPaths(){
 
-   const res = await fetch(`${server}/api/map`)
-   const maps = await res.json()
-   const slugs = maps.map((mapPost) => mapPost.slug)
-   const paths = slugs.map((slug) => ({ params: { slug: slug.toString() } }))
-
+    const slugs = mapsData.map((mapPost) => mapPost.slug)
+    const paths = slugs.map((slug) => ({ params: { slug: slug.toString() } }))
+   
     return {
       paths,
       // 404 if you try to access a path that doesn't exist
@@ -37,10 +35,8 @@ export async function getStaticPaths(){
 
   export const getStaticProps = async (context) => {
 
-    console.log(`${server}/api/map/${context.params.slug}`)
-    const res = await fetch(`${server}/api/map/${context.params.slug}`)
-  
-    const mapData = await res.json()
+    const filtered = mapsData.filter((amap) => amap.slug === context.params.slug)
+    const mapData = filtered[0]
  
     return {
       props: {
@@ -48,16 +44,3 @@ export async function getStaticPaths(){
       },
     }
   }
-
-//   export const getStaticProps = async () => {
-  
-//     const res = await fetch(`${server}/api/maps`)
-//     const maps = await res.json()
-  
-//     return {
-//       props: {
-//         maps,
-//       },
-//     }
-//   }
-   
