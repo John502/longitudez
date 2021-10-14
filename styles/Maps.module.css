@@ -1,11 +1,8 @@
 .container{
-    padding-top: 6.3vh;
+    top: 6.3vh;
     width: 100vw;
     height: 93.7vh;
     color: var(--primary-color);
-    z-index: 0;
-    /* background-image: url(../public/TopoMap.png); */
-    /* background-size: cover;
-    background-position: center; */
+    z-index: 3;
 }
 
