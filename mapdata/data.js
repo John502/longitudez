@@ -5,7 +5,6 @@
         "title": "Louisville Nature Center",
         "cover_image": "./images/maps/001_LouisvilleNatureCenter.jpg",
         "date": "October 12 2021"
-    
     },
     {
         "id": 2,

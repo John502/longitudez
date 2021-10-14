@@ -1,38 +1,26 @@
+import { server } from '../../config'
 import React from 'react'
-import ReactDom from 'react-dom'
-import ReactMarkdown from 'react-markdown'
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { materialDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
-import remarkGfm from 'remark-gfm'
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
 import Meta from '../../components/Meta'
 import sty from '../../styles/Blogpost.module.css'
 
-export default function BlogPost({frontmatter: {title, date, cover_image} , slug, content})
+export default function MapPost({mapData})
 {
 
   return  <>
-           <Meta title={Meta.defaultProps.title + ' | ' + title } />
+           <Meta title={Meta.defaultProps.title + ' | ' + 'some map' } />
           <div className={sty.container}>
-            <h1>Map!</h1>
+            <h1 sytle="color: white">{mapData.title}</h1>
           </div>
           </>
 
 }
 
 export async function getStaticPaths(){
-  
-    //Get files from post directory
-    const files = fs.readdirSync(path.join('blogs/markdown'))
 
-    const paths = files.map(filename => ({
-      params: {
-        slug: filename.replace('.md', '')
-      }
-
-    }))
+   const res = await fetch(`${server}/api/map`)
+   const maps = await res.json()
+   const slugs = maps.map((mapPost) => mapPost.slug)
+   const paths = slugs.map((slug) => ({ params: { slug: slug.toString() } }))
 
     return {
       paths,
@@ -41,16 +29,29 @@ export async function getStaticPaths(){
     }
   }
 
-export async function getStaticProps({params: {slug}}){
-    const markDownWithMeta = fs.readFileSync(
-      path.join('blogs/markdown/', slug + '.md'),
-      'utf-8'
-    )
-    
-    const {data: frontmatter, content} = matter(markDownWithMeta)
+  export const getStaticProps = async (context) => {
+
+    console.log(`${server}/api/map/${context.params.slug}`)
+    const res = await fetch(`${server}/api/map/${context.params.slug}`)
+  
+    const mapData = await res.json()
  
     return {
-      props:{frontmatter, slug, content}
+      props: {
+        mapData,
+      },
     }
-  
   }
+
+//   export const getStaticProps = async () => {
+  
+//     const res = await fetch(`${server}/api/maps`)
+//     const maps = await res.json()
+  
+//     return {
+//       props: {
+//         maps,
+//       },
+//     }
+//   }
+   

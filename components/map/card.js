@@ -2,7 +2,7 @@ import {useRef} from 'react'
 import Link from 'next/link'
 import sty from '../../styles/Mapcard.module.css'
 
-export default function Card({post})
+export default function MapCard({post})
 {
     const btn = useRef('')
     const onButtonClick = () => {
@@ -23,7 +23,7 @@ export default function Card({post})
             <div className={sty.postDate}>
                 <div>{post.date}</div>
             </div>
-            <Link href={`blogs/${post.slug}`}> 
+            <Link href={`maps/${post.slug}`}> 
             <button className={sty.excerptBtn}>{post.title}</button></Link> 
         </article>
     )
