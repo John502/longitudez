@@ -6,11 +6,11 @@ const LeafletMap = ({mapData}) => {
   
 
     return (
-          <div className={styles.container}>
           <MapContainer
           center={mapData.defaultPosition}
           zoom={mapData.defaultZoom} 
-          tap={false}>
+          tap={false}
+          className={styles.container}>
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -18,7 +18,6 @@ const LeafletMap = ({mapData}) => {
         <LeafletLocateButton 
           title={"+"}/>
         </MapContainer>
-        </div>
     )
 }
 

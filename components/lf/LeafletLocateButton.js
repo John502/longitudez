@@ -16,7 +16,7 @@ class LeafletLocateButton extends React.Component {
         btnDiv.innerHTML = this.props.title;
 
         const iconOptions = {
-            iconUrl: 'blue_bold_aim.png',
+            iconUrl: '../blue_bold_aim.png',
             iconSize: [50, 50]
          }
 
