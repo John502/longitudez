@@ -50,7 +50,7 @@ class LeafletLocateButton extends React.Component {
         return btnDiv;
       }
     });
-    return new DisplayLocationButtonDom({ position: "bottomleft" });
+    return new DisplayLocationButtonDom({ position: "topright" });
   }
 
   componentDidMount() {
