@@ -50,9 +50,9 @@ a {
 }
 
 .leaflet-container{
-    height: 93.7vh;
-    width: 100vw;
+    height: 100%;
     color: var(--primary-color);
     z-index: 1;
+    position: relative;
 
 }

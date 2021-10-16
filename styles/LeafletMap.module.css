@@ -1,7 +1,7 @@
 .container{
     padding-top: 6.3vh;
-    width: 100vw;
+    height: 100vh;
     color: var(--primary-color);
-    z-index: 0;
+    z-index: 1;
 }
 
