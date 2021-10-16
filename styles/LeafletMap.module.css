@@ -1,8 +1,6 @@
 .container{
-    top: 6.3vh;
-    height: 93.7vh;
+    height: 100vh;
     color: var(--primary-color);
-    z-index: 1;
-    position: relative;
+    z-index: 3;
 }
 
