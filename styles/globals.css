@@ -48,3 +48,11 @@ a {
   display: block;
   padding-bottom: 100%;
 }
+
+.leaflet-container{
+    height: 93.7vh;
+    width: 100vw;
+    color: var(--primary-color);
+    z-index: 1;
+
+}

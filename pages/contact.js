@@ -78,20 +78,6 @@ const Contact = () => {
 
         }
 
-      // async function sendSingUpEmail() {
-      //   try{
-      //       const sendEmailCommand = new SendEmailCommand(sendInput)
-      //       const sendEmailres = await client.send(sendEmailCommand);
-      //       console.log(sendEmailres.json())
-      //   }
-      //   catch (error){
-      //       const { requestId, cfId, extendedRequestId } = error.$metadata;
-      //       console.log({ requestId, cfId, extendedRequestId });
-      //   }
-
-      // };
-      
-
                                   }
   return (
     <>
