@@ -1,8 +1,8 @@
 .container{
-    top: 6.4vh;
+    top: 6.3vh;
     height: 93.7vh;
     color: var(--primary-color);
-    position: fixed;
     z-index: 1;
+    position: relative;
 }
 
