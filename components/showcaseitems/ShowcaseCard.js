@@ -6,9 +6,9 @@ const ShowcaseCard = (props) => {
     const text = props.text || ''
     const link = props.link || ''
     return (
-        <div className={showCaseCardSty.card}>
-            <Link href={link} className={showCaseCardSty.link}><h3>{text}</h3></Link>
-            </div>
+        <Link href={link} className={showCaseCardSty.link}><div className={showCaseCardSty.card}>
+            <h3>{text}</h3>
+            </div></Link>
     )
 }
 

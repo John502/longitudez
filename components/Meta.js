@@ -20,8 +20,8 @@ const Meta = ({ title, keywords, description }) => {
 
 Meta.defaultProps = {
     title: 'Longitudez',
-    keywords: 'Maps, GIS, Mapping',
-    description: 'Adventures in GIS and mapping'
+    keywords: 'Maps, GIS, Mapping, Longitudes, Longitudez, Mapping',
+    description: 'Where u wanna be'
 
 }
 
