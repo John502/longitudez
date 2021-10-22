@@ -9,12 +9,14 @@ import path from 'path'
 import matter from 'gray-matter'
 import Meta from '../../components/Meta'
 import sty from '../../styles/Blogpost.module.css'
+import { Content } from '@aws-sdk/client-sesv2';
 
 export default function BlogPost({frontmatter: {title, date, cover_image} , slug, content})
 {
 
   return  <>
            <Meta title={Meta.defaultProps.title + ' | ' + title } />
+           <Meta description={content} />
           <div className={sty.container}>
           <article className={sty.content}>
           <ReactMarkdown
