@@ -20,4 +20,21 @@
 
 .content pre{
     font-size: 0.75rem;
+    padding-bottom: 1rem;
+}
+
+.content h1{
+    padding-bottom: 1rem;
+}
+
+.content h2{
+    padding-bottom: 1rem;
+}
+
+.content p a{
+    font-weight: bold;
+}
+
+.content p a:hover{
+    text-decoration: underline;
 }
