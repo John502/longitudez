@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import { mapsData } from '../../mapdata/data'
+import { mapsData } from '../../data/maps'
 import React from 'react'
 import Meta from '../../components/Meta'
 
@@ -12,10 +12,10 @@ export default function MapPost({mapData})
     },
     { ssr: false }
   );
-
+   
 
   return  <>
-           <Meta title={Meta.defaultProps.title + ' | ' + 'some map' } />
+           <Meta title={Meta.defaultProps.title + ' | ' + mapData.title } />
            <LeafletMap mapData={mapData}></LeafletMap>
           </>
 
@@ -37,10 +37,13 @@ export async function getStaticPaths(){
 
     const filtered = mapsData.filter((amap) => amap.slug === context.params.slug)
     const mapData = filtered[0]
- 
+
+
     return {
       props: {
         mapData,
       },
     }
   }
+
+

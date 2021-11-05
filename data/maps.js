@@ -1,3 +1,5 @@
+ 
+
  export const mapsData =   [
     {
         "id": 1,
@@ -6,7 +8,8 @@
         "cover_image": "./images/maps/001_LouisvilleNatureCenter.jpg",
         "date": "October 12 2021",
         "defaultPosition": [38.232227, -85.729113],
-        "defaultZoom": 15
+        "defaultZoom": 15,
+        "geo": "geoJson/LNC.geojson"
     },
     {
         "id": 2,
@@ -15,6 +18,7 @@
         "cover_image": "./images/maps/002_TiogaFalls_200_200.png",
         "date": "October 13 2021",
         "defaultPosition": [38.232227, -85.729113],
-        "defaultZoom": 15
+        "defaultZoom": 15,
+        "geoJson": "geoJson/LNC.geojson"
     }
 ]
