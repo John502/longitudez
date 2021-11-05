@@ -1,5 +1,5 @@
 import { sortByDateMaps } from '../utils'
-import { mapsData } from "../mapdata/data"
+import { mapsData } from "../data/maps"
 import Meta from "../components/Meta";
 import MapCard from "../components/map/card"
 import sty from "../styles/Blogs.module.css"
