@@ -1,10 +1,5 @@
 .container{
     height: 100vh;
-    color: var(--primary-color);   
-}
-
-.mapContainer{
-    top: 6.3vh;
-    height: 93.7%;
-    z-index: 1;
+    color: var(--primary-color); 
+    z-index: 3; 
 }
