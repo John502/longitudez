@@ -5,13 +5,14 @@ import "leaflet/dist/leaflet.css"
 
 const LeafletMap = ({mapData}) => {
 
-
+    console.log({mapData})
     return (
           <MapContainer
           center={mapData.defaultPosition}
           zoom={mapData.defaultZoom} 
           tap={false}
           className={styles.container}>
+          <GeoJSON key={mapData.slug} data={mapData.geo}></GeoJSON> */}
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/> 
