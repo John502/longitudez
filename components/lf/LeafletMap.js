@@ -2,13 +2,16 @@ import { MapContainer, TileLayer, GeoJSON} from "react-leaflet";
 import LeafletLocateButton from "./LeafletLocateButton";
 import styles from '../../styles/LeafletMap.module.css'
 import "leaflet/dist/leaflet.css"
+import L from "leaflet";
 
 const LeafletMap = ({mapData}) => {
 
-    console.log({mapData})
+    const geoJsonBounds = L.geoJSON(mapData.geo).getBounds()
+    
     return (
           <MapContainer
-          center={mapData.defaultPosition}
+          bounds={geoJsonBounds}
+          // center={mapData.defaultPosition}
           zoom={mapData.defaultZoom} 
           tap={false}
           className={styles.container}>
