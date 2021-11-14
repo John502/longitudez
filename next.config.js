@@ -6,7 +6,8 @@ module.exports = {
         SIGNUP_FROM_EMAIL: process.env.SIGNUP_FROM_EMAIL,
         CONTACT_LIST: process.env.CONTACT_LIST,
         CONTACT_EMAIL: process.env.CONTACT_EMAIL,
-        SITE_URL:process.env.SITE_URL
+        SITE_URL:process.env.SITE_URL,
+        NEXT_PUBLIC_GA_ID: process.env.NEXT_PUBLIC_GA_ID
         },
     serverRuntimeConfig: {
         //..others
@@ -15,6 +16,7 @@ module.exports = {
         SIGNUP_FROM_EMAIL: process.env.SIGNUP_FROM_EMAIL,
         CONTACT_LIST: process.env.CONTACT_LIST,
         CONTACT_EMAIL: process.env.CONTACT_EMAIL,
-        SITE_URL: process.env.SITE_URL
+        SITE_URL: process.env.SITE_URL,
+        NEXT_PUBLIC_GA_ID: process.env.NEXT_PUBLIC_GA_ID
     }
 }
