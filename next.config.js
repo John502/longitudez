@@ -5,7 +5,8 @@ module.exports = {
         SECRET_ACCESS_KEY: process.env.SECRET_ACCESS_KEY,
         SIGNUP_FROM_EMAIL: process.env.SIGNUP_FROM_EMAIL,
         CONTACT_LIST: process.env.CONTACT_LIST,
-        CONTACT_EMAIL: process.env.CONTACT_EMAIL
+        CONTACT_EMAIL: process.env.CONTACT_EMAIL,
+        SITE_URL:process.env.SITE_URL
         },
     serverRuntimeConfig: {
         //..others
@@ -13,6 +14,7 @@ module.exports = {
         SECRET_ACCESS_KEY: process.env.SECRET_ACCESS_KEY,
         SIGNUP_FROM_EMAIL: process.env.SIGNUP_FROM_EMAIL,
         CONTACT_LIST: process.env.CONTACT_LIST,
-        CONTACT_EMAIL: process.env.CONTACT_EMAIL
+        CONTACT_EMAIL: process.env.CONTACT_EMAIL,
+        SITE_URL: process.env.SITE_URL
     }
 }
