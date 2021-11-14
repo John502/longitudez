@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://longitudez.com
+
+# Sitemaps
+Sitemap: https://longitudez.com/sitemap.xml
