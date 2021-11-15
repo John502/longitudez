@@ -34,7 +34,7 @@ export default class Nav extends Component {
       <>
         <div className={navSty.container}>
           <nav role="navigation" className={navSty.nav}>
-          <Link href='/'><div className={navSty.logo}>longitudez</div></Link>
+          <Link href='/'><div className={navSty.logo}>Longitudez</div></Link>
           <div className={navSty.inputContainer} style={{ backgroundColor: (showing ? '#3b6969': 'var(--primary-background-color)')}}>
               <input type="checkbox" id={navSty.tog} onChange={() => this.setState({ showing: !showing })}></input>
                   <span></span>
