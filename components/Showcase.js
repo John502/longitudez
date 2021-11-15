@@ -21,7 +21,7 @@ const Showcase = () => {
         <div className={showcaseSty.showcase}>
           <div className={showcaseSty.content}>
             <div className={showcaseSty.head}>
-              <div id={showcaseSty.logo}>longitudez</div>
+              <div id={showcaseSty.logo}>Longitudez</div>
               <div id={showcaseSty.motto}>where u wanna be</div>
               <div className={showcaseSty.socialLinks}>
                 <a href='https://www.facebook.com/latituduezlongitudez'><FaFacebookSquare id={showcaseSty.socialIcon} size={30} /></a>
