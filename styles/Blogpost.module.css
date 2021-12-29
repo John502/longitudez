@@ -16,6 +16,7 @@
 
 .content p{
     margin-bottom: 1rem;
+    font-size: 1.15rem;
 }
 
 .content pre{
@@ -28,6 +29,10 @@
 }
 
 .content h2{
+    padding-bottom: 1rem;
+}
+
+.content h3{
     padding-bottom: 1rem;
 }
 
