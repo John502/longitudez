@@ -42,12 +42,12 @@
             ]
             },
         "map_png_attr": "© Longitudez",
-        "map_png": "https://lh3.googleusercontent.com/zBwa21xvj44ic2xQD9fzk1BFElfyiNN7ADAPF-i4eqggMJGyO1_I33LCr6J6cYLETo3y-bfegHZqNo1f3umbIZRWcVVcjIcg3m_tz7oynoOezpp9qaQw-xrzwLUOJa9jP4fXMAyA3sxmI0Ne_f6jMqC7Hm7SozQQZjLtrD2JSSskjuFdydGATeOAKnp0cbC4sMLWlRSGXA_B6-IFO-9xenNlGhFcxESi4T5LOLL_38DYPGsvMq_93fCfVYzMJ2YdQm6W8HdwFGtQ03RQBb19iBmG4bVlcmT4XpXB41lTqMMVCALTbAY_AZnIZUmcbM7TE0uUjyVmsvux4itRlF9JkgN_ZZnPil5-YxCDvjN0kdgLNBhy-axwiQvZYS2L0QwW4VOh0vky5Dzul3kHOOvuv-w_bNWI3Pwop9MAbexVmO_p70T_1dWK247EhNUFQsKkp939wm5qcWkSquVIDowNEFVVUaTg75a5P4lvdhG0rVvbi0I-RnqPAh09feEBXgRRi1BqBruFFYBjhH_w0cnexIcbSCXkChELF2IkpDvqXR_j4e9fB2sYm1NevzAn53JZm9cqXan5TpkaVnEyn49os1dfhDlY7zqtziFHeiRZPc2wOiSfTBCXepL0D7br4tQdABQHV2bEjjicSpYCcJSLJQGXMRbE5bkpa8jx-_kTE3aFJc1q8nvbE1oc3Slktqu9uPe_nNwRbu7SFCFjre6epchG=w402-h568-no?authuser=0",
+        "map_png": "/images/maps/test_4326_2.png",
         "map_png_bnds": {
-            "Xmin": -85.977,
-            "Ymin": 37.955,
+            "Xmin": -85.980,
+            "Ymin": 37.959,
             "Xmax": -85.960,
-            "Ymax": 37.980
+            "Ymax": 37.979
         } 
                         
     }
