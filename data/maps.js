@@ -32,7 +32,7 @@
         "cover_image": "./images/maps/002_TiogaFalls_200_200.png",
         "date": "October 13 2021",
         "defaultPosition": [38.232227, -85.729113],
-        "defaultZoom": 15,
+        "defaultZoom": 16,
         "geo": {
             "type": "FeatureCollection",
             "name": "Tioga_Falls_4326",
@@ -42,7 +42,7 @@
             ]
             },
         "map_png_attr": "© Longitudez",
-        "map_png": "/images/maps/test_4326_2.png",
+        "map_png": "/images/maps/002_Map_Tioga_Falls.png",
         "map_png_bnds": {
             "Xmin": -85.980,
             "Ymin": 37.959,
