@@ -21,22 +21,28 @@ const LeafletMap = ({mapData}) => {
             tap={false}
             className={styles.mapcontainer}>
               <LayersControl position="topleft">
+      <LayersControl.Overlay checked="true" name="Longitudez">
+        <ImageOverlay attribution={mapData.map_png_attr}
+            url={mapData.map_png} bounds={imageBounds}>
+        </ImageOverlay>
+      </LayersControl.Overlay>
+      <LayersControl.Overlay name="GPS">
+        <GeoJSON key={mapData.slug} data={mapData.geo}></GeoJSON>
+      </LayersControl.Overlay>
       <LayersControl.BaseLayer checked name="USGS Topo">
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://basemap.nationalmap.gov/ArcGIS/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}"
         />
       </LayersControl.BaseLayer>
-      <LayersControl.BaseLayer name="Black & White">
+      <LayersControl.BaseLayer name="OSM">
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png"
-        />
+            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/> 
       </LayersControl.BaseLayer>
     </LayersControl>
-          <ImageOverlay attribution={mapData.map_png_attr}
+          {/* <ImageOverlay attribution={mapData.map_png_attr}
             url={mapData.map_png} bounds={imageBounds}>
-            </ImageOverlay>
+            </ImageOverlay> */}
             <LeafletLocateButton 
           title={"+"}/>
           {/* <GeoJSON key={mapData.slug} data={mapData.geo}></GeoJSON>
