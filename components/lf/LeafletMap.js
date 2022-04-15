@@ -20,8 +20,9 @@ const LeafletMap = ({mapData}) => {
           <MapContainer
             bounds={imageBounds}
             zoom={mapData.defaultZoom} 
-            tap={false}
-            className={styles.mapcontainer}>
+            // tap={false}
+            className={styles.mapcontainer}
+            dragging={true}>
               <LayersControl position="topleft">
                 <LayersControl.Overlay checked="true" name="Longitudez">
                   <ImageOverlay attribution={mapData.map_png_attr}
@@ -42,7 +43,7 @@ const LeafletMap = ({mapData}) => {
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/> 
               </LayersControl.BaseLayer>
             </LayersControl>
-            <LeafletLocateButton title={"+"}/>
+            <LeafletLocateButton defaultZoom={mapData.defaultZoom} title={"+"}/>
             <LeafletBuyMapButton etsy_url={mapData.etsy_url} title={"Buy Map"}/>
         </MapContainer>
     )
