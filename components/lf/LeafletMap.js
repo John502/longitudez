@@ -3,11 +3,14 @@ import { MapContainer, TileLayer, GeoJSON,
   Circle, Popup, Marker, FeatureGroup, 
   Rectangle} from "react-leaflet";
 import LeafletLocateButton from "./LeafletLocateButton";
-import styles from '../../styles/LeafletMap.module.css'
-import "leaflet/dist/leaflet.css"
-import L from "leaflet";
+import LeafletBuyMapButton from "./LeafletBuyMapButton";
+import styles from '../../styles/LeafletMap.module.css';
+import { useRef } from "react"
+import "leaflet/dist/leaflet.css";
 
 const LeafletMap = ({mapData}) => {
+  
+      const buyMap = useRef(null)
 
     
     const imageBounds = [ [mapData.map_png_bnds.Ymin, mapData.map_png_bnds.Xmin], 
@@ -40,6 +43,7 @@ const LeafletMap = ({mapData}) => {
               </LayersControl.BaseLayer>
             </LayersControl>
             <LeafletLocateButton title={"+"}/>
+            <LeafletBuyMapButton etsy_url={mapData.etsy_url} title={"Buy Map"}/>
         </MapContainer>
     )
 }

@@ -3,6 +3,7 @@
  export const mapsData =   [
     {
         "attr": "© OpenStreetMap contributor", 
+        "etsy_url": "https://www.etsy.com/listing/1170252271/louisville-nature-center-trail-map",
         "id": 1,
         "slug": "Louisville_Nature_Center",
         "title": "Louisville Nature Center",
@@ -30,6 +31,7 @@
     }},
     {
         "attr": "© OpenStreetMap contributor", 
+        "etsy_url": "https://www.etsy.com/listing/1169556927/tioga-falls-map-by-longitudez",
         "id": 2,
         "slug": "Tioga_Falls",
         "title": "Tioga Falls",
