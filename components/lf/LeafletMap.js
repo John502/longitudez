@@ -35,12 +35,16 @@ const LeafletMap = ({mapData}) => {
               <LayersControl.BaseLayer checked name="USGS Topo">
                 <TileLayer
                   url="https://basemap.nationalmap.gov/ArcGIS/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}"
+                  // maxZoom={20}
+                  maxNativeZoom={16}
                 />
               </LayersControl.BaseLayer>
               <LayersControl.BaseLayer name="OSM">
                 <TileLayer
+                    maxZoom={18}
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/> 
+                    
               </LayersControl.BaseLayer>
             </LayersControl>
             <LeafletLocateButton defaultZoom={mapData.defaultZoom} title={"+"}/>
