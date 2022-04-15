@@ -33,7 +33,7 @@ class LeafletLocateButton extends React.Component {
           
           
           map.locate().on("locationfound", (e) =>{
-            map.flyTo(e.latlng, this.props.defaultZoom);
+            map.flyTo(e.latlng, map.getZoom());
             if (this.marker !== null) {
                 // remove the marker
                 this.marker.setLatLng(e.latlng);
