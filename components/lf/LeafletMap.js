@@ -10,13 +10,12 @@ import "leaflet/dist/leaflet.css";
 
 const LeafletMap = ({mapData}) => {
   
-      const buyMap = useRef(null)
-
-    
+  
     const imageBounds = [ [mapData.map_png_bnds.Ymin, mapData.map_png_bnds.Xmin], 
                           [mapData.map_png_bnds.Ymax, mapData.map_png_bnds.Xmax]]
                           
     return (
+      <div className={styles.container}> 
           <MapContainer
             bounds={imageBounds}
             zoom={mapData.defaultZoom} 
@@ -50,6 +49,7 @@ const LeafletMap = ({mapData}) => {
             <LeafletLocateButton defaultZoom={mapData.defaultZoom} title={"+"}/>
             <LeafletBuyMapButton etsy_url={mapData.etsy_url} title={"Buy Map"}/>
         </MapContainer>
+      </div>
     )
 }
 
