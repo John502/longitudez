@@ -16,8 +16,8 @@ class LeafletLocateButton extends React.Component {
         btnDiv.innerHTML = this.props.title;
 
         const iconOptions = {
-            iconUrl: 'blue_bold_aim.png',
-            iconSize: [50, 50]
+            iconUrl: '../walker_blue.png',
+            iconSize: [35, 35]
          }
 
         const aim_icon = L.icon(iconOptions);
@@ -33,7 +33,7 @@ class LeafletLocateButton extends React.Component {
           
           
           map.locate().on("locationfound", (e) =>{
-            map.flyTo(e.latlng, 17);
+            map.flyTo(e.latlng, map.getZoom());
             if (this.marker !== null) {
                 // remove the marker
                 this.marker.setLatLng(e.latlng);
@@ -50,7 +50,7 @@ class LeafletLocateButton extends React.Component {
         return btnDiv;
       }
     });
-    return new DisplayLocationButtonDom({ position: "bottomleft" });
+    return new DisplayLocationButtonDom({ position: "topright" });
   }
 
   componentDidMount() {

@@ -1,0 +1,30 @@
+<mjml>
+	<mj-body background-color="#F4F4F4">
+	  <mj-section background-color="#2f4f4f" background-repeat="no-repeat" text-align="center">
+		<mj-column>
+		   
+<mj-image width="250px" src="https://lh3.googleusercontent.com/pw/AM-JKLXyPZvGugUyxqqAi4emG1O1uVNtwo5rUzrVAK5jNlyp50hdTtPA80l3NnWVJdnkmsEFoTVes3z3A_udns0fi78n9VkOd_fb3kuspXZujlal0YDKUPwTD9-W0M3ZxTM0PT_PA5oh3El8GZlPZd4aIGT7IQ=w635-h153-no?authuser=0"></mj-image>
+ 
+		</mj-column>
+	  </mj-section>
+	  <mj-section background-color="#000000" background-repeat="no-repeat" text-align="center"  padding="0 0 0 0">
+		<mj-column>
+		</mj-column>
+	  </mj-section>
+	  <mj-section background-url="https://lh3.googleusercontent.com/evuVCRyl2MadZQurVZ-W83-bhqUwL6Z17TPQxDyJpAKhKg7crfYBlFaVW-BY9K9gMvqVo4hNzwzWQJP_bE5U2Hb9B3cBYqhGeicE_HVB86ejhSSZRYUsU0gKz8pfjOfP-8EVAsKqa2g8wp8xu1hbAtDvXJSjKmD-hoFTBKEobcKQGJUxV79ZKV5bjWGIu7-U3lyVI-Oql95TR_DVXoHzd1ylGlCwSii6bzhB-tUhd5vLTk0v69h4fYz62375YsJ7NIX1EZ7-dsG3LYyZbQvRXVOyjEXxMTNN_qa4joHreNsYcije6avHdJs9bgcAPznAsr105s6D_9k1yIupotzf446RqmMtItkZ61ovsbHjLEVxM85k7W5FJi6AAOS0PS_6J9cd4xmSg_QwzHMqJApnIGgnKBUGTtF4xe7E2QpWY4XviE6t6bQKOdlQfU2tNKdGY7gtDa8QCgjGaq9PM7WtoKvCakGw4cpOMPEiFwlCkuDtF0iT4TyIuzuPL5MULZ7eqQds-PUPnKE7NjaV7f8A1VE2CS2MLAnmBLC_GaEDNkYjfuaWdS-WPBOORwTB6PYLqbaGCqp0pdR4DUWViQ99ek4rXqLVmgFVDbqNk7RsQ63bDcQXlOq28XIqgg0WSag3_fcroUp8fbtsYCq8DMZjjAEwZNMie82I7YxxUtw7bZQZ10JMK1njqw2Hc-ILYyk4ZJ7a50eQZW8JEhzvEjWv-6O2=w938-h625-no?authuser=0" background-repeat="no-repeat" text-align="center" padding="0 0 0 0">
+		<mj-column>
+		  <mj-text align="center" color="#f5f5f5" font-family="Arial, sans-serif" font-size="30px" line-height="22px" padding-bottom="5px" padding-top="0px" padding="10px 0px"><p style="font-family:'Times New Roman',Helvetica,Arial,sans-serif;font-weight: bolder">Thanks for signing up</p></mj-text>
+		  </mj-text>
+		  <mj-text align="center" color="#f5f5f5" font-family="Arial, sans-serif" font-size="20px" line-height="22px" padding-bottom="3%" padding-top="0px" padding="10px 45px"><p style="font-family:'Times New Roman',Helvetica,Arial,sans-serif;font-weight: bolder">Follow us on social media!</p></mj-text>
+    <mj-social>
+      <mj-social-element href="https://www.facebook.com/latituduezlongitudez" icon-size="60px" background-color="#000000" name="facebook"></mj-social-element>
+      <mj-social-element href="" icon-size="60px" background-color="#000000" name="instagram"></mj-social-element>
+      <mj-social-element href="" icon-size="60px" background-color="#000000" name="twitter"></mj-social-element>
+    </mj-social>
+      		  <mj-text align="center" color="#f5f5f5" font-family="Arial, sans-serif" font-size="30px" line-height="22px" padding-bottom="0" padding-top="0px" padding="10px 45px"><p style="font-family:'Times New Roman',Helvetica,Arial,sans-serif;font-weight: bolder">Email:</p></mj-text>
+            		  <mj-text align="center" color="#f5f5f5" font-family="Arial, sans-serif" font-size="25px" line-height="22px" padding-bottom="3%" padding-top="0px" padding="10px 45px"><p style="font-family:'Times New Roman',Helvetica,Arial,sans-serif;font-weight: bolder">longitudez@longitudez.com</p></mj-text>
+            <mj-button background-color="#000000" href="{{amazonSESUnsubscribeUrl}}" border-radius="3px" font-family="Times New Roman, Helvetica, Arial, sans-serif" font-size="6px" font-weight="normal"><span style="color:#f5f5f5">Unsubscribe</span></mj-button>
+		</mj-column>
+	  </mj-section>
+	</mj-body>
+  </mjml>

@@ -49,7 +49,8 @@ const EmailSignUp = () => {
                                     ]},
             ListManagementOptions: {
             ContactListName: 'longitudez', /* required */
-            TopicName: 'all'
+            TopicName: 'all',
+            ReplyToAddresses: process.env.CONTACT_EMAIL,
                 }
         };
 
