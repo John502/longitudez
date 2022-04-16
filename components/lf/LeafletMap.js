@@ -13,14 +13,6 @@ const LeafletMap = ({mapData}) => {
   
     const imageBounds = [ [mapData.map_png_bnds.Ymin, mapData.map_png_bnds.Xmin], 
                           [mapData.map_png_bnds.Ymax, mapData.map_png_bnds.Xmax]]
-
-    function getWindowDimensions() {
-        const { innerWidth: width, innerHeight: height } = window;
-          return {
-            width,
-            height
-          };
-        }
                           
     return (
       <div className={styles.container} style={{height: window.innerHeight}}> 
