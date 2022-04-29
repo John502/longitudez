@@ -92,12 +92,12 @@
             }
             ,
         "map_png_attr": "© Longitudez",
-        "map_png": "/images/maps/003_Pinnacles_longitudez.png",
+        "map_png": "/images/maps/003_Map_Pinnacles_longitudez.png",
         "map_png_bnds": {
-            "Xmin": -84.2528095098272871,
-            "Ymin": 37.5500731510670533,
-            "Xmax": -84.2223169297571417,
-            "Ymax": 37.5805657311372485
+            "Xmin": -84.2574203,
+            "Ymin": 37.5520745,
+            "Xmax": -84.2214752,
+            "Ymax": 37.5805662
         } 
                         
     }
