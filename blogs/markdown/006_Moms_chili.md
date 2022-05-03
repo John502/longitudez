@@ -1,5 +1,5 @@
 ---
-title: "Libby/'s Chili Recipe"
+title: "Libby's Chili Recipe"
 date: 'May 2 2022'
 excerpt: 'Chili Recipe from my Mom'
 cover_image: 'images/posts/006_LibbysChiliRecipe.png'
