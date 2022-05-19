@@ -1,5 +1,5 @@
 ---
-title: "geoMesa Kafka"
+title: "geoMesa Kafka Quickstart"
 date: 'May 18 2022'
 excerpt: 'Setting up GeoMesa with a Kafka stream'
 cover_image: 'images/posts/007_GeoMesa.png'
@@ -53,6 +53,7 @@ $KAFKA_DIR/bin/kafka-server-start.sh config/server.properties
 ```
 
 #### Clone the Git Repo
+
 ```bash
 $ git clone https://github.com/geomesa/geomesa-tutorials.git
 $ cd geomesa-tutorials
