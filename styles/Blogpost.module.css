@@ -38,6 +38,7 @@
 
 .content p a{
     font-weight: bold;
+    font-size: medium;
 }
 
 .content p a:hover{
