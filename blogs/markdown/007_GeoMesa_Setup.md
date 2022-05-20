@@ -111,3 +111,44 @@ java -cp geomesa-tutorials-kafka/geomesa-tutorials-kafka-quickstart/target/geome
 ```bash
 Writing features to Kafka... refresh GeoServer layer preview to see changes
 ```
+
+## Install with GeoServer for visualization  
+
+#### Download GeoServer   
+
+[https://docs.geoserver.org/stable/en/user/installation/linux.html](https://docs.geoserver.org/stable/en/user/installation/linux.html)
+
+Extract and add to env variables
+
+```bash
+sudo mkdir usr/share/geoserver || \
+sudo unzip -d /usr/share/geoserver \
+echo "export GEOSERVER_HOME=/usr/share/geoserver" >> ~/.profile. ~/.profile
+```
+
+Make yourself the owner of the server
+
+```bash
+sudo chown -R USER_NAME /usr/share/geoserver/
+```
+
+Start server with 
+
+```bash
+cd geoserver/bin
+sh startup.sh
+```
+Stop your server Ctrl+C.
+
+You'll need to install the WPS plugin
+[https://docs.geoserver.org/stable/en/user/services/wps/install.html](https://docs.geoserver.org/stable/en/user/services/wps/install.html)  
+
+WEB-INF DIR referenced in docs is located  
+
+```bash
+<yourgeoserverbuild>/webapps/geoserver
+```
+
+Had to use the WPS 2.19, 2.20.4 would not run. 
+
+
