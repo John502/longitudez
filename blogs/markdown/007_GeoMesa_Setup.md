@@ -1,5 +1,5 @@
 ---
-title: "geoMesa Kafka Quickstart"
+title: "geoMesa Kafka"
 date: 'May 18 2022'
 excerpt: 'Setting up GeoMesa with a Kafka stream'
 cover_image: 'images/posts/007_GeoMesa.png'
@@ -116,7 +116,10 @@ Writing features to Kafka... refresh GeoServer layer preview to see changes
 
 #### Download GeoServer   
 
-[https://docs.geoserver.org/stable/en/user/installation/linux.html](https://docs.geoserver.org/stable/en/user/installation/linux.html)
+[https://docs.geoserver.org/stable/en/user/installation/linux.html](https://docs.geoserver.org/stable/en/user/installation/linux.html)  
+
+Another helpful 
+
 
 Extract and add to env variables
 
@@ -140,7 +143,7 @@ sh startup.sh
 ```
 Stop your server Ctrl+C.
 
-You'll need to install the WPS plugin
+You'll need to install the WPS plugin  
 [https://docs.geoserver.org/stable/en/user/services/wps/install.html](https://docs.geoserver.org/stable/en/user/services/wps/install.html)  
 
 WEB-INF DIR referenced in docs is located  
@@ -151,4 +154,28 @@ WEB-INF DIR referenced in docs is located
 
 Had to use the WPS 2.19, 2.20.4 would not run. 
 
+Install Kafka Plugin for Geoserver
 
+[https://www.geomesa.org/documentation/2.1.3/user/kafka/install.html#install-kafka-geoserver](https://www.geomesa.org/documentation/2.1.3/user/kafka/install.html#install-kafka-geoserver)
+
+Download geomesa-kafka_2.11-3.4.0-bin.tar.gz  
+ [https://github.com/locationtech/geomesa/releases](https://github.com/locationtech/geomesa/releases)
+
+Install the plugins
+
+```bash
+bin/manage-geoserver-plugins.sh --lib-dir /usr/share/geoserver/webapps/geoserver/WEB-INF/lib/ --install
+```
+
+Retart geoserver  
+
+```bash
+cd usr/share/geoserver
+sh bin/startup.sh
+```
+
+Login with default **admin** & **geoserver**  
+
+You should see new Apache Kafka Data Stores listed in Geoserver
+
+![Kafka DataStore](/images/posts/008_geoserver_kafka.PNG)
