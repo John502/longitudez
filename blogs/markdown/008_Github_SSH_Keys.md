@@ -2,7 +2,7 @@
 title: "Github SSH"
 date: 'June 3 2022'
 excerpt: 'GitHub Use SSH Keys'
-cover_image: 'images/posts/008_GitHub_SSH.jpg.png'
+cover_image: 'images/posts/008_GitHub_SSH.jpg'
 ---
 
 # Set up Git with SSA
@@ -13,7 +13,7 @@ GitHub is no longer accepting account passwords so you would have to copy and pa
 Open terminal and create a new ssh key
 
 ```bash
-ssh-keygen -t ed21119 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 Start your ssh agent and add your ssh key. 
@@ -22,7 +22,7 @@ Start your ssh agent and add your ssh key.
 
 ```bash
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed21119
+ssh-add ~/.ssh/id_ed25119
 ```
 Copy the below terminal output of the file contents to clip board.
 
