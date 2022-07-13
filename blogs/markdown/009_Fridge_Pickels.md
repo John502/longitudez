@@ -2,7 +2,7 @@
 title: "Pickle brine"
 date: 'June 12 2022'
 excerpt: 'Quick Fridge Pickle Brine'
-cover_image: 'images/posts/009_Fridge_Pickles.jpg'
+cover_image: 'images/posts/009_Quick_Fridge_Pickles.png'
 ---
 
 # Quick Fridge Pickle Brine
