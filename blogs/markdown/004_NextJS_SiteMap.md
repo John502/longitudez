@@ -3,6 +3,7 @@ title: 'NextJS Site Map'
 date: 'November 15 2021'
 excerpt: 'Generate a Site Map with Next JS'
 cover_image: 'images/posts/004_NextJS_SEO_Square.png'
+tag: 'dev:seo:nextjs'
 ---
 
 # SEO Site Map for Next JS

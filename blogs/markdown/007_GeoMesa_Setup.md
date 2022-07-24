@@ -3,6 +3,7 @@ title: "geoMesa Kafka"
 date: 'May 18 2022'
 excerpt: 'Setting up GeoMesa with a Kafka stream'
 cover_image: 'images/posts/007_GeoMesa.png'
+tag: 'dev:geomesa:kafka:geoserver:geospatial'
 ---
 
 # geomesa and Kafka
