@@ -14,4 +14,5 @@ npm run dev
 Build Site Map and export
 
 ```bash
-``
+npm run build
+```

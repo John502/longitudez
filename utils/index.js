@@ -5,3 +5,7 @@ export const sortByDate = (a, b) => {
   export const sortByDateMaps = (a, b) => {
     return new Date(b.date) - new Date(a.date)
   }
+
+  export const onlyUnique = (value, index, self) => {
+    return self.indexOf(value) === index;
+  }
