@@ -3,6 +3,7 @@ title: 'GeoDjango Notes'
 date: 'December 28 2021'
 excerpt: 'GeoDjango Utilizations'
 cover_image: 'images/posts/005_GeoDjango.png'
+tag: 'dev:python:geospatial:django'
 ---
 
 # Creating a TTD GeoDjango App

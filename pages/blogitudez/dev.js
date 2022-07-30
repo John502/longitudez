@@ -1,19 +1,19 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import { sortByDate } from '../utils'
-import Meta from '../components/Meta'
-import Card from '../components/blog/card'
-import sty from '../styles/Blogs.module.css'
+import { sortByDate } from '../../utils'
+import Meta from '../../components/Meta'
+import Card from '../../components/blog/card'
+import sty from '../../styles/Blogs.module.css'
 
 
-export default function Blogs({posts}) {
-
+export default function Dev({posts}) {
+  
   return (
     <>
-    <Meta title={Meta.defaultProps.title + ' | Blogs'} /> 
+    <Meta title={Meta.defaultProps.title + ' | Dev Blogs'} /> 
     <div className={sty.container}>   
-    <div className={sty.header}>Blongitudez</div>/
+    <div className={sty.header}>Devitudez</div>
     <div className={sty.cards}>
       {posts.map((post, index) => (
           <Card key={index} post={post}></Card>
@@ -45,7 +45,7 @@ export async function getStaticProps(){
      }
      
    }
-  )
+  ).filter((apost) => apost.frontmatter.tag.split(':')[0] === 'dev')
 
   return {
     props : {

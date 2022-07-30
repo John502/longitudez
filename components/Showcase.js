@@ -12,7 +12,7 @@ const Showcase = () => {
     const cardItems = 
     [
     {index: 1, title: 'Maps', path: '/maps'},
-    {index: 2, title: 'Blog', path: '/blogs'},
+    {index: 2, title: 'Blog', path: '/blogitudez'},
     {index: 3, title: 'Contact', path: '/contact'}
   ]
     return (

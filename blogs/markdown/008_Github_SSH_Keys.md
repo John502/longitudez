@@ -3,6 +3,7 @@ title: "Github SSH"
 date: 'June 3 2022'
 excerpt: 'GitHub Use SSH Keys'
 cover_image: 'images/posts/008_GitHub_SSH.jpg'
+tag: 'dev:github:ssh'
 ---
 
 # Set up Git with SSA

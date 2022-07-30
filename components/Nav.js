@@ -26,7 +26,7 @@ export default class Nav extends Component {
         [
         {key: 1, title: 'Home', path: '/'},
         {key: 2, title: 'Maps', path: '/maps'},
-        {key: 3, title: 'Blog', path: '/blogs'},
+        {key: 3, title: 'Blog', path: '/blogituez'},
         {key: 4, title: 'Contact', path: '/contact'}
       ]
 

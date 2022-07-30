@@ -2,7 +2,7 @@ import {useRef} from 'react'
 import Link from 'next/link'
 import sty from '../../styles/Blogcard.module.css'
 
-export default function Card({post})
+export default function SubjectCard({tag})
 {
     const btn = useRef('')
     const onButtonClick = () => {
@@ -17,14 +17,11 @@ export default function Card({post})
         <article className={sty.card}>
             <div className={sty.imageContainer}>
                 <img className={sty.cardImage} 
-                src={'../' + post.frontmatter.cover_image} 
-                alt={post.frontmatter.title}></img>
+                src={'images/' + tag + '.png'}
+                alt={tag}></img>
              </div>
-            <div className={sty.postDate}>
-                <div>{post.frontmatter.date}</div>
-            </div>
-            <Link href={`dev/${post.slug}`}> 
-            <button className={sty.excerptBtn}>{post.frontmatter.title}</button></Link> 
+            <Link href={`blogitudez/${tag}`}> 
+            <button className={sty.excerptBtn}>{tag}</button></Link> 
         </article>
     )
 }
