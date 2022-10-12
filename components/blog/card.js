@@ -12,7 +12,9 @@ export default function Card({post})
             btn.current.style.backgroundColor = "#2f4f4f"
             }, 150)
     };
-
+    const tag = post.frontmatter.tag.split(':')[0]
+    console.log(post)
+    console.log(tag)
     return (
         <article className={sty.card}>
             <div className={sty.imageContainer}>
@@ -23,7 +25,7 @@ export default function Card({post})
             <div className={sty.postDate}>
                 <div>{post.frontmatter.date}</div>
             </div>
-            <Link href={`dev/${post.slug}`}> 
+            <Link href={`${tag}/${post.slug}`}> 
             <button className={sty.excerptBtn}>{post.frontmatter.title}</button></Link> 
         </article>
     )

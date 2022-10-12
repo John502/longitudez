@@ -11,7 +11,7 @@ export default function Fiddle({posts}) {
 
   return (
     <>
-    <Meta title={Meta.defaultProps.title + ' | Recipes'} /> 
+    <Meta title={Meta.defaultProps.title + ' | Fiddle Tune Chords'} /> 
     <div className={sty.container}>   
     <div className={sty.header}>Fiddletudez</div>/
     <div className={sty.cards}>
