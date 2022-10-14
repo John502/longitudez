@@ -1,13 +1,11 @@
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
-import { sortByDate } from '../../utils'
+
 import Meta from '../../components/Meta'
-import Card from '../../components/blog/card'
-import sty from '../../styles/Blogs.module.css'
+import Tune from '../../components/tunes/tunes'
+import sty from '../../styles/Tunes.module.css'
+import { tunesData } from "../../data/tunes"
 
 
-export default function Fiddle({posts}) {
+export default function Fiddle({tunes}) {
 
   return (
     <>
@@ -15,8 +13,8 @@ export default function Fiddle({posts}) {
     <div className={sty.container}>   
     <div className={sty.header}>Fiddletudez</div>/
     <div className={sty.cards}>
-      {posts.map((post, index) => (
-          <Card key={index} post={post}></Card>
+      {tunes.map((tune, index) => (
+          <Tune tune={tune} key={index}>{tune.title}</Tune>
         ))}
     </div>
     </div>
@@ -24,33 +22,12 @@ export default function Fiddle({posts}) {
   )
 }
 
-
-export async function getStaticProps(){
+export const getStaticProps = async () => {
   
-  //Get files from post directory
-  const files = fs.readdirSync(path.join('blogs/markdown'))
-
-  
-  // Get slug and front matter
-  const posts = files.map((filename) =>
-   {
-     const slug = filename.replace('.md', '')
-     const markDownWithMeta = fs.readFileSync(path.join('blogs/markdown', filename), 'utf-8')
-
-     const {data : frontmatter} = matter(markDownWithMeta)
-
-     return {
-       slug, 
-       frontmatter
-     }
-     
-   }
-  ).filter((apost) => apost.frontmatter.tag.split(':')[0] === 'fiddle')
-
   return {
-    props : {
-      posts : posts.sort(sortByDate)
-    }
-
+    props: {
+      tunes: tunesData,
+    },
   }
 }
+ 

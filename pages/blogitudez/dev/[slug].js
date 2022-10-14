@@ -58,7 +58,6 @@ export async function getStaticPaths(){
       }
 
     }))
-
     return {
       paths,
       // 404 if you try to access a path that doesn't exist
