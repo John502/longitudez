@@ -5,15 +5,23 @@ import sty from '../../../styles/Blogpost.module.css'
 import {tunesData} from '../../../data/tunes'
 
 
-export default function TunePost({slug, title})
+export default function TunePost({slug, title, arrangements})
 {
-
+  const arr = arrangements[0]
+  const staffs = arr.staffs 
+  console.log(arr.staffs.A1)
+  
   return  <>
            <Meta title={Meta.defaultProps.title + ' | ' + title} />
            <Meta description={title} />
           <div className={sty.container}>
           <article className={sty.content}>
              <h1>{title}</h1>
+             <h2>Key: {arr.key}</h2>
+             <div>A1 : {arr.staffs.A1}</div>
+             <div>A2 : {arr.staffs.A2}</div>
+             <div>B1 : {arr.staffs.B1}</div>
+             <div>B2 : {arr.staffs.B2}</div>
         </article>
         </div>
           </>
@@ -40,9 +48,10 @@ export async function getStaticPaths(){
     const tune = filtered[0]
     const slug = tune.slug
     const title = tune.title
+    const arrangements = tune.arrangements
 
     return {
-      props: {slug, title},
+      props: {slug, title, arrangements},
     }
   }
 
