@@ -1,46 +1,45 @@
-.container{
-    padding-top: 8.3vh;
-    height: auto;
-    background-color: var(--dark-neutral-background);
+.container {
+  padding-top: 8.3vh;
+  height: auto;
+  background-color: var(--dark-neutral-background);
 }
 
-.content{
-    top: 6.3vh;
-    height: 100%;
-    width: 80vw;
-    margin-left: 1rem;
-    color: var(--primary-color);
-    font-family: Arial, Helvetica, sans-serif;
-    
+.content {
+  top: 6.3vh;
+  height: 100%;
+  width: 80vw;
+  margin-left: 1rem;
+  color: var(--primary-color);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.content p{
-    margin-bottom: 1rem;
-    font-size: 1.15rem;
+.content p {
+  margin-bottom: 1rem;
+  font-size: 1.15rem;
 }
 
-.content pre{
-    font-size: 0.75rem;
-    padding-bottom: 1rem;
+.content pre {
+  font-size: 0.75rem;
+  padding-bottom: 1rem;
 }
 
-.content h1{
-    padding-bottom: 1rem;
+.content h1 {
+  padding-bottom: 1rem;
 }
 
-.content h2{
-    padding-bottom: 1rem;
+.content h2 {
+  padding-bottom: 1rem;
 }
 
-.content h3{
-    padding-bottom: 1rem;
+.content h3 {
+  padding-bottom: 1rem;
 }
 
-.content p a{
-    font-weight: bold;
-    font-size: medium;
+.content p a {
+  font-weight: bold;
+  font-size: medium;
 }
 
-.content p a:hover{
-    text-decoration: underline;
+.content p a:hover {
+  text-decoration: underline;
 }

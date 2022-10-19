@@ -2,7 +2,7 @@
 
 Built with NextJs
 
-Clone repo and cd to repo.   
+Clone repo and cd to repo.
 
 ```bash
 npm install
@@ -11,6 +11,7 @@ npm install
 ```bash
 npm run dev
 ```
+
 Build Site Map and export
 
 ```bash

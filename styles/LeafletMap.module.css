@@ -1,10 +1,10 @@
-.container{
-    height: 100vh;
-    position: relative;
+.container {
+  height: 100vh;
+  position: relative;
 }
 
-.mapcontainer{
-    height: 100%;
-    color: var(--primary-color); 
-    z-index: 2; 
+.mapcontainer {
+  height: 100%;
+  color: var(--primary-color);
+  z-index: 2;
 }

@@ -1,14 +1,14 @@
 ---
 title: "Tuna Marinade"
-date: 'July 24 2022'
-excerpt: 'Tantilizing Tuna Steak Marinade'
-cover_image: 'images/posts/010_Tuna_Steak_Marinade.png'
-tag: 'recipe:sauce:tuna:marinade'
+date: "July 24 2022"
+excerpt: "Tantilizing Tuna Steak Marinade"
+cover_image: "images/posts/010_Tuna_Steak_Marinade.png"
+tag: "recipe:sauce:tuna:marinade"
 ---
 
-# Tuna Steak Marinade 
+# Tuna Steak Marinade
 
-Makes enough for a couple steaks. 
+Makes enough for a couple steaks.
 
 ```
 1/4 cup soy sauce

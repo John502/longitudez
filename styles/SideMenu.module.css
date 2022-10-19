@@ -1,54 +1,51 @@
-.shownDiv{
-    visibility: visible
+.shownDiv {
+  visibility: visible;
 }
 
-.sidemenu{
-    position: fixed;
-    height: 93.7vh;
-    width: 35vw;
-    font-family: 'Hammersmith One', sans-serif;
-    color: var(--primary-color);
-    top: 6.2vh;
-    background-color: var(--primary-background-color);
-    margin-left: 65vw;
-    display: grid;
-    justify-content: left;
-    z-index: 3;
+.sidemenu {
+  position: fixed;
+  height: 93.7vh;
+  width: 35vw;
+  font-family: "Hammersmith One", sans-serif;
+  color: var(--primary-color);
+  top: 6.2vh;
+  background-color: var(--primary-background-color);
+  margin-left: 65vw;
+  display: grid;
+  justify-content: left;
+  z-index: 3;
 }
 
-.menucontainer{
-    visibility: hidden;
+.menucontainer {
+  visibility: hidden;
 }
 
-
-.sidemenu ul{
-    padding-top: 5vh;
-    padding-left: 1.25vw;
-    list-style-type: none;
-    visibility: inherit;
+.sidemenu ul {
+  padding-top: 5vh;
+  padding-left: 1.25vw;
+  list-style-type: none;
+  visibility: inherit;
 }
 
-.sidemenu li{
-    width: 100%;
-    margin: 1.5vh;
-    font-size: 5vw;
-    box-shadow: 1vh 1vh #3b6969;
+.sidemenu li {
+  width: 100%;
+  margin: 1.5vh;
+  font-size: 5vw;
+  box-shadow: 1vh 1vh #3b6969;
+  margin-bottom: 10vh;
+}
+
+.sidemenu li:hover {
+  box-shadow: 1vh 1vh var(--dark-neutral-background);
+}
+
+@media screen and (min-width: 1025px) {
+  .sidemenu li {
     margin-bottom: 10vh;
+    font-size: 2vw;
+  }
+  .sidemenu {
+    margin-left: 85vw;
+    width: 15vw;
+  }
 }
-
-.sidemenu li:hover{ 
-    box-shadow: 1vh 1vh var(--dark-neutral-background);
-}
-
-@media screen and (min-width: 1025px){
-    .sidemenu li{
-        margin-bottom: 10vh;
-        font-size: 2vw;
-    }
-    .sidemenu{
-        margin-left: 85vw;
-        width: 15vw
-    }
-}
-
-
