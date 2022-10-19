@@ -1,27 +1,27 @@
-.container{
-    padding-top: 6.3vh;
-    background-image: url(../public/TopoMap.png);
-    background-repeat: repeat-x;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    width: auto;
+.container {
+  padding-top: 6.3vh;
+  background-image: url(../public/TopoMap.png);
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: auto;
 }
 
-.header{
-    margin-top: 1rem;
-    margin-left: 2rem;
-    color: var(--primary-color);
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 3rem;
-    text-align: center;
+.header {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  color: var(--primary-color);
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .cards {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 1rem;
-    place-items: center;
-  }
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  place-items: center;
+}

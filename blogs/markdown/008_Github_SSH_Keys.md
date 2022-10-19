@@ -1,15 +1,14 @@
 ---
 title: "Github SSH"
-date: 'June 3 2022'
-excerpt: 'GitHub Use SSH Keys'
-cover_image: 'images/posts/008_GitHub_SSH.jpg'
-tag: 'dev:github:ssh'
+date: "June 3 2022"
+excerpt: "GitHub Use SSH Keys"
+cover_image: "images/posts/008_GitHub_SSH.jpg"
+tag: "dev:github:ssh"
 ---
 
 # Set up Git with SSA
 
-
-GitHub is no longer accepting account passwords so you would have to copy and paste an access token over http utilizing the command line. 
+GitHub is no longer accepting account passwords so you would have to copy and paste an access token over http utilizing the command line.
 
 Open terminal and create a new ssh key
 
@@ -17,7 +16,7 @@ Open terminal and create a new ssh key
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-Start your ssh agent and add your ssh key. 
+Start your ssh agent and add your ssh key.
 
 ./ssh/<id_output_from_above>
 
@@ -25,6 +24,7 @@ Start your ssh agent and add your ssh key.
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25119
 ```
+
 Copy the below terminal output of the file contents to clip board.
 
 ```bash
@@ -40,6 +40,5 @@ Set your repo to use SSH.
 ```bash
 git remote set-url origin git@github.com:<username>/<repo>.git
 ```
- You're now using your SSH Key!
 
-
+You're now using your SSH Key!

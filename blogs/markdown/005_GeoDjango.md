@@ -1,9 +1,9 @@
 ---
-title: 'GeoDjango Notes'
-date: 'December 28 2021'
-excerpt: 'GeoDjango Utilizations'
-cover_image: 'images/posts/005_GeoDjango.png'
-tag: 'dev:python:geospatial:django'
+title: "GeoDjango Notes"
+date: "December 28 2021"
+excerpt: "GeoDjango Utilizations"
+cover_image: "images/posts/005_GeoDjango.png"
+tag: "dev:python:geospatial:django"
 ---
 
 # Creating a TTD GeoDjango App
@@ -20,7 +20,7 @@ Create a new GeoDjango project
 django-admin startproject longitudezGeoDjango
 ```
 
-I'm using build in SQLite. In {project}/settings.py configure you database. 
+I'm using build in SQLite. In {project}/settings.py configure you database.
 
 ```python
 DATABASES = {
@@ -30,6 +30,7 @@ DATABASES = {
     }
 }
 ```
+
 Also install a linux dependency
 
 ```bash
@@ -66,7 +67,6 @@ Set up environment variables for GeoDjango.
 
 (https://alicecampkin.medium.com/how-to-set-up-environment-variables-in-django-f3c4db78c55f)[https://alicecampkin.medium.com/how-to-set-up-environment-variables-in-django-f3c4db78c55f]
 
-
 # Pytest in DJANGO
 
 Install pytest-django
@@ -97,7 +97,6 @@ Preview SQL commands to be executed for migration
 python manage.py sqlmigrate world 0001
 ```
 
-
 If using spatial lite, modify your DATABASES in settings.py to
 
 ```python
@@ -108,6 +107,7 @@ DATABASES = {
     }
 }
 ```
+
 Install libsqlite3-mod-spatialite (I'm on Ubuntu)
 
 ```bash
@@ -115,7 +115,7 @@ sudo apt-get install libsqlite3-mod-spatialite
 ```
 
 Perform the migration
+
 ```bash
 python manage.py migrate
 ```
-

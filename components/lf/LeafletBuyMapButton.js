@@ -1,25 +1,24 @@
 import React, { Component, useState } from "react";
 import { useMap } from "react-leaflet";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 import L, { LeafletMouseEvent, Map } from "leaflet";
 
 class LeafletBuyMapButton extends React.Component {
   btnDiv;
 
   createButtonControl() {
-
     const DisplayBuyMapButtonDom = L.Control.extend({
       onAdd: (map) => {
         const btnDiv = L.DomUtil.create("button", "buymap");
         this.btnDiv = btnDiv;
         btnDiv.innerHTML = this.props.title;
-        
+
         btnDiv.addEventListener("click", () => {
-          window.open(this.props.etsy_url, "_blank");  
-         });
+          window.open(this.props.etsy_url, "_blank");
+        });
 
         return btnDiv;
-      }
+      },
     });
     return new DisplayBuyMapButtonDom({ position: "bottomright" });
   }

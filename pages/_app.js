@@ -1,25 +1,24 @@
-import Layout from '../components/Layout'
-import '../styles/globals.css'
-import { useEffect } from 'react'
-import Script from 'next/script'
-import { useRouter } from 'next/router'
-import * as gtag from '../lib/gtag'
-
+import Layout from "../components/Layout";
+import "../styles/globals.css";
+import { useEffect } from "react";
+import Script from "next/script";
+import { useRouter } from "next/router";
+import * as gtag from "../lib/gtag";
 
 function App({ Component, pageProps }) {
-  
-  const router = useRouter()
+  const router = useRouter();
   useEffect(() => {
     const handleRouteChange = (url) => {
-      gtag.pageview(url)
-    }
-    router.events.on('routeChangeComplete', handleRouteChange)
+      gtag.pageview(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
     return () => {
-      router.events.off('routeChangeComplete', handleRouteChange)
-    }
-  }, [router.events])
-  
-  return (<>
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+
+  return (
+    <>
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
         strategy="afterInteractive"
@@ -39,9 +38,10 @@ function App({ Component, pageProps }) {
           `,
         }}
       />
-  <Layout></Layout>
-  <Component {...pageProps} /></>)
-  
+      <Layout></Layout>
+      <Component {...pageProps} />
+    </>
+  );
 }
 
-export default App
+export default App;

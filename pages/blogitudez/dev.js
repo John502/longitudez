@@ -1,56 +1,52 @@
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
-import { sortByDate } from '../../utils'
-import Meta from '../../components/Meta'
-import Card from '../../components/blog/card'
-import sty from '../../styles/Blogs.module.css'
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import { sortByDate } from "../../utils";
+import Meta from "../../components/Meta";
+import Card from "../../components/blog/card";
+import sty from "../../styles/Blogs.module.css";
 
-
-export default function Dev({posts}) {
-  
+export default function Dev({ posts }) {
   return (
     <>
-    <Meta title={Meta.defaultProps.title + ' | Dev Blogs'} /> 
-    <div className={sty.container}>   
-    <div className={sty.header}>Devitudez</div>
-    <div className={sty.cards}>
-      {posts.map((post, index) => (
-          <Card key={index} post={post}></Card>
-        ))}
-    </div>
-    </div>
+      <Meta title={Meta.defaultProps.title + " | Dev Blogs"} />
+      <div className={sty.container}>
+        <div className={sty.header}>Devitudez</div>
+        <div className={sty.cards}>
+          {posts.map((post, index) => (
+            <Card key={index} post={post}></Card>
+          ))}
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-
-export async function getStaticProps(){
-  
+export async function getStaticProps() {
   //Get files from post directory
-  const files = fs.readdirSync(path.join('blogs/markdown'))
+  const files = fs.readdirSync(path.join("blogs/markdown"));
 
-  
   // Get slug and front matter
-  const posts = files.map((filename) =>
-   {
-     const slug = filename.replace('.md', '')
-     const markDownWithMeta = fs.readFileSync(path.join('blogs/markdown', filename), 'utf-8')
+  const posts = files
+    .map((filename) => {
+      const slug = filename.replace(".md", "");
+      const markDownWithMeta = fs.readFileSync(
+        path.join("blogs/markdown", filename),
+        "utf-8"
+      );
 
-     const {data : frontmatter} = matter(markDownWithMeta)
+      const { data: frontmatter } = matter(markDownWithMeta);
 
-     return {
-       slug, 
-       frontmatter
-     }
-     
-   }
-  ).filter((apost) => apost.frontmatter.tag.split(':')[0] === 'dev')
+      return {
+        slug,
+        frontmatter,
+      };
+    })
+    .filter((apost) => apost.frontmatter.tag.split(":")[0] === "dev");
 
   return {
-    props : {
-      posts : posts.sort(sortByDate)
-    }
-
-  }
+    props: {
+      posts: posts.sort(sortByDate),
+    },
+  };
 }

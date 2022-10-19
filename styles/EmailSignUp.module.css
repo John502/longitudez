@@ -1,31 +1,28 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.inputTextBox{
-    font-family: 'Hammersmith One', sans-serif;
-    margin-bottom: 2vh;
-    width: 70vw;
-    height: 7vh;
-    font-size: 2.5vh;
-    text-align: center;
-    border-radius: 2vh;
-    border-style: hidden;
+.inputTextBox {
+  font-family: "Hammersmith One", sans-serif;
+  margin-bottom: 2vh;
+  width: 70vw;
+  height: 7vh;
+  font-size: 2.5vh;
+  text-align: center;
+  border-radius: 2vh;
+  border-style: hidden;
 }
 
-
-@media screen and (min-width: 1025px){
-    .inputTextBox{
-        width: 50vw;
-    }
-
+@media screen and (min-width: 1025px) {
+  .inputTextBox {
+    width: 50vw;
+  }
 }
 
-@media screen and (max-width: 1025px) and (orientation: landscape){
-    .inputTextBox{
-        width: 50vw;
-    }
-
+@media screen and (max-width: 1025px) and (orientation: landscape) {
+  .inputTextBox {
+    width: 50vw;
+  }
 }

@@ -1,9 +1,9 @@
 ---
 title: "geoMesa Kafka"
-date: 'May 18 2022'
-excerpt: 'Setting up GeoMesa with a Kafka stream'
-cover_image: 'images/posts/007_GeoMesa.png'
-tag: 'dev:geomesa:kafka:geoserver:geospatial'
+date: "May 18 2022"
+excerpt: "Setting up GeoMesa with a Kafka stream"
+cover_image: "images/posts/007_GeoMesa.png"
+tag: "dev:geomesa:kafka:geoserver:geospatial"
 ---
 
 # geomesa and Kafka
@@ -19,7 +19,7 @@ sudo apt install default-jre
 java --version
 ```
 
-#### Install Apache Maven  
+#### Install Apache Maven
 
 [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)
 
@@ -28,12 +28,14 @@ Update the $PATH
 ```bash
 export PATH=$PATH:$HOME/apache-maven-3.8.5/bin
 ```
+
 Confirm with mvn -v in a new shell
 
 ```bash
 mvn -v
 ```
-#### Install Kafka    
+
+#### Install Kafka
 
 I followed the quick start guide.
 
@@ -42,11 +44,13 @@ I followed the quick start guide.
 ```bash
 export PATH=$PATH:$HOME/geomesa/kafka_2.13-3.2.0
 ```
+
 Start Zookeeper
 
 ```bash
 $KAFKA_DIR/bin/zookeeper-server-start.sh config/zookeeper.properties
 ```
+
 Start another terminal and start the kafka services
 
 ```bash
@@ -66,9 +70,9 @@ $ cd geomesa-tutorials
 mvn clean install -pl geomesa-tutorials-kafka/geomesa-tutorials-kafka-quickstart -am
 ```
 
-#### Run the tutorial  
-  
-User needs to supply kafka.brokers and kafka.zookeepers, local installs are:  
+#### Run the tutorial
+
+User needs to supply kafka.brokers and kafka.zookeepers, local installs are:
 
 kafka.brokers localhost:9092  
 kafka.zookeeper localhost:2181
@@ -80,7 +84,6 @@ java -cp geomesa-tutorials-kafka/geomesa-tutorials-kafka-quickstart/target/geome
     --kafka.zookeepers localhost:2181 \
     --cleanup
 ```
-
 
 if you receive an error like below you need to install java 8
 
@@ -99,6 +102,7 @@ Install JDK 8
 ```bash
 sudo apt-get install openjdk-8-jdk
 ```
+
 You should see some business happening
 
 ```bash
@@ -113,14 +117,13 @@ java -cp geomesa-tutorials-kafka/geomesa-tutorials-kafka-quickstart/target/geome
 Writing features to Kafka... refresh GeoServer layer preview to see changes
 ```
 
-## Install with GeoServer for visualization  
+## Install with GeoServer for visualization
 
-#### Download GeoServer   
+#### Download GeoServer
 
-[https://docs.geoserver.org/stable/en/user/installation/linux.html](https://docs.geoserver.org/stable/en/user/installation/linux.html)  
+[https://docs.geoserver.org/stable/en/user/installation/linux.html](https://docs.geoserver.org/stable/en/user/installation/linux.html)
 
-Another helpful 
-
+Another helpful
 
 Extract and add to env variables
 
@@ -136,24 +139,25 @@ Make yourself the owner of the server
 sudo chown -R USER_NAME /usr/share/geoserver/
 ```
 
-Start server with 
+Start server with
 
 ```bash
 cd geoserver/bin
 sh startup.sh
 ```
+
 Stop your server Ctrl+C.
 
 You'll need to install the WPS plugin  
-[https://docs.geoserver.org/stable/en/user/services/wps/install.html](https://docs.geoserver.org/stable/en/user/services/wps/install.html)  
+[https://docs.geoserver.org/stable/en/user/services/wps/install.html](https://docs.geoserver.org/stable/en/user/services/wps/install.html)
 
-WEB-INF DIR referenced in docs is located  
+WEB-INF DIR referenced in docs is located
 
 ```bash
 <yourgeoserverbuild>/webapps/geoserver
 ```
 
-Had to use the WPS 2.19, 2.20.4 would not run. 
+Had to use the WPS 2.19, 2.20.4 would not run.
 
 Install Kafka Plugin for Geoserver
 
@@ -168,14 +172,14 @@ Install the plugins
 bin/manage-geoserver-plugins.sh --lib-dir /usr/share/geoserver/webapps/geoserver/WEB-INF/lib/ --install
 ```
 
-Retart geoserver  
+Retart geoserver
 
 ```bash
 cd usr/share/geoserver
 sh bin/startup.sh
 ```
 
-Login with default **admin** & **geoserver**  
+Login with default **admin** & **geoserver**
 
 You should see new Apache Kafka Data Stores listed in Geoserver
 

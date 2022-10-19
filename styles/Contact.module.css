@@ -1,129 +1,127 @@
-.container{
-    padding-top: 6.2vh;
-    height: 100vh;
-    width: auto;
-    background-image: url(../public/TopoMap.png);
-    background-size: cover;
-    background-position: center;
-    font-family: 'Hammersmith One', sans-serif;
+.container {
+  padding-top: 6.2vh;
+  height: 100vh;
+  width: auto;
+  background-image: url(../public/TopoMap.png);
+  background-size: cover;
+  background-position: center;
+  font-family: "Hammersmith One", sans-serif;
 }
 
-.aboutMe{
-    padding-top: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 0.5rem;
+.aboutMe {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 0.5rem;
 }
 
-.portrait{
-    margin-left: .7rem;
-    width: 5rem;
-    height: 5rem;
+.portrait {
+  margin-left: 0.7rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.cv {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.form {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: var(--primary-color);
+  font-size: calc(2vh + 2vw + 1vmin);
+}
+
+.inputField {
+  font-family: "Hammersmith One", sans-serif;
+  margin-bottom: 1vh;
+  width: auto;
+  height: 7vh;
+  font-size: calc(1.5vh + 1.5vw + 0.75vmin);
+  text-align: left;
+  border-radius: 2vh;
+  border-style: hidden;
+}
+
+.message {
+  font-family: "Hammersmith One", sans-serif;
+  margin-bottom: 2vh;
+  width: auto;
+  height: 15vh;
+  font-size: 2.5vh;
+  text-align: left;
+  border-radius: 2vh;
+  border-style: hidden;
+}
+
+.button {
+  font-family: "Hammersmith One", sans-serif;
+  background-color: var(--primary-background-color);
+  color: var(--primary-color);
+  border-radius: 2vh;
+  width: 40vw;
+  border-style: hidden;
+  font-size: 2.5vh;
+  height: 6vh;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media screen and (min-width: 768px) {
+  .portrait {
+    margin-left: 2rem;
+    width: 12rem;
+    height: 12rem;
     border-radius: 50%;
-}
+  }
+  .cv {
+    margin-left: 3rem;
+    font-size: 2.5rem;
+  }
 
-.cv{
-    margin-left: 1rem;
-    font-size: 1.5rem;
+  .form {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .portrait {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+  }
+  .cv {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 2.5rem;
+  }
+  .form {
+    width: 50%;
+    margin-left: 5rem;
+  }
+  .label {
     color: var(--primary-color);
-}
-
-.form{
-    margin-top: 1rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.inputGroup{
-    display: flex;
-    flex-direction: column;
-}
-
-.label{
-    color: var(--primary-color);
-    font-size: calc(2vh + 2vw + 1vmin);
-}
-
-.inputField{
-    font-family: 'Hammersmith One', sans-serif;
-    margin-bottom: 1vh;
-    width: auto;
-    height: 7vh;
-    font-size: calc(1.5vh + 1.5vw + 0.75vmin);
-    text-align: left;
-    border-radius: 2vh;
-    border-style: hidden;
-}
-
-.message{
-    font-family: 'Hammersmith One', sans-serif;
-    margin-bottom: 2vh;
-    width: auto;
-    height: 15vh;
-    font-size: 2.5vh;
-    text-align: left;
-    border-radius: 2vh;
-    border-style: hidden;
-}
-
-.button{
-    font-family: 'Hammersmith One', sans-serif;
-    background-color: var(--primary-background-color);
-    color: var(--primary-color);
-    border-radius: 2vh;
-    width: 40vw;
-    border-style: hidden;
-    font-size: 2.5vh;
-    height: 6vh;
-}
-
-.button:focus{
-    outline: none;
-    box-shadow: none;
-}
-
-@media screen and (min-width: 768px){
-    .portrait{
-        margin-left: 2rem;
-        width: 12rem;
-        height: 12rem;
-        border-radius: 50%;
-    }
-    .cv{
-        margin-left: 3rem;
-        font-size: 2.5rem;
-    }
-
-    .form{
-        width: 60%
-    }
-
-}
-@media screen and (min-width: 769px){
-    .portrait{
-        margin-left: 3rem;
-        width: 7rem;
-        height: 7rem;
-        border-radius: 50%;
-    }
-    .cv{
-        margin-left: 3rem;
-        margin-right: 3rem;
-        font-size: 2.5rem;
-    }
-    .form{
-        width: 50%;
-        margin-left: 5rem;
-    }
-    .label{
-        color: var(--primary-color);
-        font-size: calc(1vh + 1vw + 0.5vmin);
-    }
-    .button{
-        width: 30%
-    }
-
+    font-size: calc(1vh + 1vw + 0.5vmin);
+  }
+  .button {
+    width: 30%;
+  }
 }

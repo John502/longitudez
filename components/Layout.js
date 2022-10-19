@@ -1,19 +1,15 @@
-import Meta from './Meta'
-import Nav from './Nav'
-import styles from '../styles/Layout.module.css'
+import Meta from "./Meta";
+import Nav from "./Nav";
+import styles from "../styles/Layout.module.css";
 
+const Layout = ({ children }) => {
+  return (
+    <>
+      <Meta />
+      {children}
+      <Nav></Nav>
+    </>
+  );
+};
 
-const Layout = ({children}) => {
-    return (
-        <>
-        <Meta />
-        {children}
-        <Nav></Nav>
-
-        </>
-    )
-}
-
-
-
-export default Layout
+export default Layout;

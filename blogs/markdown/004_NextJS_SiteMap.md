@@ -1,21 +1,20 @@
 ---
-title: 'NextJS Site Map'
-date: 'November 15 2021'
-excerpt: 'Generate a Site Map with Next JS'
-cover_image: 'images/posts/004_NextJS_SEO_Square.png'
-tag: 'dev:seo:nextjs'
+title: "NextJS Site Map"
+date: "November 15 2021"
+excerpt: "Generate a Site Map with Next JS"
+cover_image: "images/posts/004_NextJS_SEO_Square.png"
+tag: "dev:seo:nextjs"
 ---
 
 # SEO Site Map for Next JS
 
-Search engines need to index your website, in order to do that we need to create a sitemap.  We are going to utilize [NEXT-SITEMAP](https://www.npmjs.com/package/next-sitemap).
-
+Search engines need to index your website, in order to do that we need to create a sitemap. We are going to utilize [NEXT-SITEMAP](https://www.npmjs.com/package/next-sitemap).
 
 ### Update package.json
 
-In the package.json of our root NextJS directory where we dictate the build commands. 
+In the package.json of our root NextJS directory where we dictate the build commands.
 
-Add the `postbuild next-sitemap` command to generate a file at build time. 
+Add the `postbuild next-sitemap` command to generate a file at build time.
 
 ```bash
   "scripts": {
@@ -26,11 +25,11 @@ Add the `postbuild next-sitemap` command to generate a file at build time.
   }
 ```
 
-### Create next-sitemap.js 
+### Create next-sitemap.js
 
-`next-sitemap` requires a configuration file to create the site map.  Create a `next-sitemap.js` file in your root directory to pass the build commands at run time. 
+`next-sitemap` requires a configuration file to create the site map. Create a `next-sitemap.js` file in your root directory to pass the build commands at run time.
 
-Populate with this default information from the documentation. 
+Populate with this default information from the documentation.
 
 ```bash
 module.exports = {
@@ -42,9 +41,8 @@ module.exports = {
 
 ### Generate Sitemap.xml & Robots.txt
 
-`npm run build` will generate a sitemap.xml & robots.txt for you Next.js site. 
+`npm run build` will generate a sitemap.xml & robots.txt for you Next.js site.
 
-They will be located in the root directory of your project. 
+They will be located in the root directory of your project.
 
-Hopefully, now someone will actually visit the site. 
-
+Hopefully, now someone will actually visit the site.

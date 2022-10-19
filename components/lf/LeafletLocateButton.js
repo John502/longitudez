@@ -6,49 +6,44 @@ class LeafletLocateButton extends React.Component {
   btnDiv;
 
   createButtonControl() {
-
     const DisplayLocationButtonDom = L.Control.extend({
       onAdd: (map) => {
         const btnDiv = L.DomUtil.create("button", "locate-btn");
         this.btnDiv = btnDiv;
-        const marker = null
-        this.marker = marker
+        const marker = null;
+        this.marker = marker;
         btnDiv.innerHTML = this.props.title;
 
         const iconOptions = {
-            iconUrl: '../walker_blue.png',
-            iconSize: [35, 35]
-         }
+          iconUrl: "../walker_blue.png",
+          iconSize: [35, 35],
+        };
 
         const aim_icon = L.icon(iconOptions);
 
         // Options for the marker
         const markerOptions = {
-            title: "Loc",
-            icon: aim_icon
-        }
+          title: "Loc",
+          icon: aim_icon,
+        };
 
-        
         btnDiv.addEventListener("click", () => {
-          
-          
-          map.locate().on("locationfound", (e) =>{
+          map.locate().on("locationfound", (e) => {
             map.flyTo(e.latlng, map.getZoom());
             if (this.marker !== null) {
-                // remove the marker
-                this.marker.setLatLng(e.latlng);
+              // remove the marker
+              this.marker.setLatLng(e.latlng);
+            } else {
+              this.marker = L.marker(e.latlng, markerOptions);
+              this.marker.addTo(map);
             }
-            else {
-                this.marker = L.marker(e.latlng, markerOptions)
-                this.marker.addTo(map)
-           }
-          })
+          });
         });
 
         //a bit clueless how to add a click event listener to this button and then
         // open a popup div on the map
         return btnDiv;
-      }
+      },
     });
     return new DisplayLocationButtonDom({ position: "topright" });
   }
