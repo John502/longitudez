@@ -24,7 +24,7 @@ export default function Fiddle({ tunes }) {
 export const getStaticProps = async () => {
   return {
     props: {
-      tunes: tunesData,
+      tunes: tunesData.sort((a, b) => (a.slug > b.slug) ? 1 : -1),
     },
   };
 };

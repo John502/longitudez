@@ -19,10 +19,6 @@ export default function TunePost({ slug, title, arrangements }) {
           {arr.staffs.map((staff, index) => (
             <Staff staff={Object.entries(staff)}></Staff>
           ))}
-          {/* <Staff staff={arr.staffs.A1} title='A1'></Staff> */}
-          {/* <div>A2 : {arr.staffs[1]}</div>
-             <div>B1 : {arr.staffs[2]}</div>
-             <div>B2 : {arr.staffs[3]}</div> */}
         </article>
       </div>
     </>
