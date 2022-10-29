@@ -7,5 +7,12 @@ slug: "Louisville_Breakdown_G"
 ## Louisville Breakdown
 
 ### Key G
-# G---|G-D-|G---|G-D-|
-# G--C|G-D-|G--C|G-D-|
+
+| A     |  |      |      |
+| :---: | :----: | :---: | :---:|
+|G---\||G-D-\||G---\|| G-D-|   
+
+
+| B     |  |      |      |
+| :---: | :----: | :---: | :---:|
+|G--C\|| G-D-\||G--C\|| G-D-|
