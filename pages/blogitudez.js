@@ -30,23 +30,25 @@ export default function Blogs({ tags }) {
 
 export async function getStaticProps() {
   //Get files from post directory
-  const files = fs.readdirSync(path.join("blogs/markdown"));
+  const files = fs.readdirSync(path.join("blogs/markdown")).filter((afile) => afile.includes('.md'));
 
   // Get slug and front matter
   const posts = files.map((filename) => {
+    if (filename != 'fiddletudez') {
+
     const slug = filename.replace(".md", "");
+    // if (filename != 'fiddletudez')
     const markDownWithMeta = fs.readFileSync(
       path.join("blogs/markdown", filename),
       "utf-8"
     );
-
+    console.log(filename)
     const { data: frontmatter } = matter(markDownWithMeta);
     return {
       slug,
       frontmatter,
     };
-  });
-
+  }}); 
   const tags = posts.map((post, index) => post.frontmatter.tag.split(":")[0]);
 
   return {
