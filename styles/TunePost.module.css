@@ -25,7 +25,6 @@
 
 .content h1 {
   padding-bottom: 1rem;
-  text-align: center;
 }
 
 .content h2 {
@@ -43,4 +42,12 @@
 
 .content p a:hover {
   text-decoration: underline;
+}
+
+.content table{
+  margin-bottom: 1rem;
+  text-align: justify;
+  width: 100%;
+  font-size: 1.5rem;
+  letter-spacing: 0.175rem;
 }
