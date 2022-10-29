@@ -1,34 +1,63 @@
 import React from "react";
+import ReactDom from "react-dom";
+import ReactMarkdown from "react-markdown";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { materialDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import remarkGfm from "remark-gfm";
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
 import Meta from "../../../components/Meta";
+import sty from "../../../styles/TunePost.module.css";
+import { Content } from "@aws-sdk/client-sesv2";
 
-import sty from "../../../styles/Blogpost.module.css";
-import { tunesData } from "../../../data/tunes";
-import Staff from "../../../components/tunes/staff";
-
-export default function TunePost({ slug, title, arrangements }) {
-  const arr = arrangements[0];
-
+export default function BlogPost({
+  frontmatter: { title, date, cover_image },
+  slug,
+  content,
+}) {
   return (
     <>
       <Meta title={Meta.defaultProps.title + " | " + title} />
-      <Meta description={title} />
+      <Meta description={content} />
       <div className={sty.container}>
         <article className={sty.content}>
-          <h1>{title}</h1>
-          <h2>Key : {arr.key}</h2>
-          {arr.staffs.map((staff, index) => (
-            <Staff staff={Object.entries(staff)}></Staff>
-          ))}
+          <ReactMarkdown
+            children={content}
+            remarkPlugins={[remarkGfm]}
+            components={{
+              code({ node, inline, className, children, ...props }) {
+                const match = /language-(\w+)/.exec(className || "");
+                return !inline && match ? (
+                  <SyntaxHighlighter
+                    children={String(children).replace(/\n$/, "")}
+                    style={materialDark}
+                    language={match[1]}
+                    PreTag="div"
+                    {...props}
+                  />
+                ) : (
+                  <code className={className} {...props}>
+                    {children}
+                  </code>
+                );
+              },
+            }}
+          />
         </article>
+        {/* <div dangerouslySetInnerHTML={{__html: marked(content)}}></div> */}
       </div>
     </>
   );
 }
 
 export async function getStaticPaths() {
-  const paths = tunesData.map((tune) => ({
+  //Get files from post directory
+  const files = fs.readdirSync(path.join("blogs/markdown/fiddletudez"));
+
+  const paths = files.map((filename) => ({
     params: {
-      slug: tune.slug,
+      slug: filename.replace(".md", ""),
     },
   }));
   return {
@@ -38,16 +67,15 @@ export async function getStaticPaths() {
   };
 }
 
-export const getStaticProps = async (context) => {
-  const filtered = tunesData.filter(
-    (tune) => tune.slug === context.params.slug
+export async function getStaticProps({ params: { slug } }) {
+  const markDownWithMeta = fs.readFileSync(
+    path.join("blogs/markdown/fiddletudez", slug + ".md"),
+    "utf-8"
   );
-  const tune = filtered[0];
-  const slug = tune.slug;
-  const title = tune.title;
-  const arrangements = tune.arrangements;
+
+  const { data: frontmatter, content } = matter(markDownWithMeta);
 
   return {
-    props: { slug, title, arrangements },
+    props: { frontmatter, slug, content },
   };
-};
+}
