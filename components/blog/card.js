@@ -12,8 +12,7 @@ export default function Card({ post }) {
     }, 150);
   };
   const tag = post.frontmatter.tag.split(":")[0];
-  console.log(post);
-  console.log(tag);
+
   return (
     <article className={sty.card}>
       <div className={sty.imageContainer}>

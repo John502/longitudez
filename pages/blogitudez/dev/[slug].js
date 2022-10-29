@@ -53,7 +53,7 @@ export default function BlogPost({
 
 export async function getStaticPaths() {
   //Get files from post directory
-  const files = fs.readdirSync(path.join("blogs/markdown"));
+  const files = fs.readdirSync(path.join("blogs/markdown")).filter((afile) => afile.includes('.md'));;
 
   const paths = files.map((filename) => ({
     params: {

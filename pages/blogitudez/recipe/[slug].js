@@ -53,7 +53,7 @@ export default function BlogPost({
 
 export async function getStaticPaths() {
   //Get files from post directory
-  const files = fs.readdirSync(path.join("blogs/markdown"));
+  const files = fs.readdirSync(path.join("blogs/markdown")).filter((afile) => afile.includes('.md'));;
 
   const paths = files.map((filename) => ({
     params: {
@@ -75,7 +75,6 @@ export async function getStaticProps({ params: { slug } }) {
   );
 
   const { data: frontmatter, content } = matter(markDownWithMeta);
-  console.log({ frontmatter, slug, content });
   return {
     props: { frontmatter, slug, content },
   };

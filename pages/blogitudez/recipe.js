@@ -24,7 +24,7 @@ export default function Recipie({ posts }) {
 
 export async function getStaticProps() {
   //Get files from post directory
-  const files = fs.readdirSync(path.join("blogs/markdown"));
+  const files = fs.readdirSync(path.join("blogs/markdown")).filter((afile) => afile.includes('.md'));
 
   // Get slug and front matter
   const posts = files
