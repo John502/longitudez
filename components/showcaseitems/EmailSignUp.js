@@ -64,7 +64,7 @@ const EmailSignUp = () => {
         const sendEmailres = await client.send(sendEmailCommand);
       } catch (error) {
         const { requestId, cfId, extendedRequestId } = error.$metadata;
-        console.log({ requestId, cfId, extendedRequestId });
+       
       }
     }
 

@@ -45,7 +45,6 @@ export const getStaticProps = async () => {
       };
     })
 
-  console.log(posts.sort((a, b) => (a.slug > b.slug) ? 1 : -1))
   return {
     props: {
       tunes: posts.sort((a, b) => (a.slug > b.slug) ? 1 : -1),

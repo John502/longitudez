@@ -42,7 +42,6 @@ export async function getStaticProps() {
       path.join("blogs/markdown", filename),
       "utf-8"
     );
-    console.log(filename)
     const { data: frontmatter } = matter(markDownWithMeta);
     return {
       slug,
