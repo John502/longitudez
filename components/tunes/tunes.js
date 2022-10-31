@@ -12,8 +12,7 @@ export default function Tune({ tune }) {
     }, 150);
   };
   return (
-    <Link href={"fiddletudez/" + `${tune.frontmatter.slug}`}>
-      <button className={sty.excerptBtn}>{tune.frontmatter.title}</button>
-    </Link>
+    <Link href={"fiddletudez/" + `${tune.slug}`}>
+      <button className={sty.excerptBtn}>{tune.title}</button></Link>
   );
 }
