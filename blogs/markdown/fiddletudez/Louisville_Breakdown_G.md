@@ -8,6 +8,8 @@ slug: "Louisville_Breakdown_G"
 
 ### Key G
 
+B U+2098
+
 | A     |  |      |      |
 | :---: | :----: | :---: | :---:|
 |G---\||G-D-\||G---\|| G-D-|   
