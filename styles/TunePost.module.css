@@ -46,8 +46,13 @@
 
 .content table{
   margin-bottom: 1rem;
-  text-align: justify;
+  text-align: center;
   width: 100%;
-  font-size: 1.5rem;
-  letter-spacing: 0.175rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.15rem;
+}
+
+.tunechords{
+  filter: invert(100%) sepia(81%) saturate(0%) hue-rotate(259deg) brightness(104%) contrast(92%);
+  width: 95vw;
 }

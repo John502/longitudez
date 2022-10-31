@@ -1,15 +1,11 @@
 import React from "react";
-import ReactDom from "react-dom";
 import ReactMarkdown from "react-markdown";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { materialDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import remarkGfm from "remark-gfm";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import Meta from "../../../components/Meta";
 import sty from "../../../styles/TunePost.module.css";
-import { Content } from "@aws-sdk/client-sesv2";
 
 export default function BlogPost({
   frontmatter: { title, date, cover_image },
@@ -22,30 +18,11 @@ export default function BlogPost({
       <Meta description={content} />
       <div className={sty.container}>
         <article className={sty.content}>
-          <ReactMarkdown
-            children={content}
-            remarkPlugins={[remarkGfm]}
-            components={{
-              code({ node, inline, className, children, ...props }) {
-                const match = /language-(\w+)/.exec(className || "");
-                return !inline && match ? (
-                  <SyntaxHighlighter
-                    children={String(children).replace(/\n$/, "")}
-                    style={materialDark}
-                    language={match[1]}
-                    PreTag="div"
-                    {...props}
-                  />
-                ) : (
-                  <code className={className} {...props}>
-                    {children}
-                  </code>
-                );
-              },
-            }}
-          />
+        <img src="/images/tunechords/LouisvilleBreakdown.svg" class={sty.tunechords}></img>
+        {/* <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                  {content}
+                  </ReactMarkdown> */}
         </article>
-        {/* <div dangerouslySetInnerHTML={{__html: marked(content)}}></div> */}
       </div>
     </>
   );
