@@ -11,6 +11,7 @@ export default function TunePost({slug, title, chords})
            <Meta description={title} />
           <div className={sty.container}>
           <article className={sty.content}>
+            <h3>{title}</h3>
                     <img src={chords} class={sty.tunechords}></img>       </article>
         </div>
           </>
