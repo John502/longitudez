@@ -6,7 +6,7 @@ import ReactAudioPlayer from 'react-audio-player';
 
 export default function TunePost({slug, title, chords})
 {
-  console.log(chords)
+
   return  <>
            <Meta title={Meta.defaultProps.title + ' | ' + title} />
            <Meta description={title} />
@@ -14,10 +14,11 @@ export default function TunePost({slug, title, chords})
           <article className={sty.content}>
             <h3>{title}</h3>
             <img src={chords} className={sty.tunechords}></img>       </article>
-            <ReactAudioPlayer
-    src="/images/tunechords/Angeline_The_Baker_D_Reel.mp3"
-    controls
-  />,
+            {/* <ReactAudioPlayer
+              className={sty.tunetrack}
+              src="/images/tunechords/Angeline_The_Baker_D_Reel.mp3"
+              controls
+  />, */}
             </div>
           </>
 }
