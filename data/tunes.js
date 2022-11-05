@@ -28,5 +28,17 @@ export const tunesData = [
       title: "Waynesboro Mobile",
       chords: "/images/tunechords/Waynesboro_Mobile.svg",
       key: "A"
+    },
+    {
+      slug: "Shady_Grove_Gm",
+      title: "Shady Grove Gm",
+      chords: "/images/tunechords/Shady_Grove.svg",
+      key: "Gm"
+    }, 
+    {
+      slug: "Shady_Grove_Gm_Capo3",
+      title: "Shady Grove Gm Capo3",
+      chords: "/images/tunechords/Shady_Grove_Capo3.svg",
+      key: "Gm"
     }, 
 ];
