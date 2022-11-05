@@ -2,18 +2,23 @@ import React from 'react'
 import Meta from '../../../components/Meta'
 import sty from '../../../styles/TunePost.module.css'
 import {tunesData} from '../../../data/tunes'
+import ReactAudioPlayer from 'react-audio-player';
 
 export default function TunePost({slug, title, chords})
 {
-
+  console.log(chords)
   return  <>
            <Meta title={Meta.defaultProps.title + ' | ' + title} />
            <Meta description={title} />
           <div className={sty.container}>
           <article className={sty.content}>
             <h3>{title}</h3>
-                    <img src={chords} class={sty.tunechords}></img>       </article>
-        </div>
+            <img src={chords} className={sty.tunechords}></img>       </article>
+            <ReactAudioPlayer
+    src="/images/tunechords/Angeline_The_Baker_D_Reel.mp3"
+    controls
+  />,
+            </div>
           </>
 }
 

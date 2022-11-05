@@ -54,5 +54,5 @@
 
 .tunechords{
   filter: invert(100%) sepia(81%) saturate(0%) hue-rotate(259deg) brightness(104%) contrast(92%);
-  width: 100%;
+  width: 95vw;
 }
