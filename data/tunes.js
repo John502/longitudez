@@ -40,5 +40,41 @@ export const tunesData = [
       title: "Shady Grove Gm Capo3",
       chords: "/images/tunechords/Shady_Grove_Capo3.svg",
       key: "Gm"
+    },
+    {
+      slug: "Angeline_The_Baker_D",
+      title: "Angeline The Baker",
+      chords: "/images/tunechords/Angeline_The_Baker_D.svg",
+      key: "D"
+    },
+    {
+      slug: "Elzics_Farewell_Am",
+      title: "Elzics Farewell",
+      chords: "/images/tunechords/Elzics_Farewell.svg",
+      key: "Am"
     }, 
+    {
+      slug: "Cold_Frosty_Morning_Am",
+      title: "Cold Frosty Morning",
+      chords: "/images/tunechords/Cold_Frosty_Morning_Am.svg",
+      key: "Am"
+    }, 
+    {
+      slug: "Girl_I_Left_Behind_Me_G",
+      title: "Girl I Left Behind Me",
+      chords: "/images/tunechords/Girl_I_Left_Behind_Me_G.svg",
+      key: "Am"
+    }, 
+    {
+      slug: "Growling_Old_Man_Amix",
+      title: "Growling Old Man Amix",
+      chords: "/images/tunechords/Growling_Old_Man_Grumbling_Old_Woman_Amix.svg",
+      key: "Amix"
+    },
+    {
+      slug: "Johnny_Dont_Get_Drunk_D",
+      title: "Johnny Dont Get Drunk",
+      chords: "/images/tunechords/Johnny_Dont_Get_Drunk_D.svg",
+      key: "D"
+    },  
 ];

@@ -33,6 +33,11 @@
 
 .content h3 {
   padding-bottom: 1rem;
+  width: 100%;
+}
+
+.content h4 {
+  text-align: center;
 }
 
 .content p a {
@@ -54,7 +59,8 @@
 
 .tunechords{
   filter: invert(100%) sepia(81%) saturate(0%) hue-rotate(259deg) brightness(104%) contrast(92%);
-  width: 95vw;
+  width: 90vw;
+  height: 85% vh; 
 }
 
 .tunetrack{
