@@ -77,4 +77,28 @@ export const tunesData = [
       chords: "/images/tunechords/Johnny_Dont_Get_Drunk_D.svg",
       key: "D"
     },  
+    {
+      slug: "Juliann_Johnson_D",
+      title: "Juliann Johnsone",
+      chords: "/images/tunechords/Juliann_Johnson_D.svg",
+      key: "D"
+    },
+    {
+      slug: "June_Apple_Amix",
+      title: "June Apple",
+      chords: "/images/tunechords/June_Apple_Amix.svg",
+      key: "Amix"
+    },
+    {
+      slug: "Katushka_Am",
+      title: "Katushka",
+      chords: "/images/tunechords/Katushka_Am.svg",
+      key: "Am"
+    },
+    {
+      slug: "Kitchen_Girl_Amix",
+      title: "Kitchen_Girl",
+      chords: "/images/tunechords/Kitchen_Girl_Amix.svg",
+      key: "Amix"
+    },  
 ];
