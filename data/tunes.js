@@ -100,5 +100,23 @@ export const tunesData = [
       title: "Kitchen_Girl",
       chords: "/images/tunechords/Kitchen_Girl_Amix.svg",
       key: "Amix"
+    },
+    {
+      slug: "La_Bastringue_D",
+      title: "La Bastringue",
+      chords: "/images/tunechords/La_Bastringue_D.svg",
+      key: "D"
+    },
+    {
+      slug: "Liberty_D",
+      title: "Liberty",
+      chords: "/images/tunechords/Liberty_D.svg",
+      key: "D"
+    },
+    {
+      slug: "Masons_Apron_A",
+      title: "Masons_Apron",
+      chords: "/images/tunechords/Masons_Apron_A.svg",
+      key: "A"
     },  
 ];
