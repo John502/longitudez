@@ -125,4 +125,10 @@ export const tunesData = [
       chords: "/images/tunechords/Miss_McLeods_Reel_G.svg",
       key: "G"
     },  
+    {
+      slug: "Nail_That_Catfish_To_A_Tree_G",
+      title: "Nail That Catfish To A Tree",
+      chords: "/images/tunechords/Nail_That_Catfish_To_A_Tree_G.svg",
+      key: "G"
+    },  
 ];
