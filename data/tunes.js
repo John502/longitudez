@@ -119,4 +119,10 @@ export const tunesData = [
       chords: "/images/tunechords/Masons_Apron_A.svg",
       key: "A"
     },  
+    {
+      slug: "Miss_McLeods_Reel_G",
+      title: "Miss McLeods Reel",
+      chords: "/images/tunechords/Miss_McLeods_Reel_G.svg",
+      key: "G"
+    },  
 ];
