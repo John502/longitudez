@@ -130,5 +130,17 @@ export const tunesData = [
       title: "Nail That Catfish To A Tree",
       chords: "/images/tunechords/Nail_That_Catfish_To_A_Tree_G.svg",
       key: "G"
+    },
+    {
+      slug: "NorthCarolinaBreakDown_G",
+      title: "North Carolina Breakdown",
+      chords: "/images/tunechords/NorthCarolinaBreakDown_G.svg",
+      key: "G"
+    },
+    {
+      slug: "Needlecase_D",
+      title: "Needlecase",
+      chords: "/images/tunechords/Needlecase_D.svg",
+      key: "D"
     },  
 ];
