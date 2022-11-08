@@ -150,16 +150,16 @@ export const tunesData = [
       chords: "/images/tunechords/Old_Joe_Clark_Amix.svg",
       key: "Amix"
     },
-    {
-      slug: "OverTheWaterfall_D",
-      title: "Over the Waterfall",
-      chords: "/images/tunechords/OverTheWaterfall_D.svg",
-      key: "D"
-    },
-    {
-      slug: "Puff_Adder_Step_Dance_Ador",
-      title: "Puff Adder Step Dance",
-      chords: "/images/tunechords/Puff_Adder_Step_Dance_Ador.svg",
-      key: "Ador"
-    },
+    // {
+    //   slug: "OverTheWaterfall_D",
+    //   title: "Over the Waterfall",
+    //   chords: "/images/tunechords/OverTheWaterfall_D.svg",
+    //   key: "D"
+    // },
+    // {
+    //   slug: "Puff_Adder_Step_Dance_Ador",
+    //   title: "Puff Adder Step Dance",
+    //   chords: "/images/tunechords/Puff_Adder_Step_Dance_Ador.svg",
+    //   key: "Ador"
+    // },
 ];
