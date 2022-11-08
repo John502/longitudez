@@ -131,6 +131,13 @@ export const tunesData = [
       chords: "/images/tunechords/Nail_That_Catfish_To_A_Tree_G.svg",
       key: "G"
     },
+
+    {
+      slug: "Needlecase_D",
+      title: "Needlecase",
+      chords: "/images/tunechords/Needlecase_D.svg",
+      key: "D"
+    },  
     {
       slug: "NorthCarolinaBreakDown_G",
       title: "North Carolina Breakdown",
@@ -138,9 +145,21 @@ export const tunesData = [
       key: "G"
     },
     {
-      slug: "Needlecase_D",
-      title: "Needlecase",
-      chords: "/images/tunechords/Needlecase_D.svg",
+      slug: "OldJoesClark_Amix",
+      title: "Old Joe Clark",
+      chords: "/images/tunechords/Old_Joe_Clark_Amix.svg",
+      key: "Amix"
+    },
+    {
+      slug: "OverTheWaterfall_D",
+      title: "Over the Waterfall",
+      chords: "/images/tunechords/OverTheWaterfall_D.svg",
       key: "D"
-    },  
+    },
+    {
+      slug: "Puff_Adder_Step_Dance_Ador",
+      title: "Puff Adder Step Dance",
+      chords: "/images/tunechords/Puff_Adder_Step_Dance_Ador.svg",
+      key: "Ador"
+    },
 ];
