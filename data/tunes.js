@@ -131,25 +131,24 @@ export const tunesData = [
       chords: "/images/tunechords/Nail_That_Catfish_To_A_Tree_G.svg",
       key: "G"
     },
-
-    {
-      slug: "Needlecase_D",
-      title: "Needlecase",
-      chords: "/images/tunechords/Needlecase_D.svg",
-      key: "D"
-    },  
-    {
-      slug: "NorthCarolinaBreakDown_G",
-      title: "North Carolina Breakdown",
-      chords: "/images/tunechords/NorthCarolinaBreakDown_G.svg",
-      key: "G"
-    },
-    {
-      slug: "OldJoesClark_Amix",
-      title: "Old Joe Clark",
-      chords: "/images/tunechords/Old_Joe_Clark_Amix.svg",
-      key: "Amix"
-    },
+    // {
+    //   slug: "Needlecase_D",
+    //   title: "Needlecase",
+    //   chords: "/images/tunechords/Needlecase_D.svg",
+    //   key: "D"
+    // },  
+    // {
+    //   slug: "NorthCarolinaBreakDown_G",
+    //   title: "North Carolina Breakdown",
+    //   chords: "/images/tunechords/NorthCarolinaBreakDown_G.svg",
+    //   key: "G"
+    // },
+    // {
+    //   slug: "OldJoesClark_Amix",
+    //   title: "Old Joe Clark",
+    //   chords: "/images/tunechords/Old_Joe_Clark_Amix.svg",
+    //   key: "Amix"
+    // },
     // {
     //   slug: "OverTheWaterfall_D",
     //   title: "Over the Waterfall",
