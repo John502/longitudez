@@ -161,4 +161,10 @@ export const tunesData = [
       chords: "/images/tunechords/Puff_Adder_Step_Dance_Ador.svg",
       key: "Ador"
     },
+    {
+      slug: "Ragtime_Annie_D",
+      title: "Ragtime Annie",
+      chords: "/images/tunechords/Ragtime_Annie_D.svg",
+      key: "D"
+    },
 ];
