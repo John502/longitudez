@@ -167,4 +167,22 @@ export const tunesData = [
       chords: "/images/tunechords/Ragtime_Annie_D.svg",
       key: "D"
     },
+    {
+      slug: "Red_Haired_Boy_Amix",
+      title: "Red Haired Boy",
+      chords: "/images/tunechords/Red_Haired_Boy_Amix.svg",
+      key: "Am"
+    },
+    {
+      slug: "Redwing_G",
+      title: "Redwing",
+      chords: "/images/tunechords/Redwing_G.svg",
+      key: "G"
+    },
+    {
+      slug: "Waiting_For_Nancy_G",
+      title: "Waiting for Nancy",
+      chords: "/images/tunechords/Waiting_For_Nancy_D.svg",
+      key: "G"
+    },
 ];
