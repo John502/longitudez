@@ -2,7 +2,7 @@ export const tunesData = [
   {
        slug: "Louisville_Breakdown_G",
        title: "Louisville Breakdown",
-       chords: "/images/tunechords/LouisvilleBreakdown.svg",
+       chords: "/images/tunechords/LouisvilleBreakdown_G.svg",
        key: "G",
       },
      {
