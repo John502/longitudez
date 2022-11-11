@@ -197,4 +197,10 @@ export const tunesData = [
       chords: "/images/tunechords/Seneca_Square_Dance_G.svg",
       key: "G"
     },
+    {
+      slug: "Shenandoah_Falls_A",
+      title: "Shenandoah Falls",
+      chords: "/images/tunechords/Shenandoah_Falls_A.svg",
+      key: "A"
+    },
 ];
