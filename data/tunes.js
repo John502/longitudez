@@ -2,7 +2,7 @@ export const tunesData = [
   {
        slug: "Louisville_Breakdown_G",
        title: "Louisville Breakdown",
-       chords: "/images/tunechords/LouisvilleBreakdown.svg",
+       chords: "/images/tunechords/LouisvilleBreakdown_G.svg",
        key: "G",
       },
      {
@@ -183,6 +183,18 @@ export const tunesData = [
       slug: "Waiting_For_Nancy_G",
       title: "Waiting for Nancy",
       chords: "/images/tunechords/Waiting_For_Nancy_D.svg",
+      key: "G"
+    },
+    {
+      slug: "Rock_The_Cradle_Joe_D",
+      title: "Rock The Cradle Joe",
+      chords: "/images/tunechords/Rock_The_Cradle_Joe_D.svg",
+      key: "D"
+    },
+    {
+      slug: "Seneca_Square_Dance_G",
+      title: "Seneca Square Dance",
+      chords: "/images/tunechords/Seneca_Square_Dance_G.svg",
       key: "G"
     },
 ];
