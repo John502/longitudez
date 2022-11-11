@@ -185,4 +185,16 @@ export const tunesData = [
       chords: "/images/tunechords/Waiting_For_Nancy_D.svg",
       key: "G"
     },
+    {
+      slug: "Rock_The_Cradle_Joe_D",
+      title: "Rock The Cradle Joe",
+      chords: "/images/tunechords/Rock_The_Cradle_Joe_D.svg",
+      key: "D"
+    },
+    {
+      slug: "Seneca_Square_Dance_G",
+      title: "Seneca Square Dance",
+      chords: "/images/tunechords/Seneca_Square_Dance_G.svg",
+      key: "G"
+    },
 ];
