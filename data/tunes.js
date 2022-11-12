@@ -203,4 +203,16 @@ export const tunesData = [
       chords: "/images/tunechords/Shenandoah_Falls_A.svg",
       key: "A"
     },
+    {
+      slug: "Shove_That_Pigs_Foot_G",
+      title: "Shove That Pigs Foot",
+      chords: "/images/tunechords/Shove_That_Pigs_Foot_G.svg",
+      key: "G"
+    },
+    {
+      slug: "Soliders_Joy_D",
+      title: "Soliders Joy",
+      chords: "/images/tunechords/Soliders_Joy_D.svg",
+      key: "D"
+    },
 ];
