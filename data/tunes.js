@@ -215,4 +215,34 @@ export const tunesData = [
       chords: "/images/tunechords/Soliders_Joy_D.svg",
       key: "D"
     },
+    {
+      slug: "Spotted_Pony_D",
+      title: "Spotted Pony",
+      chords: "/images/tunechords/Spotted_Pony_D.svg",
+      key: "D"
+    },
+    {
+      slug: "St_Annes_Reel_D",
+      title: "St Annes Reel",
+      chords: "/images/tunechords/St_Annes_Reel_D.svg",
+      key: "D"
+    },
+    {
+      slug: "Billy_In_The_Low_Ground_C",
+      title: "Billy In The Low Ground",
+      chords: "/images/tunechords/Billy_In_The_Low_Ground_C.svg",
+      key: "C"
+    },
+    {
+      slug: "Tamlin Dm",
+      title: "Tamlin",
+      chords: "/images/tunechords/Tamlin_Dm.svg",
+      key: "Dm"
+    },
+    {
+      slug: "Star_of_Munster_Am",
+      title: "Star of Munster",
+      chords: "/images/tunechords/Star_of_Munster_Am.svg",
+      key: "Dm"
+    },
 ];
