@@ -245,4 +245,22 @@ export const tunesData = [
       chords: "/images/tunechords/Star_of_Munster_Am.svg",
       key: "Dm"
     },
+    {
+      slug: "Waterbound_D",
+      title: "Waterbound",
+      chords: "/images/tunechords/Waterbound_D.svg",
+      key: "D"
+    },
+    {
+      slug: "West_Fork_Gals_D",
+      title: "West Fork Gals",
+      chords: "/images/tunechords/WestForkGals_D.svg",
+      key: "D"
+    },
+    {
+      slug: "Whiskey_Before_Breakfast_D",
+      title: "Whiskey Before Breakfast",
+      chords: "/images/tunechords/WhiskeyBeforeBreakfast_D.svg",
+      key: "D"
+    },
 ];
