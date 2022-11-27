@@ -263,4 +263,16 @@ export const tunesData = [
       chords: "/images/tunechords/WhiskeyBeforeBreakfast_D.svg",
       key: "D"
     },
+    {
+      slug: "Horse_And_Buggy_A",
+      title: "Horse and Buggy",
+      chords: "/images/tunechords/Horse_And_Buggy_A.svg",
+      key: "A"
+    },
+    {
+      slug: "Yellow_Rose_Of_Texas_D",
+      title: "Yellow Rose of Texas",
+      chords: "/images/tunechords/Yellow_Rose_Of_Texas_D.svg",
+      key: "D"
+    },
 ];
