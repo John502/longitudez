@@ -50,7 +50,7 @@ export const tunesData = [
     {
       slug: "Elzics_Farewell_Am",
       title: "Elzics Farewell",
-      chords: "/images/tunechords/Elzics_Farewell.svg",
+      chords: "/images/tunechords/Elzics_Farewell_Am.svg",
       key: "Am"
     }, 
     {
