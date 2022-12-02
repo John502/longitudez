@@ -24,12 +24,6 @@ export const tunesData = [
       key: "A"
     }, 
     {
-      slug: "Waynesboro_Mobile",
-      title: "Waynesboro Mobile",
-      chords: "/images/tunechords/Waynesboro_Mobile.svg",
-      key: "A"
-    },
-    {
       slug: "Shady_Grove_Gm",
       title: "Shady Grove Gm",
       chords: "/images/tunechords/Shady_Grove.svg",
@@ -97,7 +91,7 @@ export const tunesData = [
     },
     {
       slug: "Kitchen_Girl_Amix",
-      title: "Kitchen_Girl",
+      title: "Kitchen Girl",
       chords: "/images/tunechords/Kitchen_Girl_Amix.svg",
       key: "Amix"
     },
@@ -275,4 +269,23 @@ export const tunesData = [
       chords: "/images/tunechords/Yellow_Rose_Of_Texas_D.svg",
       key: "D"
     },
+    {
+      slug: "Chincapin_Hunting_D",
+      title: "Chincapin Hunting D",
+      chords: "/images/tunechords/Chincapin_Hunting_D.svg",
+      key: "D"
+    },
+    {
+      slug: "Sandy Boys A",
+      title: "Sandy Boys",
+      chords: "/images/tunechords/Sandy_Boys_A.svg",
+      key: "A"
+    },
+    {
+      slug: "John_Stensons_2_D",
+      title: "John Stensons #2",
+      chords: "/images/tunechords/John_Stensons_2_D.svg",
+      key: "A"
+    },
+    // John_Stensons_2_D.svg
 ];
