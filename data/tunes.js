@@ -109,7 +109,7 @@ export const tunesData = [
     },
     {
       slug: "Masons_Apron_A",
-      title: "Masons_Apron",
+      title: "Masons Apron",
       chords: "/images/tunechords/Masons_Apron_A.svg",
       key: "A"
     },  
@@ -291,6 +291,12 @@ export const tunesData = [
       slug: "Bettys_Companion_Am",
       title: "Bettys Companion",
       chords: "/images/tunechords/Bettys_Companion_Am.svg",
+      key: "Am"
+    },
+    {
+      slug: "NightHawk_750_D",
+      title: "NightHawk 750",
+      chords: "/images/tunechords/NightHawk_750_D.svg",
       key: "Am"
     },
     // John_Stensons_2_D.svg
