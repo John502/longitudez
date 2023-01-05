@@ -297,7 +297,13 @@ export const tunesData = [
       slug: "NightHawk_750_D",
       title: "NightHawk 750",
       chords: "/images/tunechords/NightHawk_750_D.svg",
-      key: "Am"
+      key: "D"
+    },
+    {
+      slug: "Unconditional_Love_D",
+      title: "Unconditional Love D",
+      chords: "/images/tunechords/Unconditional_Love_D.svg",
+      key: "D"
     },
     // John_Stensons_2_D.svg
 ];
