@@ -287,5 +287,11 @@ export const tunesData = [
       chords: "/images/tunechords/John_Stensons_2_D.svg",
       key: "A"
     },
+    {
+      slug: "Bettys_Companion_Am",
+      title: "Bettys Companion",
+      chords: "/images/tunechords/Bettys_Companion_Am.svg",
+      key: "Am"
+    },
     // John_Stensons_2_D.svg
 ];
