@@ -186,6 +186,12 @@ export const tunesData = [
       key: "D"
     },
     {
+      slug: "Rock_Andy_A",
+      title: "Rock Andy",
+      chords: "/images/tunechords/Rock_Andy_A.svg",
+      key: "A"
+    },
+    {
       slug: "Seneca_Square_Dance_G",
       title: "Seneca Square Dance",
       chords: "/images/tunechords/Seneca_Square_Dance_G.svg",
