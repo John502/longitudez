@@ -311,5 +311,17 @@ export const tunesData = [
       chords: "/images/tunechords/Unconditional_Love_D.svg",
       key: "D"
     },
+    {
+      slug: "JohnRileyTheShepard_Am",
+      title: "John Riley Shepard",
+      chords: "/images/tunechords/JohnRileyTheShepard_Am.svg",
+      key: "Am"
+    },
+    {
+      slug: "Duck_River_D",
+      title: "Duck River",
+      chords: "/images/tunechords/Duck_River_D.svg",
+      key: "D"
+    },
     // John_Stensons_2_D.svg
 ];
