@@ -186,6 +186,12 @@ export const tunesData = [
       key: "D"
     },
     {
+      slug: "Rock_Andy_A",
+      title: "Rock Andy",
+      chords: "/images/tunechords/Rock_Andy_A.svg",
+      key: "A"
+    },
+    {
       slug: "Seneca_Square_Dance_G",
       title: "Seneca Square Dance",
       chords: "/images/tunechords/Seneca_Square_Dance_G.svg",
@@ -303,6 +309,18 @@ export const tunesData = [
       slug: "Unconditional_Love_D",
       title: "Unconditional Love D",
       chords: "/images/tunechords/Unconditional_Love_D.svg",
+      key: "D"
+    },
+    {
+      slug: "JohnRileyTheShepard_Am",
+      title: "John Riley Shepard",
+      chords: "/images/tunechords/JohnRileyTheShepard_Am.svg",
+      key: "Am"
+    },
+    {
+      slug: "Duck_River_D",
+      title: "Duck River",
+      chords: "/images/tunechords/Duck_River_D.svg",
       key: "D"
     },
     // John_Stensons_2_D.svg
