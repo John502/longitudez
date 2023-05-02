@@ -323,5 +323,17 @@ export const tunesData = [
       chords: "/images/tunechords/Duck_River_D.svg",
       key: "D"
     },
+    {
+      slug: "Laird_Of_Cockpin_Amod.svg",
+      title: "Laird Of Cockpin",
+      chords: "/images/tunechords/Laird_Of_Cockpin_Amod.svg",
+      key: "Amod"
+    },
+    {
+      slug: "Captain_Campbell_A_mod.svg",
+      title: "Captain Campbell",
+      chords: "/images/tunechords/Captain_Campbell_A_mod.svg",
+      key: "Amod"
+    },
     // John_Stensons_2_D.svg
 ];
