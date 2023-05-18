@@ -335,5 +335,11 @@ export const tunesData = [
       chords: "/images/tunechords/Captain_Campbell_A_mod.svg",
       key: "Amod"
     },
+    {
+      slug: "Old_Shady_Grove_Am.svg",
+      title: "Old Shady Grove",
+      chords: "/images/tunechords/OldShadyGrove_Am.svg",
+      key: "Amod"
+    },
     // John_Stensons_2_D.svg
 ];
