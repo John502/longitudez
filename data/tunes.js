@@ -324,22 +324,29 @@ export const tunesData = [
       key: "D"
     },
     {
-      slug: "Laird_Of_Cockpin_Amod.svg",
+      slug: "Laird_Of_Cockpin_Amod",
       title: "Laird Of Cockpin",
       chords: "/images/tunechords/Laird_Of_Cockpin_Amod.svg",
       key: "Amod"
     },
     {
-      slug: "Captain_Campbell_A_mod.svg",
+      slug: "Captain_Campbell_A_mod",
       title: "Captain Campbell",
       chords: "/images/tunechords/Captain_Campbell_A_mod.svg",
       key: "Amod"
     },
     {
-      slug: "Old_Shady_Grove_Am.svg",
+      slug: "Old_Shady_Grove_Am",
       title: "Old Shady Grove",
       chords: "/images/tunechords/OldShadyGrove_Am.svg",
-      key: "Amod"
+      key: "Am"
+    },
+    {
+      slug: "Durangs_Hornpipe_D_Mod",
+      title: "Durangs Hornpipe",
+      chords: "/images/tunechords/Durangs_Hornpipe_D_Mod.svg",
+      key: "Dmod"
     },
     // John_Stensons_2_D.svg
+    // Durangs_Hornpipe_D_Mod.svg
 ];
