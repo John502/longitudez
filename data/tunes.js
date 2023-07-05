@@ -349,4 +349,11 @@ export const tunesData = [
     },
     // John_Stensons_2_D.svg
     // Durangs_Hornpipe_D_Mod.svg
+    // SadieThroughTheBackDoor_D.svg
+    {
+      slug: "SadieThroughTheBackDoor_D",
+      title: "Sadie At Back Door",
+      chords: "/images/tunechords/SadieThroughTheBackDoor_D.svg",
+      key: "D"
+    },
 ];
