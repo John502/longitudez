@@ -356,4 +356,16 @@ export const tunesData = [
       chords: "/images/tunechords/SadieThroughTheBackDoor_D.svg",
       key: "D"
     },
+    {
+      slug: "Waynesboro_G",
+      title: "Waynesboro G",
+      chords: "/images/tunechords/Waynesboro_G.svg",
+      key: "G"
+    },
+    {
+      slug: "Liza_Jane_A",
+      title: "Liza Jane",
+      chords: "/images/tunechords/Liza_Jane_A.svg",
+      key: "A"
+    },
 ];
