@@ -370,9 +370,15 @@ export const tunesData = [
     },
     {
       slug: "Squirrel_Hunters_Amix",
-      title: "Squirrel_Hunters",
+      title: "Squirrel Hunters",
       chords: "/images/tunechords/SquirellHunters_Amix.svg",
       key: "Amix"
     },
+    {
+      slug: "Coon_Dog_D",
+      title: "Coon Dog",
+      chords: "/images/tunechords/Coon_Dog_D.svg",
+      key: "D"
+    },
 ];
-// SquirellHunters_Amix.svg
+
