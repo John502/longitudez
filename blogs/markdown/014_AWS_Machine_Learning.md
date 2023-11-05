@@ -9,6 +9,7 @@ tag: "dev:aws:machinelearning"
 ## MLS-C01 Study Guide
 [Exploritory Data Analysis](#exploritory-data-analysis)
  - [Flavors of Data](#flavors-of-data)
+ - [Data Distributions](#data-distributions)
 
 [Keyterms](#keyterms)  
 
@@ -78,4 +79,4 @@ Ordinal Data - Start ratings for movie
    - Poisson Distribution - Series of events which occur in succes of failure.      
 - Binomial Distribution -  is the discrete probability distribution of the number of successes in a sequence of n independent experiments
 - Bernoli Distribution - has a single trial of n=1
-- 
+ 
