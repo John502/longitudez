@@ -156,10 +156,11 @@ Charges by the hour (EC2 costs)
 Hadoop
 - Map Reduce - Processing distributed data. (Apache Spark has taken the place)
 - YARN
-- HDFS
+- HDFS  
 Apache Spark - In memory caching data processing.
-Spark Streaming, Spark SQL, MLLib GraphX (Distributed Graph Processing Framework)
+Spark Streaming, Spark SQL, MLLib GraphX (Distributed Graph Processing Framework)  
 
+MLLib - Host of machine learning algorithms which are used across the cluster.  
  
 
 
