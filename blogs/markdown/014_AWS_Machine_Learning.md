@@ -7,14 +7,14 @@ tag: "dev:aws:machinelearning"
 ---
 
 ## MLS-C01 Study Guide
+[S3](#S3)
 [Exploritory Data Analysis](#exploritory-data-analysis)
  - [Flavors of Data](#flavors-of-data)
  - [Data Distributions](#data-distributions)
  - [Time Series Analysis](#time-series-analysis)
- - [Amazon Athena](#amazon-athena)  
+ - [Amazon Athena](#amazon-athena)
+ - [Amazon Qwiksight](#qwiksight)  
 [Keyterms](#keyterms)
-
-
 
 ### Keyterms
 
@@ -24,6 +24,9 @@ Gradient Descent -
 Local Minima -  A local minimum is a point in the parameter space where the loss function is minimized in a local neighborhood  
 Loss Function - It is a method of evalutating your model's accuracy.  The difference between the prediction and the actual value.   
 Overfitting - The tendency for a model to be too well suited to a training dataset.  For example, retaking AWS practice exams, you are fitted to that specific exam not as well to the over all topic. 
+
+## S3
+### S3
 
 ## Basic Machine Learning Worklfow
 
