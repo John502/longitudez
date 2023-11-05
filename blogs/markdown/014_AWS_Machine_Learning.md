@@ -115,10 +115,12 @@ Serverless
 Ad-hoc visualizations  
 Can use on prem or cloud
 SPICE - Super Fast In Memory Calculation Engine (10 GB of memory per user)
-Columnar Storage (ODBC, JDBC)
+Columnar Storage (ODBC, JDBC)  
 Used for Anomaly Detection, Farecasting, Auto-Narratives  
 QwikSight Q - ansewrs business questions based on NLP
-Paginated Reports ()
+Paginated Reports ()  
+MFA, VPC Connectivity
+Can restrict users to utilize on specific fields of your data. 
 
 
 
