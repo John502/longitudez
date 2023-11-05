@@ -52,7 +52,7 @@ Applying your knowledge of the data. Identifying features in your data which res
 - Feature Extraction  
 - Feature Learning    
 
-Curse of Dimensionality - 
+Curse of Dimensionality - The more features you have the more difficult it is to find relationships.
 
 
 ## How to read summation
