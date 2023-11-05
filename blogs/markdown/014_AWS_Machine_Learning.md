@@ -83,6 +83,6 @@ Ordinal Data - Start ratings for movie
 ### Time Series Analysis
 
 Trend - Growth over time
-Seasonality - Fluxuation of what time of the year
-Noise - Can be random
-Seasonality + Noise + Trends = Time Series
+Seasonality - Fluxuation of what time of the year  
+Noise - Can be random  
+Seasonality + Noise + Trends = Time Series  
