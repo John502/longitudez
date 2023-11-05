@@ -84,5 +84,7 @@ Ordinal Data - Start ratings for movie
 
 Trend - Growth over time
 Seasonality - Fluxuation of what time of the year  
+    - if you seasonality is consistent you can use an additive model 
+    - Multiplicative Model - 
 Noise - Can be random  
 Seasonality + Noise + Trends = Time Series  
