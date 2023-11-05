@@ -13,14 +13,17 @@ tag: "dev:aws:machinelearning"
  - [Data Distributions](#data-distributions)
  - [Time Series Analysis](#time-series-analysis)
  - [Amazon Athena](#amazon-athena)
- - [Amazon Qwiksight](#qwiksight)  
+ - [Amazon Qwiksight](#qwiksight)
+[Elastic Map Reduce](#elastic-map-reduce)
 [Keyterms](#keyterms)
+
 
 ### Keyterms
 
 Additive Model - time Series, which the seasonal component is just added on. 
 Multiplicative Model - times series, added on as proportinoal amount explores the relationship of two or parameters on an outcome. 
-Gradient Descent - 
+Gradient Descent -  
+HDFS - Hadoop Distributed File System
 Local Minima -  A local minimum is a point in the parameter space where the loss function is minimized in a local neighborhood  
 Loss Function - It is a method of evalutating your model's accuracy.  The difference between the prediction and the actual value.   
 Overfitting - The tendency for a model to be too well suited to a training dataset.  For example, retaking AWS practice exams, you are fitted to that specific exam not as well to the over all topic. 
@@ -133,10 +136,31 @@ Read Only
 - Line Graph - Time Series, area line charts
 - Scatter Plots - Correlation (Heat Maps)
 - Pivot Tables -
-- Donut Charts - Generalized results
+- Donut Charts - Comparing items in dimension (precision isnt important )
+- Guage Charts - How much is there of what you're measuring
 - Tree Maps - Hierarchical Aggregation
+- ![image](https://github.com/John502/longitudez/assets/12539353/4e7e49cc-0f01-41ce-9b1a-1e55ece9f1eb)
 - Word Cloud - word or phrase frequency
-  
+
+### Elastic Map Reduce
+Managed Hadoop Cluster on EC2 Instances  
+Spark, HBBase, Hive come installed, there is also an EMR notebook
+Allows for preparation of data by distributing the computation
+- Master Node - Runs cluster, monitors
+- Core Node - Run tasks and store
+- Task Node - Runs tasks, no data
+Transient Cluster automatically terminates at conclusion of tasks
+Storage: EMRFS - S3 utilize in place HDFS, elastic block store 
+Charges by the hour (EC2 costs)  
+
+Hadoop
+- Map Reduce - Processing distributed data. (Apache Spark has taken the place)
+- YARN
+- HDFS
+Apache Spark - In memory caching data processing.
+Spark Streaming, Spark SQL, MLLib GraphX (Distributed Graph Processing Framework)
+
+ 
 
 
 
