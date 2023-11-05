@@ -8,6 +8,8 @@ tag: "dev:aws:machinelearning"
 
 ## MLS-C01 Study Guide
 [Flavors of Data](#flavors-of-data)
+[Keyterms](#keyterms)  
+
 
 ### Keyterms
 
@@ -58,5 +60,13 @@ Histogram - places values in a bin (Binning), easily shows the distribution of t
 Seaborn and Matpotlib for visualization   
 
 ## Flavors of Data 
+
+Numerical - Quantifiable
+- Discrete Data, integer restricted (counts)
+- Continuous Data, floats (infinite amount of precision)
+
+Categorical - No inherint numerical value (race, political party)  
+
+Ordinal Data - Start ratings for movie
   
 
