@@ -24,6 +24,7 @@ Gradient Descent -
 Local Minima -  A local minimum is a point in the parameter space where the loss function is minimized in a local neighborhood  
 Loss Function - It is a method of evalutating your model's accuracy.  The difference between the prediction and the actual value.   
 Overfitting - The tendency for a model to be too well suited to a training dataset.  For example, retaking AWS practice exams, you are fitted to that specific exam not as well to the over all topic. 
+Random Cut Forest
 
 ## S3
 ### S3
@@ -108,6 +109,17 @@ ODBC, JDBC Protocols
 
 Glue Data catalog can crawl your data in S3 and issue SQL quiries. Convert it into columnar formats.  Glue extracts the meaning of the data. 
 Pay-as-you-go, $5 per TB scanned.  Saves money to convert to columnar formats.  
+
+### Qwiksight
+Serverless  
+Ad-hoc visualizations  
+Can use on prem or cloud
+SPICE - Super Fast In Memory Calculation Engine (10 GB of memory per user)
+Columnar Storage (ODBC, JDBC)
+Used for Anomaly Detection, Farecasting, Auto-Narratives  
+QwikSight Q - ansewrs business questions based on NLP
+Paginated Reports ()
+
 
 
 
