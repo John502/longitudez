@@ -10,7 +10,7 @@ tag: "dev:aws:machinelearning"
 [Exploritory Data Analysis](#exploritory-data-analysis)
  - [Flavors of Data](#flavors-of-data)
  - [Data Distributions](#data-distributions)
-
+ - [Time Series](#time-series)
 [Keyterms](#keyterms)  
 
 
@@ -79,4 +79,5 @@ Ordinal Data - Start ratings for movie
    - Poisson Distribution - Given number of events occuring of fixed interval of time or space.    
 - Binomial Distribution -  is the discrete probability distribution of the number of successes or failures in a sequence of n independent experiments
 - Bernoli Distribution - has a single trial of n=1
- 
+
+### Time Series
