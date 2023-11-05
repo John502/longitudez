@@ -15,7 +15,7 @@ Local Minima -  A local minimum is a point in the parameter space where the loss
 Loss Function - It is a method of evalutating your model's accuracy.  The difference between the prediction and the actual value. 
 Overfitting - The tendency for a model to be too well suited to a training dataset.  For example, retaking AWS practice exams, you are fitted to that specific exam not as well to the over all topic. 
 
-Summation
+## How to read summation
 
 ![image](https://github.com/John502/longitudez/assets/12539353/477446a4-6149-42aa-a07d-768fcf821ebf)
 
