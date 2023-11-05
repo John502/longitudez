@@ -69,6 +69,18 @@ Regression - Find relationships between data.
 [MICE](https://cran.r-project.org/web/packages/miceRanger/vignettes/miceAlgorithm.html#:~:text=Multiple%20Imputation%20by%20Chained%20Equations,iterative%20series%20of%20predictive%20models.) - Use random forest techniques to swap data values to find the best relationship.
 
 
+##### Handling Unbalanced Data
+
+When there is a discrepancy between the positive and negative cases.  Difficult to engineer an accurate results when there is a rare case. Mainly a problem wiht nueral networks.  
+
+Unersampling - Remove some the majority case  
+SMOTE - Synthetic Minority Oversample Technique - Create new samples from the minority class.   
+Adjusting Thresholds - 
+
+##### Handling Outliers
+Variance is that average of the squared differences from the mean. Get the difference from mean, sqare those values, then get the mean of those values. 
+Sigma represents standard deviation. 
+
 
 ## How to read summation
 
