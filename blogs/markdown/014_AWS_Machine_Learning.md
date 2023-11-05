@@ -42,13 +42,13 @@ Feature Learning
 Univariate Plots -  Understanding Attributes Independently (Historgram, Box & Whiskey Plots, Density Plots)
 Multivariate Plots - Understaing the relation (Correlation Matrix, Scatter Mix )
 
-Denisty Plot 
+Denisty Plot   
 ![image](https://github.com/John502/longitudez/assets/12539353/05d47195-de7e-42b3-b370-79e6a11e013f)
 
-Correlation Matrix
+Correlation Matrix   
 ![image](https://github.com/John502/longitudez/assets/12539353/ef9a2759-1582-4a31-80de-535e641aee14)
 
-Scatter Mix Plot - Show relationships between variables
+Scatter Mix Plot - Show relationships between variables  
 ![image](https://github.com/John502/longitudez/assets/12539353/c44afd86-50bc-47c7-8f81-49ae4596be4f)
 
 
