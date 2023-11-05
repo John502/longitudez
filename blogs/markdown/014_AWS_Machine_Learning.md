@@ -114,13 +114,19 @@ Pay-as-you-go, $5 per TB scanned.  Saves money to convert to columnar formats.
 Serverless  
 Ad-hoc visualizations  
 Can use on prem or cloud
-SPICE - Super Fast In Memory Calculation Engine (10 GB of memory per user)
+SPICE - Super Fast In Memory Calculation Engine (10 GB of memory per user)  
 Columnar Storage (ODBC, JDBC)  
 Used for Anomaly Detection, Farecasting, Auto-Narratives  
 QwikSight Q - ansewrs business questions based on NLP
 Paginated Reports ()  
 MFA, VPC Connectivity
-Can restrict users to utilize on specific fields of your data. 
+Can restrict users to utilize on specific fields of your data.   
+Pricing
+- Standard
+- Enterprise
+- Enterprise with Q  
+
+### Qwiksight Dashboards
 
 
 
