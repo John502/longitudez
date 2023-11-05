@@ -44,11 +44,14 @@ Deployment
 
 ## Feature Engineering
 
-Feature Improvement  
-Feature Construction  
-Feature Selection  
-Feature Extraction  
-Feature Learning  
+- Feature Improvement  
+- Feature Construction  
+- Feature Selection  
+- Feature Extraction  
+- Feature Learning    
+
+Curse of Dimensionality - 
+
 
 ## How to read summation
 
@@ -161,6 +164,7 @@ Apache Spark - In memory caching data processing.
 Spark Streaming, Spark SQL, MLLib GraphX (Distributed Graph Processing Framework)  
 
 MLLib - Host of machine learning algorithms which are used across the cluster.  
+EMR Notebooks - Similar to Zeppelin. Can spin up spark cluster from the.   
  
 
 
