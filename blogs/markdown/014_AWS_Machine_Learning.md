@@ -98,9 +98,13 @@ ARIMA Auto regression integrate moving averages
 Exponential Smoothing - Greater weight to more recent values
 
 ### Amazon Athena
-Serverless SQL queires of an S3 data lake (strcutured semi-structured data)
-Integrates with Jupyter Notebooks
-Web Logs
+Serverless SQL queires of an S3 data lake (strcutured semi-structured data)  
+Integrates with Jupyter Notebooks  
+Web Logs for exmaple  
+ODBC, JDBC Protocols  
+
+Glue Data catalog can crawl your data in S3 and issue SQL quiries. Convert it into columnar formats.  Glue extracts the meaning of the data. 
+Pay-as-you-go, $5 per TB scanned.  Saves money to convert to columnar formats.  
 
 
 
