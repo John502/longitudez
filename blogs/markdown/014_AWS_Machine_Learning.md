@@ -90,3 +90,5 @@ Seasonality - Fluxuation of what time of the year
     - Multiplicative Model - 
 Noise - Can be random  
 Seasonality + Noise + Trends = Time Series  
+
+ARIMA 
