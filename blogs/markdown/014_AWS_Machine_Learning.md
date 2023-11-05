@@ -25,6 +25,14 @@ Modeling and Training
 Model Evaluation (Reengineer Features)  
 Deployment
 
+## Feature Engineering
+
+Feature Improvement  
+Feature Construction  
+Feature Selection  
+Feature Extraction  
+Feature Learning  
+
 ## How to read summation
 
 ![image](https://github.com/John502/longitudez/assets/12539353/477446a4-6149-42aa-a07d-768fcf821ebf)
