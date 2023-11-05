@@ -15,6 +15,7 @@ tag: "dev:aws:machinelearning"
  - [Amazon Athena](#amazon-athena)
  - [Amazon Qwiksight](#qwiksight)
  - [Feature Engineering](#feature-engineering)
+[Modeling](#modeling)
 [Elastic Map Reduce](#elastic-map-reduce)
 [Keyterms](#keyterms)
 
@@ -211,7 +212,6 @@ Spark Streaming, Spark SQL, MLLib GraphX (Distributed Graph Processing Framework
 MLLib - Host of machine learning algorithms which are used across the cluster.  
 EMR Notebooks - Similar to Zeppelin. Can spin up spark cluster from the.   
  
-
-
-
-
+## Modeling
+Deep Learning - Weighted inputs are given to an activation function which then provides an output.  Out passed to other nuerons.  
+Deep Nueral networks
