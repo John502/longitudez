@@ -92,6 +92,6 @@ Noise - Can be random
 Seasonality + Noise + Trends = Time Series  
 Seasonal variation increases as the trend increases  
 The additive model is useful when the seasonal variation is relatively constant over time. The multiplicative model is useful when the seasonal variation increases over time.  
-ARIMA Auto regression integrate moving averages
+ARIMA Auto regression integrate moving averages  
 Exponential Smoothing - Greater weight to more recent values
 
