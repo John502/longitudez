@@ -15,11 +15,22 @@ Local Minima -  A local minimum is a point in the parameter space where the loss
 Loss Function - It is a method of evalutating your model's accuracy.  The difference between the prediction and the actual value.   
 Overfitting - The tendency for a model to be too well suited to a training dataset.  For example, retaking AWS practice exams, you are fitted to that specific exam not as well to the over all topic. 
 
+## Basic Machine Learning Worklfow
+
+Understand Problem    
+Data Acquisition  
+Understanding Data  
+Feature Engineering  
+Modeling and Training   
+Model Evaluation (Reengineer Features)  
+Deployment
+
 ## How to read summation
 
 ![image](https://github.com/John502/longitudez/assets/12539353/477446a4-6149-42aa-a07d-768fcf821ebf)
 
 ### Exploritory Data Analysis
 
-Box and whisker plot (candle stick plot) - shows outliers
+Box and whisker plot (candle stick plot) - shows outliers  
 Histogram - places values in a bin, easily shows the distribution of the dataset. 
+
