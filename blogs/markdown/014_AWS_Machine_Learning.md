@@ -10,8 +10,10 @@ tag: "dev:aws:machinelearning"
 [Exploritory Data Analysis](#exploritory-data-analysis)
  - [Flavors of Data](#flavors-of-data)
  - [Data Distributions](#data-distributions)
- - [Time Series Analysis](#time-series-analysis)  
-[Keyterms](#keyterms)  
+ - [Time Series Analysis](#time-series-analysis)
+ - [Amazon Athena](#amazon-athena)  
+[Keyterms](#keyterms)
+
 
 
 ### Keyterms
@@ -94,4 +96,11 @@ Seasonal variation increases as the trend increases
 The additive model is useful when the seasonal variation is relatively constant over time. The multiplicative model is useful when the seasonal variation increases over time.  
 ARIMA Auto regression integrate moving averages  
 Exponential Smoothing - Greater weight to more recent values
+
+### Amazon Athena
+Serverless SQL queires of an S3 data lake (strcutured semi-structured data)
+Integrates with Jupyter Notebooks
+Web Logs
+
+
 
