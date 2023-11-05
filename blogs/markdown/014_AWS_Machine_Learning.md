@@ -10,7 +10,7 @@ tag: "dev:aws:machinelearning"
 [Exploritory Data Analysis](#exploritory-data-analysis)
  - [Flavors of Data](#flavors-of-data)
  - [Data Distributions](#data-distributions)
- - [Time Series](#time-series)  
+ - [Time Series Analysis](#time-series-analysis)  
 [Keyterms](#keyterms)  
 
 
@@ -80,4 +80,5 @@ Ordinal Data - Start ratings for movie
 - Binomial Distribution -  is the discrete probability distribution of the number of successes or failures in a sequence of n independent experiments
 - Bernoli Distribution - has a single trial of n=1
 
-### Time Series
+### Time Series Analysis
+
