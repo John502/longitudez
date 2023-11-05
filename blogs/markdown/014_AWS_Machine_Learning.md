@@ -80,6 +80,17 @@ Adjusting Thresholds -
 ##### Handling Outliers
 Variance is that average of the squared differences from the mean. Get the difference from mean, sqare those values, then get the mean of those values. 
 Sigma represents standard deviation. 
+Standard Deviation is square root of Variance  
+Random Cut Forest- unsupervised algorithm for detecting anomalous data points within a data set. These are observations which diverge from otherwise well-structured or patterned data.
+
+##### Binning 
+Taking numerical data and converting it to categorical data. 
+Quanitle Binning - Each has an equal number of samples
+Transforming data by squaring and square root which might imporve the interprebility of the data. 
+Encoding - Taking non numberical data and making in numerical   
+One Hot Encoding
+Scale and Normailization of Data - Creates nomrally distributed data
+Shuffling - Shuffling data
 
 
 ## How to read summation
