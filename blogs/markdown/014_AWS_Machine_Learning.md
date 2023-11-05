@@ -120,13 +120,23 @@ Used for Anomaly Detection, Farecasting, Auto-Narratives
 QwikSight Q - ansewrs business questions based on NLP
 Paginated Reports ()  
 MFA, VPC Connectivity
-Can restrict users to utilize on specific fields of your data.   
+Can restrict users to utilize on specific fields of your data. And row level security   
 Pricing
 - Standard
-- Enterprise
+- Enterprise - Encrytion at Rest, Microsoft Active Directory
 - Enterprise with Q  
 
 ### Qwiksight Dashboards
+Read Only
+- Auto Graph - Selected Automically
+- Bar Chart - Histogram
+- Line Graph - Time Series, area line charts
+- Scatter Plots - Correlation (Heat Maps)
+- Pivot Tables -
+- Donut Charts - Generalized results
+- Tree Maps - Hierarchical Aggregation
+- Word Cloud - word or phrase frequency
+  
 
 
 
