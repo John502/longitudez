@@ -76,7 +76,7 @@ Ordinal Data - Start ratings for movie
 
 - Probability Density Function (Continuous)- For a given range of values the probability of that occuring (normal distribution curve)
 - Probabiliyt Mass Function (Discrete) - probabilities of given discrete
-   - Poisson Distribution - Series of events which occur in succes of failure.      
-- Binomial Distribution -  is the discrete probability distribution of the number of successes in a sequence of n independent experiments
+   - Poisson Distribution - Given number of events occuring of fixed interval of time or space.    
+- Binomial Distribution -  is the discrete probability distribution of the number of successes or failures in a sequence of n independent experiments
 - Bernoli Distribution - has a single trial of n=1
  
