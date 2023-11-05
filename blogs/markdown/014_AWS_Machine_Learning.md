@@ -54,6 +54,9 @@ Applying your knowledge of the data. Identifying features in your data which res
 
 Curse of Dimensionality - The more features you have the more difficult it is to find relationships.
 
+Unsupervised dimensionality reduction
+- Principal Component Analysis -  transforming a large set of variables into a smaller one that still contains most of the information in the large set.  
+- K-Means - Nearest Neighbor
 
 ## How to read summation
 
