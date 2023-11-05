@@ -7,7 +7,9 @@ tag: "dev:aws:machinelearning"
 ---
 
 ## MLS-C01 Study Guide
-[Flavors of Data](#flavors-of-data)
+[Exploritory Data Analysis](#exploritory-data-analysis)
+ - [Flavors of Data](#flavors-of-data)
+
 [Keyterms](#keyterms)  
 
 
@@ -59,7 +61,7 @@ Box and whisker plot (candle stick plot) - shows outliers
 Histogram - places values in a bin (Binning), easily shows the distribution of the dataset.  
 Seaborn and Matpotlib for visualization   
 
-## Flavors of Data 
+### Flavors of Data 
 
 Numerical - Quantifiable
 - Discrete Data, integer restricted (counts)
@@ -69,4 +71,11 @@ Categorical - No inherint numerical value (race, political party)
 
 Ordinal Data - Start ratings for movie
   
+### Data Distributions
 
+- Probability Density Function (Continuous)- For a given range of values the probability of that occuring (normal distribution curve)
+- Probabiliyt Mass Function (Discrete) - probabilities of given discrete
+   - Poisson Distribution - Series of events which occur in succes of failure.      
+- Binomial Distribution -  is the discrete probability distribution of the number of successes in a sequence of n independent experiments
+- Bernoli Distribution - has a single trial of n=1
+- 
