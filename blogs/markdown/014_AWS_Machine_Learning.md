@@ -44,6 +44,8 @@ Deployment
 
 ## Feature Engineering
 
+Applying your knowledge of the data. Identifying features in your data which resolve your business problem.   
+
 - Feature Improvement  
 - Feature Construction  
 - Feature Selection  
