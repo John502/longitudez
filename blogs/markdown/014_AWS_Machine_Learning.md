@@ -14,6 +14,7 @@ tag: "dev:aws:machinelearning"
  - [Time Series Analysis](#time-series-analysis)
  - [Amazon Athena](#amazon-athena)
  - [Amazon Qwiksight](#qwiksight)
+ - [Feature Engineering](#feature-engineering)
 [Elastic Map Reduce](#elastic-map-reduce)
 [Keyterms](#keyterms)
 
@@ -26,6 +27,7 @@ Gradient Descent -
 HDFS - Hadoop Distributed File System
 Local Minima -  A local minimum is a point in the parameter space where the loss function is minimized in a local neighborhood  
 Loss Function - It is a method of evalutating your model's accuracy.  The difference between the prediction and the actual value.   
+MICE - Multiple Imputation by Chained Equations
 Overfitting - The tendency for a model to be too well suited to a training dataset.  For example, retaking AWS practice exams, you are fitted to that specific exam not as well to the over all topic. 
 Random Cut Forest
 
@@ -54,9 +56,19 @@ Applying your knowledge of the data. Identifying features in your data which res
 
 Curse of Dimensionality - The more features you have the more difficult it is to find relationships.
 
-Unsupervised dimensionality reduction
+##### Unsupervised dimensionality reduction
 - Principal Component Analysis -  transforming a large set of variables into a smaller one that still contains most of the information in the large set.  
 - K-Means - Nearest Neighbor
+
+##### Impute missing date
+Mean/Median Replacement - Replace missing data with a mean value, median if there are outliers. 
+Drop Missing rows
+KNN - Nearest Neighbor Analysis, replace with most similar data
+Deep Learning - Better @ categorical data. 
+Regression - Find relationships between data.   
+[MICE](https://cran.r-project.org/web/packages/miceRanger/vignettes/miceAlgorithm.html#:~:text=Multiple%20Imputation%20by%20Chained%20Equations,iterative%20series%20of%20predictive%20models.) - Use random forest techniques to swap data values to find the best relationship.
+
+
 
 ## How to read summation
 
