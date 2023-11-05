@@ -16,6 +16,8 @@ tag: "dev:aws:machinelearning"
 
 ### Keyterms
 
+Additive Model - time Series, which the seasonal component is just added on. 
+Multiplicative Model - times series, added on as proportinoal amount explores the relationship of two or parameters on an outcome. 
 Gradient Descent - 
 Local Minima -  A local minimum is a point in the parameter space where the loss function is minimized in a local neighborhood  
 Loss Function - It is a method of evalutating your model's accuracy.  The difference between the prediction and the actual value.   
