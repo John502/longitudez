@@ -84,13 +84,18 @@ Standard Deviation is square root of Variance
 Random Cut Forest- unsupervised algorithm for detecting anomalous data points within a data set. These are observations which diverge from otherwise well-structured or patterned data.
 
 ##### Binning 
-Taking numerical data and converting it to categorical data. 
-Quanitle Binning - Each has an equal number of samples
+Taking numerical data and converting it to categorical data.   
+Quanitle Binning - Each has an equal number of samples  
+
+
 Transforming data by squaring and square root which might imporve the interprebility of the data. 
 Encoding - Taking non numberical data and making in numerical   
 One Hot Encoding
 Scale and Normailization of Data - Creates nomrally distributed data
 Shuffling - Shuffling data
+
+##### Sagemaker Ground Truthing
+Humans being hired to label your data. 
 
 
 ## How to read summation
