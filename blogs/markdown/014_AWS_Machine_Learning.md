@@ -91,4 +91,6 @@ Seasonality - Fluxuation of what time of the year
 Noise - Can be random  
 Seasonality + Noise + Trends = Time Series  
 
-ARIMA 
+ARIMA Auto regression integrate moving averages
+Exponential Smoothing
+
