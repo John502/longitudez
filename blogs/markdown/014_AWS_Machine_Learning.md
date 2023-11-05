@@ -7,6 +7,7 @@ tag: "dev:aws:machinelearning"
 ---
 
 ## MLS-C01 Study Guide
+[Flavors of Data](#flavors-of-data)
 
 ### Keyterms
 
@@ -53,6 +54,9 @@ Scatter Mix Plot - Show relationships between variables
 
 
 Box and whisker plot (candle stick plot) - shows outliers  
-Histogram - places values in a bin (Binning), easily shows the distribution of the dataset. 
-Seaborn and Matpotlib for visualization
+Histogram - places values in a bin (Binning), easily shows the distribution of the dataset.  
+Seaborn and Matpotlib for visualization   
+
+## Flavors of Data 
+  
 
