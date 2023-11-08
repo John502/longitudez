@@ -130,6 +130,7 @@ Types of Activation Funcitons
     - Multi inputs
     - Sigmoid (Logistic) Activation 
         - Scales everything between 0-1
+        - S(x) = 1/1 + e^-x
     - Tanh (aka Hyperbolic Tanget)
         - Scales between -1 and 1
     Complex activatin 
