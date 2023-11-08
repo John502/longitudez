@@ -7,6 +7,9 @@ tag: "dev:aws:machinelearning"
 ---
 
 ## MLS-C01 Study Guide
+[Modeling](#modeling)  
+- [Convolutional Neural Networks](#convolutional-neural-networks)  
+
 [Exploritory Data Analysis](#exploritory-data-analysis)
  - [Flavors of Data](#flavors-of-data)
  - [Data Distributions](#data-distributions)
@@ -16,12 +19,13 @@ tag: "dev:aws:machinelearning"
 
 ### Keyterms
 
-Additive Model - time Series, which the seasonal component is just added on. 
-Multiplicative Model - times series, added on as proportinoal amount explores the relationship of two or parameters on an outcome. 
-Gradient Descent - 
-Local Minima -  A local minimum is a point in the parameter space where the loss function is minimized in a local neighborhood  
-Loss Function - It is a method of evalutating your model's accuracy.  The difference between the prediction and the actual value.   
-Overfitting - The tendency for a model to be too well suited to a training dataset.  For example, retaking AWS practice exams, you are fitted to that specific exam not as well to the over all topic. 
+- Additive Model - time Series, which the seasonal component is just added on. 
+- Multiplicative Model - times series, added on as proportinoal amount explores the relationship of two or parameters on an outcome. 
+- Gradient Descent - 
+- Local Minima -  A local minimum is a point in the parameter space where the loss function is minimized in a local neighborhood  
+- Loss Function - It is a method of evalutating your model's accuracy.  The difference between the prediction and the actual value.   
+- Overfitting - The tendency for a model to be too well suited to a training dataset.  For example, retaking AWS practice exams, you are fitted to that specific exam not as well to the over all topic. 
+- Vanishing Gradient Problem -  
 
 ## Basic Machine Learning Worklfow
 
@@ -40,6 +44,74 @@ Feature Construction
 Feature Selection  
 Feature Extraction  
 Feature Learning  
+
+## Modeling
+
+Deep Learning - Neurons rendered together
+Cortical Columns - How GPUs and the brain organize neurons
+
+Tensor, Keras, MXNet (AWS Bias, Apache Based)
+
+Basic Feed Nueral Network
+- input weight
+    - activation function
+        - output to  
+
+Convoluted Neural Network  
+    - Image Classification  
+Recurrent Neural Network  
+    - Time Series
+
+Types of Activation Funcitons  
+- Linear Activation Function  
+    - Output what it gets as an input
+
+- Binary Step Function 
+    - If there is an input there is an output
+
+- Non-Linear Activation Function
+    - Multi inputs
+    - Sigmoid (Logistic) Activation 
+        - Scales everything between 0-1
+    - Tanh (aka Hyperbolic Tanget)
+        - Scales between -1 and 1
+    Complex activatin 
+    - ReLU - Rectified Linear Unit
+        - Easy and fast to compute
+        - When there are 0 or negative values there is a divergence to linear (Dying ReLU) Dying Relu
+        - Leaky Relu
+            - Solves dying relu  
+        - Parametric Relu
+        - Exponentional Rely
+        - Maxout
+    - Softmax 
+        - Activation function - for final output.
+        - Converts output to probability 
+
+### Convolutional Neural Networks
+
+Imagine Analysis, computationally expensive
+
+CNNs are Feature-location Invariant - Finding features in your data you didn't know where there. Find nouns in sentence, stop sign in picture.    
+
+Inspired by your visual cortex  
+
+CNNs have a hierarchy of layers(convolutions) which gradually detects more detailed features.
+
+convolution - breaking up an image into sub fields  
+CNN use third part Keras or Tensorflow
+    Shape and color bands is crucial  
+Conv2D  (Layer)- Does the actual convolution  
+MaxPooling2d - Reduce the size of your data, reduces a layer down to a maximum size.   
+Lots of hypertuning
+
+Architecture > Gets deeper
+    - LenF5- handwriting
+    - AliceNet - image classification
+    - GoogleNet - 
+    - ResNet - Skip Connections
+
+### Rec
 
 ## How to read summation
 
