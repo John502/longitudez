@@ -40,7 +40,8 @@ tag: "dev:aws:machinelearning"
 - Random Cut Forest
 - Vanishing Gradient Problem -  
 - Perceptron- Single Nueron in Deep Learning Model (Inputs, Weights, Sum, Non-Linearity, Output)
-- Flattening Data
+- Flattening Data - 
+- Back Propogation - 
    
 ### S3
 
@@ -191,6 +192,16 @@ Recurrent Nueron - Apply step function, out of previous run through a nueron aga
 Memory Cell - Activation function is receives data and the output, and repeats the process per nueron, more recent behavior has more influence on curren the time step.
 
 You can apply the memory cell in a variety of patterns. 
+
+Sequence to Sequence - Input is time series, output is a time series. 
+Sequence to Vector - Multi-layer to perceptions, words in a sentence sentiment. 
+Vector to Sequence - create captions from an image
+Chain together endcoders and decoders. 
+
+Truncated Back Propogate - Limiting topologies.
+
+LSTM - Reduces the bias of the times series of receny by providing weights for short term and long term.  
+GRU - Gated Recurrent Unit, popular 
 
 ## How to read summation
 
