@@ -28,7 +28,10 @@ tag: "dev:aws:machinelearning"
 
 - Additive Model - time Series, which the seasonal component is just added on. 
 - Multiplicative Model - times series, added on as proportinoal amount explores the relationship of two or parameters on an outcome. 
-- Gradient Descent -  
+- Gradient Descent
+   - Initialize Weights
+   - Loop until converge
+   - 
 - HDFS - Hadoop Distributed File System
 - Local Minima -  A local minimum is a point in the parameter space where the loss function is minimized in a local neighborhood  
 - Loss Function - It is a method of evalutating your model's accuracy.  The difference between the prediction and the actual value.   
@@ -36,8 +39,9 @@ tag: "dev:aws:machinelearning"
 - Overfitting - The tendency for a model to be too well suited to a training dataset.  For example, retaking AWS practice exams, you are fitted to that specific exam not as well to the over all topic. 
 - Random Cut Forest
 - Vanishing Gradient Problem -  
-- Perceptron- Single Nueron in Deep Learning Model
-
+- Perceptron- Single Nueron in Deep Learning Model (Inputs, Weights, Sum, Non-Linearity, Output)
+- Flattening Data
+   
 ### S3
 
 ## Basic Machine Learning Worklfow
@@ -165,6 +169,10 @@ Conv2D  (Layer)- Does the actual convolution
 MaxPooling2d - Reduce the size of your data, reduces a layer down to a maximum size.
 Pooling reduces the dimesionality ofyour data.
 
+Faster R-CNN
+Segment Segmentation - Classification at ever pixel.
+
+Softmax
 
 Lots of hypertuning
 
@@ -175,6 +183,14 @@ Architecture > Gets deeper
     - ResNet - Skip Connections
 
 ### Recurrent Nueral Networks
+Data that consists of a sequence of arbitrary
+Music, language, stocks
+
+Recurrent Nueron - Apply step function, out of previous run through a nueron again and angain.
+
+Memory Cell - Activation function is receives data and the output, and repeats the process per nueron, more recent behavior has more influence on curren the time step.
+
+You can apply the memory cell in a variety of patterns. 
 
 ## How to read summation
 
@@ -193,7 +209,6 @@ Correlation Matrix
 
 Scatter Mix Plot - Show relationships between variables  
 ![image](https://github.com/John502/longitudez/assets/12539353/c44afd86-50bc-47c7-8f81-49ae4596be4f)
-
 
 Box and whisker plot (candle stick plot) - shows outliers  
 Histogram - places values in a bin (Binning), easily shows the distribution of the dataset.  
