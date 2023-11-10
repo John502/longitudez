@@ -201,7 +201,19 @@ Chain together endcoders and decoders.
 Truncated Back Propogate - Limiting topologies.
 
 LSTM - Reduces the bias of the times series of receny by providing weights for short term and long term.  
-GRU - Gated Recurrent Unit, popular 
+GRU - Gated Recurrent Unit, popular simpler
+
+## Modern Natural Lanuarge Processing
+
+Transformer architecture
+
+Self-attention - weighs significance of each part of the input, process each of those words in parrellel. 
+BERT - Bi-directional  Encorder Representations of Transformers (Transformer based NLP)
+GPT - Generative Pretained Transform
+
+Transfer learing - take pretrained models and tune them for our use.  
+
+
 
 ## How to read summation
 
