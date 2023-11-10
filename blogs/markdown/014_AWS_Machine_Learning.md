@@ -36,6 +36,7 @@ tag: "dev:aws:machinelearning"
 - Overfitting - The tendency for a model to be too well suited to a training dataset.  For example, retaking AWS practice exams, you are fitted to that specific exam not as well to the over all topic. 
 - Random Cut Forest
 - Vanishing Gradient Problem -  
+- Perceptron- Single Nueron in Deep Learning Model
 
 ### S3
 
@@ -163,6 +164,7 @@ CNN use third part Keras or Tensorflow
 Conv2D  (Layer)- Does the actual convolution  
 MaxPooling2d - Reduce the size of your data, reduces a layer down to a maximum size.
 Pooling reduces the dimesionality ofyour data.
+
 
 Lots of hypertuning
 
