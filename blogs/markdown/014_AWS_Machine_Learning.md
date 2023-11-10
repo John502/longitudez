@@ -212,8 +212,8 @@ BERT - Bi-directional  Encorder Representations of Transformers (Transformer bas
 GPT - Generative Pretained Transform
 
 Transfer learing - take pretrained models and tune them for our use.  
-
-
+    Train with your own data - Tokenize to the same format it was trained on originally. 
+    
 
 ## How to read summation
 
