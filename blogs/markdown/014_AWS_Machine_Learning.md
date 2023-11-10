@@ -160,7 +160,9 @@ convolution - breaking up an image into sub fields
 CNN use third part Keras or Tensorflow
     Shape and color bands is crucial  
 Conv2D  (Layer)- Does the actual convolution  
-MaxPooling2d - Reduce the size of your data, reduces a layer down to a maximum size.   
+MaxPooling2d - Reduce the size of your data, reduces a layer down to a maximum size.
+Pooling reduces the dimesionality ofyour data.
+
 Lots of hypertuning
 
 Architecture > Gets deeper
@@ -169,7 +171,7 @@ Architecture > Gets deeper
     - GoogleNet - 
     - ResNet - Skip Connections
 
-### Rec
+### Recurrent Nueral Networks
 
 ## How to read summation
 
