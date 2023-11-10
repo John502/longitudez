@@ -9,7 +9,8 @@ tag: "dev:aws:machinelearning"
 ## MLS-C01 Study Guide
 
 [Modeling](#modeling)  
-- [Convolutional Neural Networks](#convolutional-neural-networks)  
+- [Convolutional Neural Networks](#convolutional-neural-networks)
+- [Recurrent Nueral Networks](#recurrent-nueral-networks)
 [S3](#S3)
 [Exploritory Data Analysis](#exploritory-data-analysis)
  - [Flavors of Data](#flavors-of-data)
