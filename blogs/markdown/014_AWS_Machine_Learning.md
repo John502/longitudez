@@ -76,7 +76,7 @@ Types of Activation Funcitons
     - Tanh (aka Hyperbolic Tanget)
         - Scales between -1 and 1
     Complex activatin 
-    - ReLU - Rectified Linear Unit
+    - ReLU - Rectified Linear Unit (Replace all negative values to 0)
         - Easy and fast to compute
         - When there are 0 or negative values there is a divergence to linear (Dying ReLU) Dying Relu
         - Leaky Relu
@@ -111,7 +111,7 @@ Architecture > Gets deeper
     - GoogleNet - 
     - ResNet - Skip Connections
 
-### Rec
+
 
 ## How to read summation
 
