@@ -11,6 +11,9 @@ tag: "dev:aws:machinelearning"
 [Modeling](#modeling)  
 - [Convolutional Neural Networks](#convolutional-neural-networks)
 - [Recurrent Nueral Networks](#recurrent-nueral-networks)
+- [Tuning Nueral Networks](#tuning-nueral-networks)
+- [Regularization Techniques](#regularization-techniques)
+- [Confusion Matrix](#confusion-matrix)
 [S3](#S3)
 [Exploritory Data Analysis](#exploritory-data-analysis)
  - [Flavors of Data](#flavors-of-data)
@@ -214,6 +217,99 @@ GPT - Generative Pretained Transform
 Transfer learing - take pretrained models and tune them for our use.  
     Train with your own data - Tokenize to the same format it was trained on originally. 
     
+### Tuning Nueral Networks
+
+Learning Rate - Using Gradient Descent, trying to minimize a cost function of some epoch (training iteration), trying to get the lowest possible cost of the loss function.
+
+Learning Rate - the distance between learning epochs and the slope of the epoch learning.
+
+If you have to close of epochs it will take too long if too far and you will over shoot the lowest cost function.
+
+Hyperparamters
+Learning Rate
+Batch Size - Large batch size get stuck in a local minima, the wrong solution
+
+Local Minima - A point in the graph were there is a low cost function. 
+
+Small batch sizes tend to not get stuck in local minima
+Large batch sizes can converge on the wrong solution at random. 
+Large learning rates can overshoot the correct solution
+Small learning rates increase training time. 
+
+### Regularization Techniques
+
+Overfitting - Accurate results on training data but not in real world data. 
+Any technique which is designed to prevent overfitting. 
+
+Use a simpler model, remove layers
+
+Dropout - Dropping certain nuerons during the training set. 
+Early Stopping - After a certain epoch we are not doing any better, we are actually just overfitting.   
+
+L1  - Adds a regularization term, sum of the weights  
+    - Performs feature selection
+    - Ineffienct 
+    - Sparse output
+    - If you want to drop some features.   
+L2  - sum of the square of the weights  
+    - All features remain considered
+    - Computationally efficient
+    - If you think all of your features matter
+
+Vanishing Gradient Problem - When the slope of the learning curve approaches is 0, learning gets stuck. The opposite can be true as well, exploding gradients.   
+    - Multi-level hierarchy - break up you model into multiple levels.   
+    - LSTM - RNN Network - Addresses this problem  
+    - ResNet -   
+    - Choose a better activation function  
+        - ReLu 
+
+Gradient Checking - debugging technique  
+
+### Confusion Matrix  
+
+|   | Actual Cat | Actual Not Cat |
+|---|---|---|
+| Predicted Cat |   True Positive|  True Negative  |
+| Predicted Not Cat  |  False Positive | False Negative |
+ 
+Can be displayed as a heat map
+
+Recall (Sensitivity, True Positivity) - Focus on false negatives. Fraud detection
+
+True Positives / True Positives + False Negatives
+
+Precision - A measure of relevancy (false positives)
+
+True Positives / True Positives + False Positives
+
+Specificity 
+
+True Negative / True Negative + False Positive
+
+F1 
+
+2 X True Positive / 2 x True Positive + False Positive + False Negative
+
+OR
+
+2 x ( Precision - Recall / Precision + Recall) 
+
+F1 Balances precision or recall
+
+ROC Curve - Plot true positive rate, want it o be above the diagonal line on a graph. Reciever Operator 
+
+AUC Curve - Area Under the Curve - Classifier
+
+### Ensemble Learning
+
+Takes multiple model and lets them all vote on the final result. 
+
+Random Forest
+Bagging - Generate a random training by random sampling with replacement, the models can be trained in parallel.  Avoids overfitting  
+
+
+Boosting - Assing weights to each observation, start assuming each has equal weight and then assign weights as we run out model. (XGBoost) Better accuracy,
+
 
 ## How to read summation
 
