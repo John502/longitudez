@@ -380,5 +380,11 @@ export const tunesData = [
       chords: "/images/tunechords/Coon_Dog_D.svg",
       key: "D"
     },
+    {
+      slug: "Buckskin_Reel_D",
+      title: "Buckskin Reel",
+      chords: "/images/tunechords/Buckskin_Reel_D.svg",
+      key: "D"
+    },
 ];
 
