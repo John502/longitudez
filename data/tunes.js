@@ -386,5 +386,11 @@ export const tunesData = [
       chords: "/images/tunechords/Buckskin_Reel_D.svg",
       key: "D"
     },
+    {
+      slug: "Gaspe_Reel_D",
+      title: "Gaspe Reel",
+      chords: "/images/tunechords/Gaspes_Reel.svg",
+      key: "D"
+    },
 ];
 
