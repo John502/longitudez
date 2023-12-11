@@ -1,8 +1,0 @@
----
-title: "Docker Buildx"
-date: "February 27 2023"
-excerpt: "Using Docker Buildx for your M1 arm architecture"
-cover_image: "./images/posts/011_Docker_Buildx.png"
-tag: "dev:docker:commands"
----
-
