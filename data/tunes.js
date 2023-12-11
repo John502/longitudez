@@ -392,5 +392,11 @@ export const tunesData = [
       chords: "/images/tunechords/Gaspes_Reel.svg",
       key: "D"
     },
+    {
+      slug: "Forked_Deer_D",
+      title: "Forked_Deer",
+      chords: "/images/tunechords/Forked_Deer_D.svg",
+      key: "D"
+    },
 ];
 
