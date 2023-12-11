@@ -6,4 +6,7 @@ cover_image: "./images/posts/015_Docker_Commands.png"
 tag: "dev:docker:commands"
 ---
 
-
+Inspect container health
+```
+docker inspect --format "{{json .State.Health }}" <container_name>
+```
