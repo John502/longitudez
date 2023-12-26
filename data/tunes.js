@@ -394,8 +394,14 @@ export const tunesData = [
     },
     {
       slug: "Forked_Deer_D",
-      title: "Forked_Deer",
+      title: "Forked Deer",
       chords: "/images/tunechords/Forked_Deer_D.svg",
+      key: "D"
+    },
+    {
+      slug: "Out_On_The_Ocean_G",
+      title: "Out on the Ocean",
+      chords: "/images/tunechords/Out_On_The_Ocean_G.svg",
       key: "D"
     },
 ];
