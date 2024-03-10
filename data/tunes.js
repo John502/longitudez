@@ -404,5 +404,11 @@ export const tunesData = [
       chords: "/images/tunechords/Out_On_The_Ocean_G.svg",
       key: "D"
     },
+    {
+      slug: "Le_Grand_Chain_G",
+      title: "Le_Grand_Chain",
+      chords: "/images/tunechords/Le_Grand_Chain_G.svg",
+      key: "D"
+    },
 ];
 
