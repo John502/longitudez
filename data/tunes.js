@@ -408,7 +408,13 @@ export const tunesData = [
       slug: "Le_Grand_Chain_G",
       title: "Le_Grand_Chain",
       chords: "/images/tunechords/Le_Grand_Chain_G.svg",
-      key: "D"
+      key: "G"
+    },
+    {
+      slug: "Yellow_Barber_D",
+      title: "Yellow Barber",
+      chords: "/images/tunechords/YellowBarber_D.svg",
+      key: "G"
     },
 ];
 
