@@ -88,12 +88,12 @@ const EmailSignUp = () => {
         const createContactres = await client.send(createContactCmd);
         //const addContactResponse = await createContactres.json();
         if (createContactres.$metadata.httpStatusCode == 200) {
-          sendSingUpEmail();
+          //sendSingUpEmail();
+          console.log("Email deactivated");
         }
       } catch (error) {
         if (error.name == "AlreadyExistsException") {
-          deleteContact();
-          addContact();
+          console.log("Email deactivated");
         } else {
           console.log(error);
           console.log(error.name);

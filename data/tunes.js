@@ -380,5 +380,35 @@ export const tunesData = [
       chords: "/images/tunechords/Coon_Dog_D.svg",
       key: "D"
     },
+    {
+      slug: "Buckskin_Reel_D",
+      title: "Buckskin Reel",
+      chords: "/images/tunechords/Buckskin_Reel_D.svg",
+      key: "D"
+    },
+    {
+      slug: "Gaspe_Reel_D",
+      title: "Gaspe Reel",
+      chords: "/images/tunechords/Gaspes_Reel.svg",
+      key: "D"
+    },
+    {
+      slug: "Forked_Deer_D",
+      title: "Forked Deer",
+      chords: "/images/tunechords/Forked_Deer_D.svg",
+      key: "D"
+    },
+    {
+      slug: "Out_On_The_Ocean_G",
+      title: "Out on the Ocean",
+      chords: "/images/tunechords/Out_On_The_Ocean_G.svg",
+      key: "D"
+    },
+    {
+      slug: "Le_Grand_Chain_G",
+      title: "Le_Grand_Chain",
+      chords: "/images/tunechords/Le_Grand_Chain_G.svg",
+      key: "D"
+    },
 ];
 

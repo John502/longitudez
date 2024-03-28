@@ -8,10 +8,10 @@ tag: "dev:aws:machinelearning"
 
 ## MLS-C01 Study Guide
 
+
 [Modeling](#modeling)  
-- [Convolutional Neural Networks](#convolutional-neural-networks)
-- [Recurrent Nueral Networks](#recurrent-nueral-networks)
-[S3](#S3)
+- [Convolutional Neural Networks](#convolutional-neural-networks)  
+
 [Exploritory Data Analysis](#exploritory-data-analysis)
  - [Flavors of Data](#flavors-of-data)
  - [Data Distributions](#data-distributions)
@@ -183,41 +183,7 @@ Architecture > Gets deeper
     - GoogleNet - 
     - ResNet - Skip Connections
 
-<<<<<<< HEAD
-
-=======
-### Recurrent Nueral Networks
-Data that consists of a sequence of arbitrary
-Music, language, stocks
-
-Recurrent Nueron - Apply step function, out of previous run through a nueron again and angain.
-
-Memory Cell - Activation function is receives data and the output, and repeats the process per nueron, more recent behavior has more influence on curren the time step.
-
-You can apply the memory cell in a variety of patterns. 
-
-Sequence to Sequence - Input is time series, output is a time series. 
-Sequence to Vector - Multi-layer to perceptions, words in a sentence sentiment. 
-Vector to Sequence - create captions from an image
-Chain together endcoders and decoders. 
-
-Truncated Back Propogate - Limiting topologies.
-
-LSTM - Reduces the bias of the times series of receny by providing weights for short term and long term.  
-GRU - Gated Recurrent Unit, popular simpler
-
-## Modern Natural Lanuarge Processing
-
-Transformer architecture
-
-Self-attention - weighs significance of each part of the input, process each of those words in parrellel. 
-BERT - Bi-directional  Encorder Representations of Transformers (Transformer based NLP)
-GPT - Generative Pretained Transform
-
-Transfer learing - take pretrained models and tune them for our use.  
-    Train with your own data - Tokenize to the same format it was trained on originally. 
-    
->>>>>>> 5d0c1290043596e9d6b1009f663f339c67d6db86
+### Rec
 
 ## How to read summation
 
