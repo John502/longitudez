@@ -414,7 +414,13 @@ export const tunesData = [
       slug: "Yellow_Barber_D",
       title: "Yellow Barber",
       chords: "/images/tunechords/YellowBarber_D.svg",
-      key: "G"
+      key: "D"
+    },
+    {
+      slug: "Possums_Tail_Is_Bare_D",
+      title: "Possums Tail Is Bare",
+      chords: "/images/tunechords/Possums_Tail_Is_Bare.svg",
+      key: "D"
     },
 ];
 
