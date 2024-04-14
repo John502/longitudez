@@ -422,5 +422,17 @@ export const tunesData = [
       chords: "/images/tunechords/Possums_Tail_Is_Bare.svg",
       key: "D"
     },
+    {
+      slug: "Silver_Spear_D",
+      title: "Silver Spear",
+      chords: "/images/tunechords/Silver_Spear_D.svg",
+      key: "D"
+    },
+    {
+      slug: "Connaughtsmans_Rambles_D.svg",
+      title: "Connaughtsmans Rambles",
+      chords: "/images/tunechords/Connaughtsmans_Rambles_D.svg",
+      key: "D"
+    },
 ];
 
