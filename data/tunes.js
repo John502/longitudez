@@ -429,10 +429,27 @@ export const tunesData = [
       key: "D"
     },
     {
-      slug: "Connaughtsmans_Rambles_D.svg",
+      slug: "Connaughtsmans_Rambles_D",
       title: "Connaughtsmans Rambles",
       chords: "/images/tunechords/Connaughtsmans_Rambles_D.svg",
       key: "D"
     },
+    {
+      slug: "Red_Prarie_Dawn_A",
+      title: "Red Prarie Dawn",
+      chords: "/images/tunechords/Red_Prarie_Dawn_A.svg",
+      key: "A"
+    },
+    {
+      slug: "Snake_River_Reel_D",
+      title: "Snake River Reel",
+      chords: "/images/tunechords/Snake_River_Reel_D.svg",
+      key: "A"
+    },
+    {
+      slug: "Valley_Forge_D",
+      title: "Valley Forge D",
+      chords: "/images/tunechords/Snake_River_Reel_D.svg",
+      key: "D"
+    },
 ];
-
