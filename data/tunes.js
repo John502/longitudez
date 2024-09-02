@@ -449,7 +449,7 @@ export const tunesData = [
     {
       slug: "Valley_Forge_D",
       title: "Valley Forge D",
-      chords: "/images/tunechords/Snake_River_Reel_D.svg",
+      chords: "/images/tunechords/Valley_Forge_D.svg",
       key: "D"
     },
 ];
