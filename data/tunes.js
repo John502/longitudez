@@ -452,4 +452,10 @@ export const tunesData = [
       chords: "/images/tunechords/Valley_Forge_D.svg",
       key: "D"
     },
+    {
+      slug: "Salt_Creek_A",
+      title: "Salt Creek A",
+      chords: "/images/tunechords/Salt_Creek_A_mod.svg",
+      key: "D"
+    },
 ];
