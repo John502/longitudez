@@ -458,4 +458,10 @@ export const tunesData = [
       chords: "/images/tunechords/Salt_Creek_A_mod.svg",
       key: "D"
     },
+    {
+      slug: "Star_Above_The_Garter_G.svg",
+      title: "Star_Above_The_Garter",
+      chords: "/images/tunechords/Star_Above_The_Garter.svg",
+      key: "G"
+    },
 ];
