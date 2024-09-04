@@ -459,9 +459,15 @@ export const tunesData = [
       key: "D"
     },
     {
-      slug: "Star_Above_The_Garter_G.svg",
-      title: "Star_Above_The_Garter",
+      slug: "Star_Above_The_Garter_G",
+      title: "Star Above The Garter",
       chords: "/images/tunechords/Star_Above_The_Garter.svg",
+      key: "G"
+    },
+    {
+      slug: "Haapavesi_Waltz_D",
+      title: "Haapavesi Waltz",
+      chords: "/images/tunechords/Haapavesi_Waltz_3.svg",
       key: "G"
     },
 ];
