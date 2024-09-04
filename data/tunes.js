@@ -470,4 +470,10 @@ export const tunesData = [
       chords: "/images/tunechords/Haapavesi_Waltz_3.svg",
       key: "G"
     },
+    {
+      slug: "Cherokee_Shuffle_A",
+      title: "Cherokee Shuffle",
+      chords: "/images/tunechords/Cherokee_Shuffle_A.svg",
+      key: "A"
+    },
 ];
