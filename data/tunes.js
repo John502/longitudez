@@ -476,4 +476,16 @@ export const tunesData = [
       chords: "/images/tunechords/Cherokee_Shuffle_A.svg",
       key: "A"
     },
+    {
+      slug: "Hull_Victory_F",
+      title: "Hull Victory",
+      chords: "/images/tunechords/Hull_Victory_F.svg",
+      key: "F"
+    },
+    {
+      slug: "Petronella_D",
+      title: "Petronella D",
+      chords: "/images/tunechords/Petronella_D.svg",
+      key: "D"
+    },
 ];
