@@ -477,9 +477,9 @@ export const tunesData = [
       key: "A"
     },
     {
-      slug: "Hull_Victory_F",
-      title: "Hull Victory",
-      chords: "/images/tunechords/Hull_Victory_F.svg",
+      slug: "Hulls_Victory_F",
+      title: "Hulls Victory",
+      chords: "/images/tunechords/Hulls_Victory_F.svg",
       key: "F"
     },
     {
