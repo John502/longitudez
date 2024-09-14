@@ -506,4 +506,10 @@ export const tunesData = [
       chords: "/images/tunechords/Kesh_Jig_G.svg",
       key: "G"
     },
+    {
+      slug: "Hunting_The_Buffalo_D",
+      title: "Hunting The Buffalo",
+      chords: "/images/tunechords/Hunting_The_Buffalo_D.svg",
+      key: "D"
+    },
 ];
