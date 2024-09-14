@@ -488,4 +488,22 @@ export const tunesData = [
       chords: "/images/tunechords/Petronella_D.svg",
       key: "D"
     },
+    {
+      slug: "Hommage_A_Led_Zeppelin_A",
+      title: "Hommage A Led Zeppelin A",
+      chords: "/images/tunechords/Hommage_A_Led_Zeppelin_A.svg",
+      key: "A"
+    },
+    {
+      slug: "The_Wren_Em",
+      title: "The Wren",
+      chords: "/images/tunechords/The_Wren_Em.svg",
+      key: "Em"
+    },
+    {
+      slug: "Kesh_Jig_G",
+      title: "Kesh Jig",
+      chords: "/images/tunechords/Kesh_Jig_G.svg",
+      key: "G"
+    },
 ];
