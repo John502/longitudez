@@ -512,4 +512,10 @@ export const tunesData = [
       chords: "/images/tunechords/Hunting_The_Buffalo_D.svg",
       key: "D"
     },
+    {
+      slug: "Swallowtail_Jig_Em",
+      title: "Swallowtail Jig",
+      chords: "/images/tunechords/Swallowtail_Jig_Em.svg",
+      key: "Em"
+    },
 ];
