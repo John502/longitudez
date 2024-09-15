@@ -518,4 +518,10 @@ export const tunesData = [
       chords: "/images/tunechords/Swallowtail_Jig_Em.svg",
       key: "Em"
     },
+    {
+      slug: "Dutch_Babies_D",
+      title: "Dutch Babies",
+      chords: "/images/tunechords/March_Of_The_Dutch_Babies_D.svg",
+      key: "Em"
+    },
 ];
