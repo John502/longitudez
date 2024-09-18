@@ -522,6 +522,12 @@ export const tunesData = [
       slug: "Dutch_Babies_D",
       title: "Dutch Babies",
       chords: "/images/tunechords/March_Of_The_Dutch_Babies_D.svg",
-      key: "Em"
+      key: "D"
+    },
+    {
+      slug: "Waters_Of_The_James_A",
+      title: "Waters Of The James",
+      chords: "/images/tunechords/By_The_Waters_Of_The_James_A.svg",
+      key: "A"
     },
 ];
