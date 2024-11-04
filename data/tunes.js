@@ -530,4 +530,10 @@ export const tunesData = [
       chords: "/images/tunechords/By_The_Waters_Of_The_James_A.svg",
       key: "A"
     },
+    {
+      slug: "Mississippi_Sawyer_D",
+      title: "Mississippi Sawyer",
+      chords: "/images/tunechords/MississippiSawyer_D.svg",
+      key: "D"
+    },
 ];
