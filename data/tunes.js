@@ -536,4 +536,10 @@ export const tunesData = [
       chords: "/images/tunechords/MississippiSawyer_D.svg",
       key: "D"
     },
+    {
+      slug: "Reign_of_Love_Edor",
+      title: "Reign of Love",
+      chords: "/images/tunechords/Reign_of_Love_Edor.svg",
+      key: "Edor"
+    },
 ];
