@@ -542,4 +542,10 @@ export const tunesData = [
       chords: "/images/tunechords/Reign_of_Love_Edor.svg",
       key: "Edor"
     },
+    {
+      slug: "Camp_Meeting_4th_of_July",
+      title: "Camp Meeting 4th",
+      chords: "/images/tunechords/CampMeetingFourthOfJuly_D.svg",
+      key: "D"
+    },
 ];
