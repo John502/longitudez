@@ -554,4 +554,10 @@ export const tunesData = [
       chords: "/images/tunechords/WinderSlide_D.svg",
       key: "D"
     },
+    {
+      slug: "Waterbound_A",
+      title: "Waterbound",
+      chords: "/images/tunechords/Waterbound_A.svg",
+      key: "A"
+    },
 ];
