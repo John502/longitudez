@@ -548,4 +548,10 @@ export const tunesData = [
       chords: "/images/tunechords/CampMeetingFourthOfJuly_D.svg",
       key: "D"
     },
+    {
+      slug: "Winder_Slide_D",
+      title: "Winder Slide",
+      chords: "/images/tunechords/WinderSlide_D.svg",
+      key: "D"
+    },
 ];
