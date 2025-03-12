@@ -560,4 +560,16 @@ export const tunesData = [
       chords: "/images/tunechords/Waterbound_A.svg",
       key: "A"
     },
+    {
+      slug: "RakesOfMallow_G",
+      title: "Rakes Of Mallow",
+      chords: "/images/tunechords/Rakes_Of_Mallow_G.svg",
+      key: "A"
+    },
+    {
+      slug: "RoadToBoston_D",
+      title: "Road To Boston",
+      chords: "/images/tunechords/RoadToBoston_D.svg",
+      key: "A"
+    },
 ];
