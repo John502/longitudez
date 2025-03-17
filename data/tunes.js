@@ -578,4 +578,22 @@ export const tunesData = [
       chords: "/images/tunechords/Joys_Of_Quebec_A.svg",
       key: "A"
     },
+    {
+      slug: "JuliaDelany_Dm",
+      title: "Julia Delany",
+      chords: "/images/tunechords/JuliaDelany_Dm.svg",
+      key: "Dm"
+    },
+    {
+      slug: "Julia_Delany_Dm",
+      title: "Julia Delany",
+      chords: "/images/tunechords/March_Of_The_Coffee_Zombies_Dm.svg",
+      key: "Dm"
+    },
+    {
+      slug: "Rakes_of_Mallow_G",
+      title: "Rakes of Mallow",
+      chords: "/images/tunechords/Rakes_of_Mallow_G.svg",
+      key: "G"
+    },
 ];
