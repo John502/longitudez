@@ -572,4 +572,10 @@ export const tunesData = [
       chords: "/images/tunechords/RoadToBoston_D.svg",
       key: "A"
     },
+    {
+      slug: "Joys_of_Quebec_A",
+      title: "Joys of Quebec",
+      chords: "/images/tunechords/Joys_Of_Quebec_A.svg",
+      key: "A"
+    },
 ];
