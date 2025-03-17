@@ -596,4 +596,10 @@ export const tunesData = [
       chords: "/images/tunechords/Rakes_of_Mallow_G.svg",
       key: "G"
     },
+    {
+      slug: "Cliffs_Of_Moher_Am",
+      title: "Cliffs Of Moher",
+      chords: "/images/tunechords/Cliffs_Of_Moher_Am",
+      key: "Am"
+    },
 ];
