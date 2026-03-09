@@ -609,9 +609,15 @@ export const tunesData = [
       key: "D"
     },
     {
-      slug: "Road To Lisdoonvarna",
+      slug: "Road_To_Lisdoonvarna",
       title: "Road To Lisdoonvarna",
       chords: "/images/tunechords/RoadToLisdoonvarna_Em.svg",
       key: "Em"
+    },
+        {
+      slug: "Tobins",
+      title: "Tobins",
+      chords: "/images/tunechords/Tobins_D.svg",
+      key: "D"
     },
 ];
