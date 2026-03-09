@@ -585,8 +585,8 @@ export const tunesData = [
       key: "Dm"
     },
     {
-      slug: "Julia_Delany_Dm",
-      title: "Julia Delany",
+      slug: "March_Coffee_Zombies_Dm",
+      title: "March_Coffee_Zombies",
       chords: "/images/tunechords/March_Of_The_Coffee_Zombies_Dm.svg",
       key: "Dm"
     },
