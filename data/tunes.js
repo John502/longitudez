@@ -606,6 +606,12 @@ export const tunesData = [
       slug: "Ice_House_D",
       title: "Ice House",
       chords: "/images/tunechords/IceHouse_D.svg",
-      key: "Am"
+      key: "D"
+    },
+    {
+      slug: "Road To Lisdoonvarna",
+      title: "Road To Lisdoonvarna",
+      chords: "/images/tunechords/RoadToLisdoonvarna_Em.svg",
+      key: "Em"
     },
 ];
