@@ -599,7 +599,13 @@ export const tunesData = [
     {
       slug: "Cliffs_Of_Moher_Am",
       title: "Cliffs Of Moher",
-      chords: "/images/tunechords/Cliffs_Of_Moher_Am",
+      chords: "/images/tunechords/CliffsOfMoher_Am",
+      key: "Am"
+    },
+    {
+      slug: "Ice_House_D",
+      title: "Ice House",
+      chords: "/images/tunechords/IceHouse_D.svg",
       key: "Am"
     },
 ];
